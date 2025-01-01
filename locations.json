@@ -1,0 +1,59 @@
+{
+    "meta": {
+        "encoding": "UTF-8",
+        "version": "1.0.0",
+        "lastUpdated": "2024-12-21"
+    },
+    "locations": {
+        "codes": {
+            "whiterun": {
+                "main": "Whiterun",
+                "dragonsreach": "WhiterunDragonsreach",
+                "gildergreen": "WhiterunTempleKynareth",
+                "market": "WhiterunMarketplace",
+                "banneredmare": "WhiterunBanneredMare",
+                "breezehome": "WhiterunBreezehome",
+                "battleborn": "WhiterunHouseBattleborn",
+                "graymane": "WhiterunHouseGraymane",
+                "warmaidens": "WhiterunWarmaidens",
+                "companions": "WhiterunJorrvaskr"
+            },
+            "solitude": {
+                "main": "Solitude",
+                "bluepalace": "SolitudeBluePalace",
+                "castle": "SolitudeCastleDour",
+                "market": "SolitudeMarket",
+                "bards": "SolitudeBardCollege",
+                "proudspire": "SolitudeProudspireManor",
+                "temple": "SolitudeTempleOfDivines",
+                "winkingskeever": "SolitudeWinkingSkeever"
+            },
+            "winterhold": {
+                "main": "WinterholdExterior",
+                "college": "WinterholdCollegeExterior",
+                "arch": "WinterholdCollegeArchMageLiving",
+                "hall": "WinterholdCollegeHallAttainment",
+                "library": "WinterholdCollegeArcanaeum",
+                "midden": "WinterholdCollegeMidden"
+            }
+        },
+        "aliases": {
+            "whiterun": [
+                "whiterun",
+                "wh",
+                "white"
+            ],
+            "solitude": [
+                "solitude",
+                "sol",
+                "slt"
+            ],
+            "winterhold": [
+                "winterhold",
+                "win",
+                "wh",
+                "college"
+            ]
+        }
+    }
+}

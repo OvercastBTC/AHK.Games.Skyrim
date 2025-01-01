@@ -1,0 +1,5340 @@
+Close Reader View
+
+  * Text and layout
+  *
+
+
+        Text
+
+    Text size
+
+    Font
+
+    Font weight
+
+    ------------------------------------------------------------------------
+
+
+        Layout
+
+    ------------------------------------------------------------------------
+
+
+        Advanced
+
+    Text alignment
+
+    Reset defaults
+
+  * Type controls
+  *
+
+  * Theme
+  *
+
+
+        Theme
+
+    Default
+
+    Custom
+
+    Auto
+
+    Light
+
+    Dark
+
+    Sepia
+
+    Contrast
+
+    Gray
+
+      o Text
+      o Background
+      o Unvisited links
+      o Visited links
+      o Highlighter for read aloud
+    Reset defaults
+
+  * Read aloud (N)
+  *
+
+
+        Read aloud
+
+    ------------------------------------------------------------------------
+
+
+        Voice
+
+    Default
+
+    DefaultMicrosoft David - English (United States)Microsoft David
+    Desktop - English (United States)Microsoft Mark - English (United
+    States)Microsoft Zira - English (United States)Microsoft Zira
+    Desktop - English (United States)
+
+Save to Pocket
+steamsolo.com <https://steamsolo.com/guide/big-bug-free-console-command-
+codes-list-the-elder-scrolls-v-skyrim-special-edition/>
+
+
+  Big, Bug-Free Console Command & Codes List – Steam Solo
+
+110–140 minutes
+------------------------------------------------------------------------
+
+
+    *Overview*
+
+How to operate the console, and a list of all the different codes. I
+know there’s several other console command lists, but I can’t help but
+notice that some of them either have missing bits and pieces or include
+commands that are known to result in bugs and/or game crashes. I’m just
+going to try and make sure I cover all the item codes and only list
+command codes that do not cause bugs or crashes and put them in a nice
+and neat order to help satisfy my OCD. I’d be exhausted if I didn’t make
+a single place to find all the codes. IF YOU CANNOT FIND A CODE: 1.
+Please let me know and I’ll post it. 2. Type help “object name” in the
+console.
+
+
+    *How to Use the Console*
+
+Press the /tilde/ key *~* to *open* your console while in game.
+This button is located below the Escape (Esc) key and just left of the
+one (1) key.
+
+Opening the console will *pause* the game for as long as it is open.
+
+Pressing the /Up/ and /Down/ arrow keys to scroll through your *previous
+commands*.
+
+Pressing the/Page Up/ and /Page Down/ keys lets you *scroll through the
+console box.*
+
+Codes are *_not_ case sensitive*; “a” is same as “A”.
+Codes are shown as: *Code* (*Variable*) (*#*)
+The *( *and *)* are *not* entered with the code, and*#* is replaced by
+the desired *quantity*.
+_*For Example:*_
+The code to add an item is listed as:*Player.AddItem* (*ItemID*) (*#*)
+If you wanted to add 500 gold, it would be entered as: *player.additem f
+500 *
+
+*Using the Help Command*
+
+When you need to find something’s code, type *help* and the thing you’re
+looking for.
+
+When searching for something with _*more than one word*, use *quotes*_.
+*Example:* help “dragon bone”
+
+When searching for something in general _using *one word*, do *NOT* use
+*quotes*_.
+*Example:* help bread
+
+*Targeting*
+
+To*target an object*, *open the console* and *click the object*. Its
+*name* will appear about*center screen*. An item targeted in the console
+is also called a reference.
+
+*NPC RefID & BaseID*
+
+*_NPC’s RefID_ /(Reference ID)/* appears at the *top of the console box*
+when you *target/click on a NPC* with the console open.
+
+*_NPC’s BaseID_* which is what you get when you use *the help code*:
+*Example:* help “NPC Name” /(quotes for when there are spaces)/
+*Example:* help NPC /(without quotes for one-word searches)/
+
+*Finding NPC BaseID*
+
+To find a NPC’s BaseID /(not the Reference ID which is shown when they
+are targeted)/ open the console and type *help* along with the *name of
+the NPC* you are looking for /(with the name in quotation marks if there
+are spaces)/
+
+*Example:* help “John Doe”
+*Example:* John
+
+*WARNING:* Using some commands might lead to issues in-game or with the
+storyline and/or could ruin your gaming experience. I’m sure you
+wouldn’t be here if you were worried about that. Especially if you’re
+having a hard time finding something that you need and can’t seem to get
+it to work or somehow get yourself caught in a bug.
+
+*PLEASE:* If there is a missing item on the list, please let me know.
+I’d like to add it and keep the list as complete as possible.
+
+
+    *What is the XX?*
+
+“_*XX*_” in regards to console commands *denotes that the object is from
+an DLC.*
+
+For Skyrim, *items added by _Dawnguard_* will, by default, *have “_02_”
+as their first two digits*, while items added by The Elder Scrolls V:
+*_Dragonborn_ will normally have “_04_” as their first two digits. *
+
+If *04* does not work, try swapping the XX with *03* OR *02*
+
+A way of *checking for the XX number* is to open the console and either
+type *help* along with the *name* of a item known to be *added by the
+DLC* _/(with the name in quotation marks if there are multiple words or
+if you know the specific name) /_
+
+When using the help code, use *Page Up* and *Page Down* keys to scroll
+through the console.
+
+EXAMPLE: *help “dragon bone” *
+/This will search for codes specifically matching dragon bone/
+
+EXAMPLE: *help bone *
+/When searching for something in general just use one word (with no
+quotes) that’s related to what you’re looking for./
+
+*OR *
+
+With the console open, *click on a item in view added by the DLC*; the
+console will then display the full Reference ID *the first two numbers
+of which will be the XX* for that DLC.
+
+
+    *Basic Commands (Stats, Spawn, & Teleport)*
+
+*Toggle On/Off God Mode:* tgm
+
+  * No decrease in HP, MP, or Stamina and unaffected by carryweight
+
+*Set Time Scale:* set timescale to #
+
+  * Set the rate at which time passes.
+  * *Default:* 20
+  * *Realtime:* 1
+
+*Set Player Height:* player.setscale #
+
+  * *1 is default*
+  * If *no *object is selected, applies to *Player Character*.
+  * *lowest* possible value is *0.1*
+  * *highest* possible value is *10.00*, exactly on the dot.
+  * When used on an actor, it increases or decreases speed and damage.
+
+*Health, Stamina, Magicka, Carryweight*
+
+*Restore Your HP:* player.resethealth
+
+*Restore NPC’s HP:* Select a NPC (while console is open, click the
+target) and type _resethealth_
+
+*Set Health Stat:* player.setav health (number)
+
+*Set Stamina Stat:* player.setav stamina (number)
+
+*Set Magicka Stat:* player.setav magicka (number)
+
+*Set Carryweight:* player.modav carryweight (number)
+
+  * _Adds_ to your _Existing Carryweight_.
+  * Example: player.modav carryweight 1000 adds 1000 carryweight to
+    whatever carryweight you already have.
+  * To _Decrease _your Health, Stamina, Magicka, or Carryweight, you
+    will use the same command, except when you type in the amount you
+    type a*– *in the front.
+  * Example: player.setav magicka -400
+
+*Shout Recovery and Speed Multipliers*
+
+*Set Shout Recovery Rate:* player.setav shoutrecoverymult #
+
+  * *1* is _default_
+  * *0* is _instant recovery_ rate.
+
+*Modify Character Speed:* player.setav speedmult ###
+
+  * *100* is _default_
+  * *200* is _double_
+  * To _decrease_ use *–* before the number.
+  * WARNING: Setting this higher than 200 runs the risk of crashing the
+    game.
+
+*Weapon Speed Multiplier /(Right & Two-handed)/:* player.setav
+weaponspeedmult
+
+  * *2* is _twice_ as fast
+  * *3* is _three times_ as fast
+
+*Weapon Speed Multiplier /(Left)/:* player.setav leftweaponspeedmult
+
+  * *2* is _twice_ as fast
+  * *3* is _three times_ as fast
+
+*Spawn & Teleporting*
+
+*Spawn NPC:* player.placeatme (NPC Code)
+
+*Teleport to NPC:* player.moveto (NPC Code)
+
+*Teleport to Quest Target:* movetoqt (QuestID)
+
+*Show All Quest Target IDs:* showquesttargets
+
+*Teleport to Location:* coc (VillageName)
+
+*Teleport to Developer Room with all items:* coc qasmoke
+
+
+    *Teleport & Location Codes (Cities, Towns, Standing Stones)*
+
+*Teleport to Location:* coc (VillageName)
+
+*Teleport to Developer Room with all items:* coc qasmoke
+
+*City/Village Location Codes*
+
+*Dawnstar*
+
+  * DawnstarExterior01
+  * Dawnstar02Exterior
+  * Dawnstar03Exterior
+  * DawnstarExterior04
+  * DawnstarExterior05
+  * DawnstarExterior06
+  * DawnstarExterior07
+  * DawnstarExterior08
+
+*Dawnstar, The White Hall:* DawnstarTheWhiteHall
+*Dawnstar, Windpeak Inn:* DawnstarWindpeakInn
+
+*Falkreath *
+
+  * FalkreathExterior01
+  * FalkreathExterior02
+  * FalkreathExterior03
+  * FalkreathExterior04
+  * FalkreathExterior05
+  * FalkreathExterior06
+
+*Falkreath, Dead Man’s Drink:* FalkreathDeadMansDrink
+*Falkreath, Jarl’s Longhouse:* FalkreathJarlsLonghouse
+
+*Markarth:* MarkarthOrigin
+*Markarth, Understone Keep:* MarkarthUnderStoneKeep
+*Markarth, Markarth Stables:* MarkarthStableHouse
+*Markarth, Silver-Blood Inn:* MarkarthSilverBloodInn
+
+*Morthal*
+
+  * MorthalExterior01
+  * MorthalExterior02
+  * MorthalExterior03
+  * MorthalExterior04
+  * MorthalExterior05
+  * MorthalExterior06
+
+*Morthal, Highmoon Hall:* MorthalHighmoonHall
+*Morthal, Moorside Inn:* MorthalMoorsideInn
+
+*Old Hroldan Inn:* OldHroldanInn
+
+*Riften:* RiftenOrigin
+*Riften, Riften Stables:* RiftenStables
+*Riften, The Bee and Barb:* RiftenBeeandBarb
+*Riften, The Ragged Flagon:* RiftenRaggedFlagon
+
+*Solitude:* Solitude
+*Solitude, Blue Palace:* SolitudeBluePalace
+*Solitude, The Winking Skeever:* SolitudeWinkingSkeever
+
+*Whiterun:* Whiterun
+*Whiterun, Dragonsreach:* WhiterunDragonsreach
+*Whiterun, Whiterun Stables:* WhiterunStables
+*Whiterun, The Bannered Mare:* WhiterunBanneredMare
+
+*Windhelm:* Windhelm
+*Windhelm, Palace of the Kings:* WindhelmPalaceoftheKings
+*Windhelm Stables:* WindhelmStables
+
+*Winterhold, College of Winterhold:* WinterholdCollegeArcanaeum
+*Winterhold, Jarl’s Longhouse:* WinterholdJarlsLonghouse
+*Winterhold, The Frozen Hearth: * WinterholdTheFrozenHearth
+
+*High Hrothgar*
+
+  * HighHrothgarEntrance
+  * HighHrothgarEntrance02
+  * HighHrothgarExterior01
+  * HighHrothgarExterior02
+  * HighHrothgarExterior03
+  * HighHrothgar
+
+*Sovngarde, Hall of Valor:* Sovngarde01
+
+*Small Towns*
+
+*Dragon Bridge, Four Shields Tavern: *DragonBridgeFourShieldsTavern
+*Ivarstead, Vilemyr Inn:* IvarsteadVilemyrInn
+*Karthwasten *
+
+  * KarthwastenExterior01
+  * KarthwastenExterior02
+  * KarthwastenExterior03
+  * KarthwastenExterior04
+  * KarthwastenExteriorEdge
+
+*Kynesgrove, Braidwood Inn:* KynesgroveBraidwoodInn
+*Riverwood, Sleeping Giant Inn:* RiverwoodSleepingGiantInn
+*Rorikstead, Frostfruit Inn:* RoriksteadFrostfruitInn
+
+*Solstheim (Dragonborn DLC)*
+
+*Raven Rock, The Retching Netch:* DLC2RRTheRetchingNetch
+
+*Player Homes*
+
+*Falkreath, Lakeview Manor /(Hearthfire DLC)/:* BYOHHouse1Exterior
+*Hjaalmarch, Windstad Manor /(Hearthfire DLC)/:* BYOHHouse2Exterior
+*The Pale, Heljarchen Hall /(Hearthfire DLC)/:* BYOHHouse3Exterior
+*Markarth, Vlindrel Hall:* MarkarthVlindrelHall
+*Raven Rock, Severin Manor /(Dragonborn DLC)/:* DLC2RRSeverinHouse
+*Riften, Honeyside:* RiftenHoneyside
+*Solitude, Proudspire Manor:* SolitudeProudspireManor
+*Whiterun, Breezehome:* WhiterunBreezehome
+*Windhelm, Hjerim:* WindhelmHjerim
+
+*Standing Stones*
+
+*The Mage Stone:* GuardianStones
+*The Thief Stone:* GuardianStones
+*The Warrior Stone:* GuardianStones
+*The Apprentice Stone:* DoomstoneTundraMarsh01
+*The Atronach Stone:* DoomstoneVolcanicTundra
+*The Lady Stone:* DoomstonePineForest01
+*The Lord Stone:* DoomstoneSnowy02
+*The Lover Stone:* DoomstoneReach01
+*The Ritual Stone:* DoomstoneTundra01
+*The Serpent Stone:* DoomstoneNorthernCoast01
+*The Shadow Stone:* DoomstoneFallForest01
+*The Steed Stone:* DoomstoneNorthernPineForest01
+*The Tower Stone:* DoomstoneSnowy01
+
+*Dragonborn DLC Stones*
+
+*Beast Stone:* DLC2StoneBeast
+*Earth Stone:*
+
+  * DLC2StoneEarth
+  * DLC2StoneEarth02
+  * DLC2RavenRock05
+
+*Sun Stone:* DLC2StoneSun
+*Water Stone:* [list[
+
+  * DLC2StoneWater
+  * DLC2StoneWater02
+
+*Wind Stone:* DLC2StoneWind
+
+
+    *Targeted Commands (NPCs, Ownership, Resurrect)*
+
+//
+
+/To target something, open the console and click the target *before*
+entering the code./
+
+//
+
+*_NPC’s RefID_ /(Reference ID)/* appears at the *top of the console box*
+when you *target/click on a NPC* with the console open.
+
+*_NPC’s BaseID_* which is what you get when you use *the help code*:
+*help “NPC Name”* /(quotes for when there are spaces)/
+OR *help NPC* /(without quotes for one-word searches)/
+
+*Spawn NPC:* player.placeatme (NPC Code)
+
+*Teleport to NPC:* player.moveto (NPC Code)
+
+*Make Ownerless:* setownership
+
+  * Does _NOT_ make it _yours_.
+  * If it *still says steal*, *look away and look back* at it and it
+    should change.
+  * If it’s *still listed as steal*, try *re-targeting/selecting* the
+    object and *re-entering the code*.
+
+*Permanent Delete:* markfordelete
+
+  * Permanently deletes selected item instantaneously or upon reload.
+    Removes Completely
+  * Please _do NOT use on vital plot characters_ as it might crash the game.
+
+*Resurrect a NPC:* resurrect
+
+*Kill NPC:* kill
+
+*Kill Everything in Your Area:* killall
+
+  * Essential NPCs will only be knocked down. Unless set as
+    nonessential, they cannot die.
+
+*Check NPC Mortality:* isessential
+
+  * 0 is Mortal / 1 is Immortal
+
+*Set NPC Mortality:* setessential (NPCBaseID) *0*(mortal)/*1*(immortal)
+
+  * Example: setessential ##### 0
+  * Must use *BaseID* /(find by help “NPC NAME”)/ and NOT have anything
+    selected
+
+*Give NPC Item*: additem (ItemID) (amount)
+
+  * Example: additem f 8000 gives 8000 gold to targeted NPC.
+
+*Remove Item from NPC:* removeitem (itemID) (amount)
+*Show NPC Inventory & Item Codes:* showinventory
+
+  * Use the Page Up and Page Down buttons to scroll through the list.
+
+*Force NPC to Equip Item:* equipitem (itemID)
+
+  * Note: _Select the NPC before using the command._ Some characters
+    will shift back to their traditional outfits after a while, but
+    still be carrying some of their new outfits in their inventory.
+
+*Set Level:* setlevel 1,2,3,4
+*1*: NPC’s level in comparison to player based on % of player’s level.
+(1000=100%)
+*2*: (1 level +/-) How many levels above or below the level.
+*3*: Starting Level: Lowest level this NPC can be.
+*4*: Level Cap: Highest level this NPC can be.
+EXAMPLE: *setlevel 1000,0,1,81* makes target _level with you from 1 to 81_
+
+*Get Relationship Rank:* getrelationshiprank (RefID)
+
+*Set Relationship Rank:* setrelationshiprank (RefID) (1-4)
+
+*Change NPC Race:* setrace (RaceID)
+*WARNING: _SAVE BEFORE USING_.* (Might cause weird blend or races or
+game to bug out.)
+
+
+    *Player Commands (Skills, Items, Maps, Locks, & Etc.)*
+
+*Character Customization Menu:* showracemenu
+
+  * WARNING: Removes Custom Point Distributions if you use presets,
+    change race, or gender.
+  * Changing Hair, Face Shape, Skin Color, War Paint, and other plain
+    cosmetics leaves points alone.
+
+Adding/Removing Items/ Inventory
+
+*Add Item:* player.additem (ItemID) (amount)
+/Example:/ player.additem f 90000 /(adds 90000 gold)/
+
+*Remove Item:* player.removeitem (ItemID) (amount)
+
+*Drop Item:* player.drop (ItemID) (amount)
+
+*Show Inventory Item Codes: *player.showinventory
+
+Perks,Skills and Level Up
+
+*Add Perk:* player.addperk (PerkID)
+
+*Remove Perk:* player.removeperk (Perk ID)
+WARNING: /Will _NOT_ return point used on perk./
+
+*Add Skill Usage Points:* advskill (SkillName) (amount)
+NOTE: /Inconsistent between skills. /
+
+*Increase Skill by One*: incpcs (SkillName)
+NOTE: /This _allows_ character leveling and gaining of perk points./
+
+*Set Skill Level:* advancepcskill (skillname) number
+NOTE:/_No character leveling or perk points _will be gained using this
+code./
+
+*List of Skill Names*
+*Archery:* marksman
+*Speech:* speechcraft
+*Light Armor:* lightarmor
+*Heavy Armor:* heavyarmor
+*One-Handed:* onehanded
+*Two-handed:* twohanded
+*Blocking:* block
+*Lockpicking:* lockpicking
+*Pickpocket:* pickpocket
+*Sneak:* sneak
+*Alchemy:* alchemy
+*Enchanting:* enchanting
+*Smithing:* smithing
+*Alteration:* alteration
+*Conjuration:* conjuration
+*Destruction:* destruction
+*Illusion:* illusion
+*Restoration:* restoration
+
+*Force Player Level Up:* player.advlevel
+NOTE: /Does _NOT_ add perk points./
+
+Fame & Bounties
+
+*Set Fame:* setpcfame
+
+*Set Infamy:* setpcinfamy
+
+*Add Bounty:* player.setcrimegold (amount) (FactionID)
+
+*Pay Off Bounty/Remove Stolen Items:* player.paycrimegold (X) (Y)
+(FactionID)
+
+  * *X* = *1 *Remove Stolen Items/ *0* Don’t Remove Stolen Items
+  * *Y* = *1* Go to Jail/ *2* Don’t Go to Jail.
+  * WARNINGl _Occasionally doesn’t fully pay off bounty._
+
+Maps, Fast Travel, Locks
+
+*Toggle Reveal All of Local Map:* tfow
+
+*Unlock Fast Travel to All Locations:* tmm 1
+
+*Unlock Door/Chest:* select target and type *unlock*
+
+*Lock Door/Chest:* select object and type*lock (1-100)*
+
+  * The numbers are for the difficulty level. *Any number higher than
+    100 _cannot_ be picked*.
+
+  * _If you have a key_ for a door (for example Arch-Mage quarters) you
+    can lock the door with *-1* and it comes up as _*key required*_.
+
+
+    *Toggle Commands (Clipping, Modes, AI, Maps, & Menus)*
+
+*Toggle Collision/Clipping:* TCL
+
+  * _Toggles *clipping* for target._
+  * *WARNING:* If used while falling off cliff, may cause crash.
+  * For unsticking your character or finding items/bodies that have
+    fallen through wall or floor.
+
+*Toggle Free Camera (FreeCam)*: TFC
+
+  * *TFC 1* – Also _*freezes* the environment_.
+  * _*Change Freecam Speed*_ – SUCSM #
+  * *TIP on SUCSM:* 50 = five times faster
+  * *SetUFOCamSpeedMult #* is the _full written_ version of *SUCSM #*
+
+*Toggle Run Mode:* RM (same function as Shift key)
+
+*Toggle Immortal Mode:* TIM
+
+  * Character takes damage, but health never reaches zero.
+  * *WARNING:* Final blow animations may cause permanent decapitation bug
+
+*Toggle God Mode:* TGM
+
+  * Infinite Health, Magicka, & Stamina, Carry weight never effects
+    movement or fast travel.
+
+*Toggle AI Detection:* TDETECT
+
+  * Does *NOT* work with *Pickpocket *detection.
+
+*Toggle Player Control of Target:* TC
+
+  * If used when targeting NPC, will transfer control to NPC
+  * Commands will be applied to BOTH characters.
+  * To FIX, use TC on the player character to turn off its actions.
+
+*Toggle Regions on Local Map:* TFOW
+
+  * Loads all unexplored areas on the local map
+
+*Toggle Map Markers:* TMM (#)
+
+  * Disable All: *0*
+  * Enable All: *1*
+  * Show All; NO Fast Travel: *1,0,1*
+
+*Toggle Menus:* TM
+
+  * Disables all GUI elements, including menus, compass, subtitles,
+    messages.
+  * Useful for taking screenshots.
+
+*Toggle Grass:* TG
+
+*Toggle Trees:* TT
+
+
+    *Curing Vampirism & Lycanthropy*
+
+_*Vampirism*_
+
+_*Conventional Method*_
+If the infection has rooted *_before_ three days* have passed, a *Potion
+of Cure Disease* can be ingested to cure *Sanguinare Vampiris*, which is
+the disease that eventually leads to Vampirism. Alternatively, *praying
+at a shrine* cures it.
+
+*_After_ three days*, the only method for removing the disease is to
+*speak to Falion*, of *Morthal* you can find by talking to any
+innkeeper. He requires a *filled Black Soul Gem* (he sells them) to cure
+vampirism. It’s a 5 minute quest.
+
+_*Console Command*_:
+*Cure Vampirism:* setstage 000EAFD5 10
+/*WARNING:* Using console commands to remove it could cause things to
+malfunction later/
+
+_*Lycanthropy*_
+
+/If Lycanthropy is cured via the _Companions’ method_, the Dragonborn
+_cannot contract Lycanthropy again_, and _loses access to the Underforge_./
+
+_*Conventional Method*_
+At the *end of the Companions questline*, a radiant quest *“Purity”
+becomes available for those who wish to rid themselves of the disease*.
+As part of that quest, the Dragonborn must cut off the head of a
+Glenmoril Witch, bringing it into the depths of Ysgramor’s Tomb, draw
+the spirit of the wolf from their body, and defeat it.
+
+In order to remove the curse however, the *Dragonborn must kill at least
+two Glenmoril Witches*, one for Kodlak, one for the Dragonborn. If the
+Dragonborn *kills all five witches, it is possible to cure all of the
+The Circle*, except for Aela the Huntress who does not want to be cured.
+
+_*Console Command*_
+*Cure Lycanthropy:* player.removespell 00092C48
+/*WARNING:* Using console commands to remove it could cause things to
+malfunction later/
+
+
+    *Potion Item Codes*
+
+_*player.additem (code) (amount)*_
+
+Cure Condition
+
+*Potion of Cure Disease:* AE723
+*Potion of Cure Poison:* 65A64
+
+Restore Health
+
+*Potion of Minor Healing:* 3EADD
+*Potion of Healing:* 3EADE
+*Potion of Plentiful Healing:* 3EADF
+*Potion of Vigorous Healing:* 3EAE3
+*Potion of Extreme Healing:* 39BE4
+*Potion of Ultimate Healing: *39BE5
+
+Restore Magicka
+
+*Potion of Minor Magicka:* 3EAE0
+*Potion of Magicka:* 3EAE1
+*Potion of Plentiful Magicka:* 3EAE2
+*Potion of Vigorous Magicka:* 3EAE4
+*Potion of Extreme Magicka:* 39BE6
+*Potion of Ultimate Magicka:* 39BE7
+
+Restore Stamina
+
+*Potion of Minor Stamina:* 3EAE5
+*Potion of Stamina:* 39BE8
+*Potion of Plentiful Stamina: *3EAE7
+*Potion of Vigorous Stamina:* 3EAE8
+*Potion of Extreme Stamina:* 3EAE6
+*Potion of Ultimate Stamina:* 39CF3
+
+Regenerate Health
+
+*Potion of Regeneration: *3EB09
+*Draught of Regeneration: *3EB0A
+*Solution of Regeneration:* 3EB0B
+*Philter of Regeneration:* 3EB0C
+*Elixir of Regeneration:* FF9FF
+
+Regenerate Magicka
+
+*Potion of Lasting Potency:* 3EB0D
+*Draught of Lasting Potency:* 3EB0E
+*Solution of Lasting Potency:* 3EB0F
+*Philter of Lasting Potency:* 3EB10
+*Elixir of Lasting Potency:* FFA00
+
+Regenerate Stamina
+
+*Potion of Vigor:* 3EB11
+*Draught of Vigor:* 3EB12
+*Solution of Vigor:* 39B0C
+*Philter of Vigor: *3EB14
+*Elixir of Vigor: *FFA02
+
+Fortify Carry Weight
+
+*Potion of Strength: *3EB02
+*Draught of Strength: *3EB05
+*Solution of Strength: *3EB03
+*Philter of Strength: *3EB04
+*Elixir of Strength:* FF9FE
+
+Fortify Smithing:
+
+*Blacksmith’s Potion: *3EB2E
+*Blacksmith’s Draught:* 3995D
+*Blacksmith’s Philter:* 39962
+*Blacksmith’s Elixir:* 39967
+
+Fortify Enchanting:
+
+*Enchanter’s Potion: *39CFB
+*Enchanter’s Draught:* 39D02
+*Enchanter’s Philter: *39D0A
+*Enchanter’s Elixir: *39D12
+
+Fortify Barter
+
+*Potion of Haggling:* 3EB35
+*Draught of Haggling: *39970
+*Philter of Haggling: *39971
+*Elixir of Haggling: *39973
+
+Fortify Speech
+
+*Potion of Glibness:* D6948
+*Draught of Glibness:* D6949
+*Philter of Glibness:* D697F
+*Elixir of Glibness:* D6980
+
+Fortify Blocking
+
+*Potion of the Defender:* 3EB32
+*Draught of the Defender:* 3989B
+*Philter of the Defender:* 398AB
+*Elixir of the Defender:* 398AC
+
+Fortify Marksman
+
+*Potion of True Shot: *3EB2C
+*Draught of True Shot: *39949
+*Philter of True Shot: *3994B
+*Elixir of True Shot: *3994E
+
+Fortify One-Handed
+
+*Potion of the Warrior:* 3EB2A
+*Draught of the Warrior:* 39954
+*Philter of the Warrior:* 39955
+*Elixir of the Warrior: *39956
+
+Fortify Two-Handed
+
+*Potion of the Berserker:* 3EB2B
+*Draught of the Berserker: *39974
+*Philter of the Berserker:* 39980
+*Elixir of the Berserker: *39AA6
+
+Fortify Alteration
+
+*Potion of Alteration:* 3EB36
+*Draught of Alteration:* 3988E
+*Philter of Alteration: *39899
+*Elixir of Alteration:* 3989A
+
+Fortify Conjuration
+
+*Conjurer’s Potion:* 3EB37
+*Conjurer’s Draught:* 398AD
+*Conjurer’s Philter:* 398EC
+*Conjurer’s Elixir:* 398ED
+
+Fortify Destruction
+
+*Potion of Destruction:* 3EB38
+*Draught of Destruction: *398EE
+*Philter of Destruction:* 398F1
+*Elixir of Destruction: *398F3
+
+Fortify Lockpicking
+
+*Potion of Lockpicking: *39930
+*Draught of Lockpicking:* 39945
+*Philter of Lockpicking: *39946
+*Elixir of Lockpicking: *39948
+
+Fortify Pickpocketing
+
+*Potion of Pickpocketing:* 3EB31
+*Draught of Pickpocketing:* 39957
+*Philter of Pickpocketing:* 39959
+*Elixir of Pickpocketing: *39958
+
+Fortify Sneak
+
+*Potion of Light Feet: *3EB33
+*Draught of Light Feet: *39968
+*Philter of Light Feet: *39969
+*Elixir of Light Feet: *3996F
+
+Invisibility
+
+*Potion of Brief Invisibility:* 3EB3E
+*Potion of Extended Invisibility:* 3EB40
+*Potion of Enduring Invisibility:* 3EB3F
+*Potion of Prolonged Invisibility:* 3EB41
+
+Waterbreathing
+
+*Potion of Waterbreathing: *3AC2E
+*Draught of Waterbreathing: *3AC2F
+*Philter of Waterbreathing: *3AC30
+*Elixir of Waterbreathing: *3AC31
+
+Resist Fire
+
+*Potion of Resist Fire:* 39B4A
+*Draught of Resist Fire: *3EAE9
+*Philter of Resist Fire: *39B4B
+Elixir of Resist Fire: 3EAEF
+
+Resist Frost
+
+*Potion of Resist Cold: *39B8A
+*Draught of Resist Cold: *3EAED
+*Philter of Resist Cold:* 39BDF
+*Elixir of Resist Cold:* 3EAF0
+
+Resist Magic
+
+*Potion of Resist Magic: *39E52
+*Draught of Resist Magic:* 39E53
+*Philter of Resist Magic:* 39E54
+
+Resist Shock
+
+*Potion of Resist Shock:* 39BE1
+*Draught of Resist Shock:* 3EAEE
+*Philter of Resist Shock:* 39BE3
+*Elixir of Resist Shock:* 3EAF1
+
+—————————-THIEVES GUILD POTIONS—————————-
+
+Carrying Capacity + Stamina (Plunder)
+
+*Potion of Plunder:* F84C1
+*Draught of Plunder:* F84C2
+*Philter of Plunder:* F84C3
+*Elixir of Plunder:* F84C4
+*Grand Elixir of Plunder:* F84C5
+*Prime Elixir of Plunder: *F84C6
+
+Fortify Lockpicking + Pickpocketing (Larceny)
+
+*Potion of Larceny:* F84A7
+*Draught of Larceny:* F84A8
+*Philter of Larceny:* F84A9
+*Elixir of Larceny:* F84AA
+*Grand Elixir of Larceny:* F84AB
+*Prime Elixir of Larceny:* F84AC
+
+Invisibility + Restore Health (Escape)
+
+*Potion of Escape:* F84AE
+*Draught of Escape:* F84AF
+*Philter of Escape:* F84B0
+*Elixir of Escape: *F84B1
+*Grand Elixir of Escape:* F84B2
+*Prime Elixir of Escape:* F84B3
+
+Fortify Light Armor + One-Handed (Conflict)
+
+*Potion of Conflict: *F84B5
+*Draught of Conflict:* F84B6
+*Philter of Conflict: *F84B7
+*Elixir of Conflict:* F84B8
+*Grand Elixir of Conflict: *F84B9
+*Prime Elixir of Conflict:* F84BA
+
+Fortify Marksman + Stamina Regineration (Keenshot)
+
+*Potion of Keenshot: *F84BB
+*Draught of Keenshot:* F84BC
+*Philter of Keenshot:* F84BD
+*Elixir of Keenshot:* F84BE
+*Grand Elixir of Keenshot: *F84BF
+*Prime Elixir of Keenshot:* F84C0
+
+—————————————-Unique and Non-Leveled Potions—————————————-
+
+*Cliff Racer:* 65C39
+*Esbern’s Potion:* E6DF5
+*Falmer Blood Elixir:* 76F17
+*Ice Wraith Essence:* F9642
+*Philter of the Phantom:* 663E1
+*Potion of Blood (Dawnguard DLC):* XX018EF3
+*Soul Husk Extract (Dawnguard DLC): *XX015A1E
+*Vaermina’s Torpor: *5F6DF
+*Velvet LeChance:* 65C37
+*White Phial*
+
+  * *Healing:* 10201E
+  * *Resist Magic:* 102019
+  * *Stamina:* 10201A
+  * *Magicka Increase:*10201C
+  * *One-Handed Damage Increase:*10201D
+  * *Sneak Increase: *10201B
+
+
+    *Poison Item Codes*
+
+_*player.additem (code) (amount)*_
+
+Damage Health
+
+*Weak Poison:* 3A5A4
+*Poison: *73F31
+*Potent Poison:* 73F32
+*Deadly Poison:* 73F34
+*Virulent Poison: *73F33
+
+Lingering Damage Health
+
+*Weak Lingering Poison:* 65A6F
+*Lingering Poison:* 73F35
+*Potent Lingering Poison:* 73F36
+*Malign Lingering Poison:* 73F37
+*Deadly Lingering Poison:* 73F38
+
+Damage Magicka
+
+*Weak Magicka Poison:* 65A65
+*Magicka Poison:* 73F39
+*Potent Magicka Poison:* 73F3A
+*Malign Magicka Poison:* 73F3B
+*Deadly Magicka Poison:* 73F3C
+
+Lingering Damage Magicka
+
+*Lingering Magicka Poison: *65A70
+*Enduring Magicka Poison: *73F3D
+*Lasting Magicka Poison:* 73F3E
+*Persisting Magicka Poison:* 73F3F
+*Unceasing Magicka Poison:* 73F40
+
+Damage Magicka Regen
+
+*Weak Recovery Poison: *73F90
+*Magicka Recovery Poison:* 73F91
+*Potent Recovery Poison: *73F92
+*Malign Recovery Poison:* 73F93
+*Deadly Recovery Poison:* 73F94
+
+Damage Stamina
+
+*Weak Stamina Poison:* 65A66
+*Stamina Poison: *73F41
+*Potent Stamina Poison:* 73F42
+*Virulent Stamina Poison:* 73F43
+*Deadly Stamina Poison:* 73F44
+
+Lingering Damage Stamina
+
+*Lingering Stamina Poison:* 65A71
+*Enduring Stamina Poison:* 73F45
+*Lasting Stamina Poison:* 73F46
+*Persisting Stamina Poison:* 73F47
+*Unceasing Stamina Poison:* 73F48
+
+Damage Stamina Regen
+
+*Weak Vigor Poison: *73F8B
+*Vigor Poison:* 73F8C
+*Potent Vigor Poison:* 73F8D
+*Malign Vigor Poison:* 73F8E
+
+Fear
+
+*Weak Fear Poison: *65A68
+*Fear Poison:* 73F5E
+*Potent Fear Poison:* 73F5F
+*Virulent Fear Poison:* 73F60
+*Deadly Fear Poison: *73F61
+
+Frenzy
+
+*Weak Frenzy Poison:* 65A69
+*Frenzy Poison:* 73F5A
+*Potent Frenzy Poison: *73F5B
+*Virulent Frenzy Poison:* 73F5C
+*Deadly Frenzy Poison:* 73F5D
+
+Paralysis
+
+*Weak Paralysis Poison:* 65A6A
+*Paralysis Poison:* 74A38
+*Potent Paralysis Poison: *74A39
+*Virulent Paralysis Poison:* 74A3A
+*Deadly Virulent Poison:* 74A3B
+
+Weakness to Fire
+
+*Weak Aversion to Fire:* 65A6B
+*Aversion to Fire:* 73F49
+*Potent Aversion to Fire:* 73F4A
+*Malign Aversion to Fire: *73F4B
+*Deadly Aversion to Fire:* 73F4C
+
+Weakness to Frost
+
+*Weak Aversion to Frost:* 65a6c
+*Aversion to Frost:* 73f4d
+*Potent Aversion to Frost:* 73f4e
+*Malign Aversion to Frost:* 73f4f
+*Deadly Aversion to Frost:* 73f50
+
+Weakness to Magic
+
+*Weak Aversion to Magic: *65A6E
+*Aversion to Magic:* 73F56
+*Potent Aversion to Magic:* 73F57
+*Malign Aversion to Magic:* 73F58
+*Deadly Aversion to Magic:* 73F59
+
+Weakness to Shock
+
+*Weak Aversion to Shock:* 73F52
+*Aversion to Shock:* 65A6D
+*Potent Aversion to Shock: *73F53
+*Malign Aversion to Shock:* 73F54
+*Deadly Aversion to Shock:* 73F55
+
+*_Unique & Non-Leveled Poisons_*
+
+*Nightshade Extract:* CD883
+*Frostbite Venom:* E41B8
+*Lotus Extract:* 58CFB
+*Ice Wraith Bane:* E2D3D
+
+
+    *Weapon Item Codes*
+
+**_*player.additem (code) (amount)*_
+In order of Least Damage to Most Damage.
+
+*————————————————–*
+
+*_Archery_*
+
+*————————————————–*
+
+Bows
+
+*Hunting Bow:* 10E2DD
+*Ancient Nord Bow: *302CA
+*Imperial Bow:* 13841
+*Orcish Bow:* 1398D
+*Forsworn Bow:* CEE9B
+*Falmer Bow:* 38340
+*Dwarven Bow:* 13995
+*Nightingale Bow /(Lvl.1-18)/:* 7E5C3
+*Zephyr /(Dawnguard DLC)/:* XX00CFB6
+*Dwarven Black Bow of Fate /(Dragonborn DLC)/:* XX02C01A
+*Elven Bow:* 1399D
+*Auriel’s Bow /(Dawnguard DLC)/:* XX000800
+*Nordic Bow /(Dragonborn DLC)/:* XX026232
+*Nightingale Bow /(Lvl.19-26)/:* F6529
+*Supple Ancient Nord Bow:* 5D179
+*Falmer Supple Bow:* 83167
+*Glass Bow:* 139A5
+*Nightingale Bow /(Lvl. 27-35)/:* F652A
+*Glass Bow of Stag Prince /(Dragonborn DLC)/: *XX018ED5
+*Ebony Bow:* 139AD
+*Stalhrim Bow /(Dragonborn DLC)/:* XX026231
+*Nightingale Bow /(Lvl.36-45)/: *F652A
+*Daedric Bow:* 139B5
+*Nightingale Bow /(Lvl.46+)/:* F652C
+*Dragonbone Bow /(Dawnguard DLC)/:* XX0176F1
+*Karliah’s Bow:* DEED8
+
+Arrows
+
+*Iron Arrow:* 1397d
+*Ancient Nord Arrow:* 34182
+*Steel Arrow: *1397F
+*Orcish Arrow:* 139BB
+*Dwarven Arrow:* 139BC
+*Nordic Arrow /(Dragonborn DLC)/:* XX02623B
+*Elven Arrow:* 139BD
+*Bloodcursed Elven Arrow /(Dawnguard DLC)/: *XX0098A0
+*Sunhallowed Elven Arrow:* XX0098A1
+*Glass Arrow:* 139BE
+*Ebony Arrow:* 139BF
+*Stalhrim Arrow /(Dragonborn DLC)/:* XX026239
+*Daedric Arrow:* 139C0
+*Dragonbone Arrow /(Dawnguard DLC)/:* XX0176F4
+
+Crossbows /(Dawnguard DLC ONLY)/
+
+*Crossbow:* XX000801
+*Enhanced Crossbow:* XX00F19E
+*Dwarven Crossbow:* XX00B647
+*Enhanced Dwarven Crossbow:* XX00f19f
+
+Bolts /(Crossbow Bolts are Dawnguard DLC ONLY)/
+
+*Steel Bolt:* XX000BB3
+*Exploding Steel Bolt of Fire:* XX00F1A0
+*Exploding Steel Bolt of Ice:* XX00F1B7
+*Exploding Steel Bolt of Shock:* XX00F1BC
+*Dwarven Bolt:* XX00D099
+*Exploding Dwarven Bolt of Fire: *XX00F1B1
+*Exploding Dwarven Bolt of Ice:* XX00F1BB
+*Exploding Dwarven Bolt of Shock:* XX00F1B9
+
+*————————————————–*
+
+*_One-Handed Weapons_*
+
+*————————————————–*
+
+Daggers
+
+*Iron Dagger:* 1397E
+*Steel Dagger:* 13986
+*Orcish Dagger:* 1398E
+*Dwarven Dagger: *13996
+*Elven Dagger:* 1399E
+*Nordic Dagger /(Dragonborn DLC)/: *XX01CDAE
+*Skyforge Steel Dagger:* 9F25D
+*Glass Dagger:* 139A6
+*Ebony Dagger: *139AE
+*Stalhrim Dagger /(Dragonborn DLC)/:* XX01CDB5
+*Daedric Dagger: *139B6
+*Dragonbone Dagger:* XX014FCB
+
+Swords
+
+*Iron Sword:* 12EB7
+*Ancient Nord Sword:* 2C66F
+*Imperial Sword: *135B8
+*Steel Sword: *557F5
+*Orcish Sword: *13991
+*Dwarven Sword:* 13999
+*Falmer Sword:* 2E6D1
+*Forsworn Sword:* CADE9
+*Nightingale Blade /(Lvl.1-18)/:* 7A917
+*Elven Sword:* 139A1
+*Blades Sword:* 3AEB9
+*Nordic Sword /(Dragonborn DLC)/:* XX01CDB1
+*Nightingale Blade /(Lvl. 19-26)/:* F6524
+*Skyforge Steel Sword:* 9F25C
+*Scimitar:* 7A91A
+*Glass Sword:* 139A9
+*Dawnbreaker:* 4E4EE
+*Nightingale Blade /(Lvl. 27-35)/:* F6525
+*Ebony Sword: *139B1
+*Bloodscythe /(Dragonborn DLC)/:* XX018DDD
+*Chillrend /(Lvl.27-35)/:* F8316
+*Dragonbane /(Lvl.36-45)/:* F71CF
+*Nightingale Blade /(Lvl. 36-45)/:* F6526
+*Stalhrim Sword /(Dragonborn DLC)/:* XX01CDB8
+*Soulrender /(Dragonborn DLC)/:* XX036689
+*Dragonbane /(Lvl 46+)/:* F71D0
+*Daedric Sword: *139B9
+*Chillrend /(Lvl.36-45)/:* F8317
+*Nightingale Blade /(Lvl. 46+)/:* F6527
+*Dragonbone Sword /(Dawnguard DLC)/:* XX014FCE
+*Chillrend /(Level 46+)/:* F8318
+*Miraak’s Sword /(Dragonborn DLC)/:* XX039FB4
+
+War Axes
+
+*Iron War Axe:* 13790
+*Ancient Nord War Axe:* 2C672
+*Steel War Axe:* 13983
+*Orcish War Axe: *1398B
+*Honed Draugr War Axe: *5BF15
+*Falmer War Axe:* 302CD
+*Forsworn Axe:* CC829
+*Dwarven War Axe: *13993
+*Elven War Axe:* 1399B
+*Nordic War Axe /(Dragonborn DLC)/:* XX01CDB2
+*Skyforge Steel War Axe:* 9F260
+*Glass War Axe:* 139A3
+*Ebony War Axe: *139AB
+*Daedric War Axe: *139B3
+*Stalhrim War Axe /(Dragonborn DLC)/:* XX01CDB9
+*Dragonbone War Axe /(Dawnguard DLC)/:* XX014FCF
+
+Maces
+
+*Iron Mace:* 13982
+*Steel Mace: *13988
+**Orcish Mace: *13990
+Dwarven Mace:* 13998
+*Elven Mace:* 139A0
+*Nordic Mace /(Dragonborn DLC)/:* XX01CDB0
+*Glass Mace: *139A8
+*Ebony Mace:* 139B0
+*Daedric Mace:* 139B8
+*Stalhrim Mace /(Dragonborn DLC)/:* XX01CDB7
+*Dragonbone Mace /(Dawnguard DLC)/: *0201A173
+
+*————————————————–*
+
+*_Two-Handed Weapons_*
+
+*————————————————–*
+
+Greatswords
+
+*Iron Greatsword:* 1359D
+*Ancient Nord Greatsword:* 236A5
+*Steel Greatsword: *13987
+*Orcish Greatsword:* 1398F
+*Dwarven Greatsword:* 13997
+*Elven Greatsword:* 1399F
+*Nordic Greatsword /(Dragonborn DLC)/:* XX01CDAF
+*Skyforge Steel Greatsword:* 9F25E
+*Glass Greatsword: *139A7
+*Ebony Greatsword:* 139AF
+*Stalhrim Greatsword /(Dragonborn DLC)/: * XX01CDB6
+*Daedric Greatsword:* 139B7
+*Dragonbone Greatsword /(Dawnguard DLC)/: *02014FCC
+
+Battleaxes
+
+*Iron Battleaxe: *13980
+*Ancient Nord Battleaxe: *1CB64
+*Steel Battleaxe:* 13984
+*Steel Battleaxe of Fiery Souls: *40002
+*Orcish Battleaxe:* 1398C
+*Dwarven Battleaxe:* 13994
+*Elven Battleaxe:* 1399C
+*Skyforge Steel Battleaxe:* 9F25F
+*Nordic Battleaxe /(Dragonborn DLC)/:* XX01CDB1
+*Glass Battleaxe: *139A4
+*Ebony Battleaxe:* 1398C
+*Stalhrim Battleaxe /(Dragonborn DLC)/: *XX01CDB4
+*Daedric Battleaxe:* 139B4
+*Dragonbone Battleaxe /(Dawnguard DLC)/: *02014FC3
+
+Warhammers
+
+*Iron Warhammer:* 13981
+*Steel Warhammer:* 1398A
+*Orcish Warhammer: *13992
+*Dwarven Warhammer: *1399A
+*Elven Warhammer: *139A2
+*Nordic Warhammer /(Dragonborn DLC)/: *XX01CDB3
+*Glass Warhammer:* 139AA
+*Ebony Warhammer:* 139B2
+*Stalhrim Warhammer /(Dragonborn DLC)/: *XX01CDBA
+*Daedric Warhammer:* 139BA
+*Dragonbone Warhammer /(Dawnguard DLC)/:* 02014FD0
+
+
+    *Shield Item Codes*
+
+Light Shields
+
+*Hide Shield: * 13914
+*Imperial Light Shield:* 13AB2
+*Elven Shield:* 1391E
+*Chitin Shield /(Dragonborn DLC)/: *XX026235
+*Glass Shield:* 1393C
+*Dragonscale Shield:* 13941
+*Stahlrim Shield /(Dragonborn DLC)/:* XX026237
+
+Heavy Shields
+
+*Falkreath Guard’s Shield:* 214ED
+*Hjaalmarch Guard’s Shield:* 214EF
+*Markarth Guard’s Shield:* 214DC
+*Pale Guard’s Shield:* 214F7
+*Riften Guard’s Shield:* 214BA
+*Solitude Guard’s Shield:* 214F4
+*Whiterun Guard’s Shield:* 214E0
+*Windhelm Guard’s Shield:* 214EB
+*Winterhold Guard’s Shield:* 214F1
+*Imperial Shield:* 135BA
+*Iron Shield:* 12EB6
+*Steel Shield:* F1186
+*Dwarven Shield:* 13950
+*Dawnguard Shield /(Dawnguard DLC)/:* XX0150B8
+*Nordic Shield /(Dragonborn DLC)/: *XX026236
+*Falmer Shield:* 5C06C
+*Orcish Shield: *13946
+*Ebony Shield:* 13964
+*Dragonplate Shield:* 13968
+*Daedric Shield:* 1396E
+
+
+    *Heavy Armor Item Codes*
+
+_*player.additem (code) (amount)*_
+Least Armor to Most Armor
+
+Shellbug /(Dawnguard DLC)/
+
+*Shellbug Helmet:* XX012E8A
+
+Ancient Nord
+
+*Ancient Nord Armor:* 18388
+*Ancient Nord Boots:* 56A9D
+*Ancient Nord Gauntlets:* 56B17
+*Ancient Nord Helmet:* 56A9E
+
+Iron
+
+*Iron Armor:* 12E49
+*Iron Boots:* 12E4B
+*Iron Gauntlets:* 12E46
+*Iron Helmet:* 12E4D
+*Iron Shield:* 12EB6
+*Banded Iron Armor: *13948
+*Banded Iron Shield:* 1394B
+
+Imperial
+
+*Imperial Armor:* 136D5
+*Imperial Boots:* 136D6
+*Imperial Bracers: *136D4
+*Imperial Helmet:* 13EDC
+*Imperial Shield:* 135BA
+*Imperial Officer’s Helmet: *136CF
+*Imperial Helmet (Closed):* 9610D
+
+Falmer
+
+*Falmer Armor:* B83CB
+*Falmer Boots:* B83CD
+*Falmer Gauntlets: *B83CF
+*Falmer Helmet:* 4C3CB
+*Falmer Shield:* 5C06C
+
+Steel
+
+*Steel Armor:*
+
+  * 13952 – without pauldrons
+  * F6F22 – with pauldrons
+
+*Steel Cuffed Boots:* 13951
+*Steel Shin Boots:* F6F21
+*Steel Nordic Gauntlets: *13953
+*Steel Imperial Gauntlets: *F6F23
+*Steel Helmet:* 13954
+*Steel Horned Helmet:* F6F24
+*Steel Shield:* 13955
+
+Wolf (Companions)
+
+*Wolf Armor:* CAE15
+*Wolf Boots:* CEE7C
+*Wolf Gauntlets:* CEE7E
+*Wolf Helmet: *4C3D0
+
+Bonemold /(Dragonborn DLC)/
+
+*Bonemold Armor:* XX01CD93
+*Bonemold Guard Armor:* XX037564
+*Bonemold Pauldron Armor:* XX037563
+*Bonemold Boots:* XX01CD92
+*Bonemold Gauntlets:* XX01CD94
+*Bonemold Helmet:* XX01CD95
+*Bonemold Shield:* XX026234
+
+Falmer Hardened /(Dawnguard DLC)/
+
+*Falmer Hardened Armor:* XX00E8DE
+*Falmer Hardened Boots:* XX00E8DD
+*Falmer Hardened Gauntlets: *XX00E8DF
+*Falmer Hardened Helm:* XX00E8E0
+
+Dawnguard Heavy /(Dawnguard DLC)/
+
+*Dawnguard Heavy Armor:*
+
+  * Brown: XX00F3F7
+  * Gray: XX00F3FA
+
+*Dawnguard Heavy Boots:* XX014757
+*Dawnguard Heavy Gauntlets:* XX014758
+*Dawnguard Full Helmet:* XX0050D0
+*Dawnguard Shield:* XX0150B8
+
+Dwarven
+
+*Dwarven Armor:* 1394D
+*Dwarven Boots:* 1394C
+*Dwarven Gauntlets: *1394E
+*Dwarven Helmet: *1394F
+*Dwarven Shield:* 13950
+
+Improved Bonemold /(Dragonborn DLC)/
+
+*Improved Bonemold Armor:* XX03AB26
+*Improved Bonemold Boots:* XX03AB25
+*Improved Bonemold Gauntlets:* XX03AB22
+*Improved Bonemold Helmet:* XX03AB23
+*Improved Bonemold Shield:* XX03AB24
+
+Steel Plate
+
+*Steel Plate Armor:* 1395C
+*Steel Plate Boots: *1395B
+*Steel Plate Gauntlets:* 1395D
+*Steel Plate Helmet:* 1395E
+
+Orcish
+
+*Orcish Armor: *13957
+*Orcish Boots:* 13956
+*Orcish Gauntlets: *13958
+*Orcish Helmet:* 13959
+*Orcish Shield:* 13946
+
+Chitin /(Dragonborn DLC)/
+
+*Chitin Heavy Armor:* XX01CD8A
+*Chitin Heavy Boots:* XX01CD82
+*Chitin Heavy Gauntlets:* XX01CD8B
+*Chitin Heavy Helmet:* XX01CD8C
+
+Ahzidal’s Armor /(Dragonborn DLC)/
+
+*Ahzidal’s Armor of Retribution:* XX01DB97 = Small chance of paralyzing
+enemies
+*Ahzidal’s Boots of Waterwalking:* XX01C655
+
+  * Waterwalking, If wear any 4 Relics of Ahzidal +10 Enchanting.
+
+*Ahzidal’s Gauntlets of Warding:* XX01DB99
+
+  * Wards 25% LESS effective, but absorb 50% Magicka from incoming spells.
+
+*Ahzidal’s Helm of Vision:* XX01DB98
+
+  * Conjuration & Rune spells cost 25% more, but cast at greater range.
+
+Ebony
+
+*Ebony Armor:* 13961
+*Ebony Boots:* 13960
+*Ebony Gauntlets:* 13962
+*Ebony Helmet:* 13963
+*Ebony Shield:* 13964
+*Ebony Mail:* 52794
+
+Falmer Heavy /(Dawnguard DLC)/
+
+*Falmer Heavy Armor:* XX0023E9
+*Falmer Heavy Boots:* XX0023EF
+*Falmer Heavy Gauntlets: *XX0023ED
+*Falmer Heavy Helm: *XX0023EB
+
+Nordic Carved /(Dragonborn DLC)/
+
+*Nordic Carved Armor:* XX01CD97
+*Nordic Carved Boots:* XX01CD96
+*Nordic Carved Gauntlets:* XX01CD98
+*Nordic Carved Helmet:* XX01CD99
+*Nordic Shield:* XX026236
+
+Blades
+
+*Blades Armor: *4B28B
+*Blades Boots:* 4B288
+*Blades Gauntlets:* 4B28D
+*Blades Helmet:* 4B28F
+*Blades Shield:* 4F912
+
+Dragonplate
+
+*Dragonplate Armor:* 13966
+*Dragonplate Boots:* 13965
+*Dragonplate Gauntlets: *13967
+*Dragonplate Helmet:* 13969
+*Dragonplate Shield:* 13968
+
+Stalhrim Heavy /(Dragonborn DLC)/
+
+*Stalhrim Armor:* XX01CD9F
+*Stalhrim Boots:* XX01CD9E
+*Stalhrim Gauntlets:* XX01CDA0
+*Stalhrim Helm:* XX01CDA1
+*Stalhrim Shield:* XX026237
+
+Daedric
+
+*Daedric Armor:* 1396B
+*Daedric Boots:* 1396A
+*Daedric Gauntlets:* 1396C
+*Daedric Helmet:* 1396D
+*Daedric Shield:* 1396E
+
+Dragon Priest Masks
+
+*Rahgot:* 61CC0 = +70 Stamina
+*Hevnoraak:* 61CC1​​ = Immune to Disease and Poison
+*Otar:* 61CC2 = +30 Resist Fire, Resist Frost, Resist Shock
+*Nahkriin:* 61CA5 = +50 Magicka, Destruction and Restoration cost 20% less
+*Vokun:* 61CC9 = Conjuration, Illusion, Alteration cost 20% less
+*Ahzidal /(Dragonborn DLC)/:* XX0240FE = 50% Resist Fire, 25% Augmented
+Flames
+*Dukaan /(Dragonborn DLC)/:* 50% Resist Frost, 25% Augemented Frost
+*Zahkriisos /(Dragonborn DLC)/:* 50% Resist Shock, 25% Augmented Shock
+*Konahrik:* 61CD6 = When Health is low, chance to heal wearer/damage enemies
+*Miraak /(Dragonborn DLC)/*
+
+  * *Miraak Heavy/(1-44)/:* XX039FA1
+  * *Miraak Heavy /(45-59)/:* XX039FA2
+  * *Miraak Heavy /(60+)/:* XX039FA3
+
+Unique Artifacts
+
+*Ancient Helmet of the Unburned:* F494E = +40 Resist Fire
+*Dented Iron Shield /(Dragonborn DLC)/:* XX03399C
+*Helm of Winterhold:* 940D5
+*Cultist Mask /(Dragonborn DLC)/:* XX037B88
+*Targe of the Blooded:* FC5BF = When Bashing, 3 pt bleed damage for 5
+seconds
+*Helm of Yngol:* 295F3 = +30 Resist Frost
+*Masque of Clavicus Vile: *D2846
+
+  * +20 Fortify Barter, +10 Fortify Speech, +5 Magicka Regeneration
+
+*The Jagged Crown:* DA750
+*Visage of Mzund /(Dragonborn DLC)/:* XX038ADD
+
+  * +60 Fortify Stamina, Breath of Nchuak
+
+*Aetherial Shield /(Dawnguard DLC)/:* XX005759
+
+  * Enemies struck become ethereal for 15 sec
+
+*Shield of Ysgramor:* E41D8 = +20 Resist Magic, +20 Fortify Health
+*General Tullius’ Armor: *5CBFE
+*Auriel’s Shield /(Dawnguard DLC)/:* XX00284D
+
+  * Store energy of blocked attacks, Power Bash releases stored energy
+
+*Spellbreaker:* 45F96 = While blocking, protect against spells for up to
+50pts
+*Ebony Mail:* 52794 = Muffle, Poison Damage when crouching
+
+
+    *Light Armor Item Codes*
+
+_*player.additem (code) (amount)*_
+Least Armor to Most Armor
+
+Hide
+
+*Hide Armor:* 13911
+*Hide Boots:* 13910
+*Hide Bracers:* 13912
+*Hide Helmet:* 13913
+*Hide Shield:* 13914
+
+Fur
+
+*Fur Armor:*
+
+  * Sleeves:6F393
+  * No Sleeves: 10594F
+
+*Fur Boots:* A6D7F
+*Fur Shoes:* 6F398
+*Fur Gauntlets:* A6D7D
+*Fur Bracers:* 6F39B
+*Fur Helmet:* 6F39E
+
+Stormcloak
+
+*Stormcloak Cuirass: *A6D7B
+*Stormcloak Helmet:* A6D79
+
+Imperial Light
+
+*Imperial Light Armor:* FF0017B0
+*Imperial Light Boots:* FF002189
+*Imperial Light Bracers:* 13EDA
+*Imperial Light Helmet:* 13EDB
+*Imperial Light Shield: *13AB2
+
+Hold Guard
+
+*Studded Imperial Armor:* 13ED8
+*Falkreath Guard’s Armor:* 2151E
+*Falkreath Guard’s Helmet:* 21619
+*Hjaalmarch Guard’s Armor: *21520
+*Hjaalmarch Guard’s Helmet:* 2161B
+*Markarth Guard’s Armor:* 21508
+*Markarth Guard’s Helmet:* 21613
+*Pale Guard’s Armor: *21525
+*Pale Guard’s Helmet:* 2161F
+*Riften Guard’s Armor:* 21507
+*Riften Guard’s Helmet:* 21622
+*Solitude Guard’s Armor:* C7F5B
+*Solitude Guard’s Helmet:* C7F5C
+*Whiterun Guard’s Armor:* 2150D
+*Whiterun Guard’s Helmet:* 21615
+*Winterhold Guard’s Armor: *21522
+*Winterhold Guard’s Helmet:* 2161D
+
+Armor of the Old Gods
+
+*Armor of the Old Gods:* EAFD0
+*Boots of the Old Gods:* EAFD3
+*Gauntlets of the Old Gods:* EAFD2
+*Helmet of the Old Gods:* EAFD1
+
+Vampire /(Dawnguard DLC)/
+
+*Vampire Armor:*
+
+  * Black: XX0142c7
+  * Gray: XX0191F2
+  * Red: XX0191F3
+
+*Vampire Boots: *XX00B5DE
+*Vampire Gauntlets:* XX01A51F
+*Vampire Royal Armor:* XX00B5DB
+
+Penitus Oculatus (Emporer’s Guards)
+
+*Penitus Oculatus Armor:* D3EA0
+*Penitus Oculatus Boots:* D3EA7
+*Penitus Oculatus Bracers:* D3EAB
+*Penitus Oculatus Helmet:* D3EAA
+
+Leather
+
+*Leather Armor:* 3619E
+*Leather Boots:* 13920
+*Leather Bracers:* 13921
+*Leather Helmet:* 13922
+
+Skaal Armor /(Dragonborn DLC)/
+
+*Skaal Coat:* XX03910E
+*Skaal Boots:* XX039112
+*Skaal Gloves:* XX039110
+*Skaal Hat:* XX039114
+
+Morag Tong Armor /(Dragonborn DLC)/
+
+*Morag Tong Armor: *XX0292AC
+*Morag Tong Boots:* XX0292AB
+*Morag Tong Bracers:* XX0292AD
+*Morag Tong Hood:* XX0292AE
+
+Elven Light
+
+*Elven Light Armor: *105F12
+*Elven Light Boots: *105F11
+*Elven Light Gauntlets:* 105F13
+*Elven Light Helmet:* 105F14
+
+Stormcloak Officer
+
+*Stormcloak Officer Armor:* 8697E
+*Stormcloak Officer Boots:* 86981
+*Stormcloak Officer Bracers:* 86983
+*Stormcloak Officer Helmet: *86985
+
+Forsworn
+
+*Forsworn Armor:* D8D50
+*Forsworn Boots:* D8D4E
+*Forsworn Gauntlets:* D8D55
+*Forsworn Headdress:* D8D52
+
+Dawnguard/(Dawnguard DLC)/
+
+*Dawnguard Armor:*
+
+  * Red: XX00F3FB
+  * Gray: XX00F402
+  * Brown: XX00F404
+
+*Dawnguard Boots:* XX00F400
+*Dawnguard Gauntlets:* XX00F3FE
+*Dawnguard Helmet:* XX01989E
+*Dawnguard Rune Shield:* XX011BAF
+
+Elven
+
+*Elven Armor:* 896A3
+*Elven Boots: *1391A
+*Elven Gauntlets:* 1391C
+*Elven Helmet: *1391D
+*Elven Shield:* 1391E
+*Elven Gilded Armor: *1392A
+
+Shrouded (Dark Brotherhood)
+
+*Shrouded Armor:* D2844
+*Shrouded Boots: *D2845
+*Shrouded Gloves:* D2843
+*Shrouded Cowl:* D2842
+*Shrouded Armor (Tougher):* 5ABC3
+*Shrouded Cowl (Maskless):* 5ABC4
+
+Chitin /(Dragonborn DLC)/
+
+*Chitin Armor:* XX01CD87
+*Chitin Boots:* XX01CD86
+*Chitin Bracers:* XX01CD88
+*Chitin Helmet:* XX01CD89
+*Chitin Shield:* XX026235
+
+Linwe’s Armor
+
+*Linwe’s Armor:* 108544
+*Linwe’s Boots:* 108543
+*Linwe’s Gloves:* 108545
+*Linwe’s Hood:* 108546
+
+Scaled
+
+*Studded Armor:* 1B3A2
+*Scaled Armor:* 1B3A3
+*Scaled Boots:* 1B39F
+*Scaled Bracers:* 1B39F
+*Scaled Helmet:* 1B3A1
+
+Blackguard’s Armor /(Dragonborn DLC)/
+
+*Blackguard’s Armor:* XX02AD33
+*Blackguard’s Boots: *XX02AD34
+*Blackguard’s Gloves:* XX02AD34
+*Blackguard’s Hood:* XX02AD31
+
+Thieves Guild
+
+*Thieves Guild Armor: *D3AC3
+*Thieves Guild Boots:* D3AC2
+*Thieves Guild Gloves:* D3AC4
+*Thieves Guild Hood:* D3AC5
+
+Nightingale
+
+*Nightingale Armor /(1-18)/:* 5DB86
+*Nightingale Boots /(1-18)/:* FCC0C
+*Nightingale Gloves /(1-18):/* 5DB87
+*Nightingale Hood /(1-18)/:* 5DB88
+*Nightingale Armor /(19-31)/:* FCC0E
+*Nightingale Boots /(19-31)/:* 5DB85
+*Nightingale Gloves /(19-31)/:* FCC10
+*Nightingale Hood /(19-31)/:* FCC13
+*Nightingale Armor /(32+)/:* FCC0F
+*Nightingale Boots /(32+)/:* FCC0D
+*Nightingale Gloves /(32+)/:* FCC11
+*Nightingale Hood /(32+)/:* FCC12
+
+Guild Master (Thieves Guild)
+
+*Guild Master’s Armor: *E35D7
+*Guild Master’s Boots:* E35D6
+*Guild Master’s Gloves:* E35D8
+*Guild Master’s Hood:* E35D9
+
+Glass
+
+*Glass Armor:* 13939
+*Glass Boots:* 13938
+*Glass Gauntlets:* 1393A
+*Glass Helmet:* 1393B
+*Glass Shield:* 1393C
+
+Ancient Falmer /(Dawnguard DLC)/
+
+*Ancient Falmer Cuirass:* XX00C816
+*Ancient Falmer Boots:* XX00C815
+*Ancient Falmer Gauntlets:* XX00C817
+*Ancient Falmer Crown:* XX00C814
+
+Stahlrim Light /(Dragonborn DLC)/
+
+*Stahlrim Light Armor:* XX01CDA2
+*Stahlrim Light Boots:* XX01CD7E
+*Stahlrim Light Bracers:* XX01CDA5
+*Stahlrim Light Helmet: *XX01CDA3
+*Stahlrim Shield:* XX026237
+
+Deathbrand Armor /(Dragonborn DLC)/
+
+*Deathbrand Armor:* XX02401B
+*Deathbrand Boots:* XX02401A
+*Deathbrand Gauntlets:* XX02401C
+*Deathbrand Helm:* XX02401D
+
+Ancient Shrouded (Dark Brotherhood)
+
+*Ancient Shrouded Armor:* E1F15
+*Ancient Shrouded Boots:* E1F14
+*Ancient Shrouded Gloves: *E1F16
+*Ancient Shrouded Cowl:* E1F17
+
+Dragonscale
+
+*Dragonscale Armor:* 1393E
+*Dragonscale Boots:* 1393D
+*Dragonscale Gauntlets: *1393F
+*Dragonscale Helmet: *13940
+*Dragonscale Shield:* 13941
+
+Dragon Priest Masks
+
+Wooden: 61CCA
+*Morokei:*61C8B = Magicka Regen 100% Faster
+*Krosis:* 61CB9 = +20 Lockpicking, Archery, and Alchemy
+*Volsung:* 61CAB = +20 Barter, Carry Weight, and Waterbreathing
+*Miraak Light /(1-44)/:* XX039D2B = +50 Magicka
+*Miraak Light /(45-59)/:* XX039D2E = +60 Magicka
+*Miraak Light /(60+)/:* XX039D2F = +70 Magicka
+
+Unique Artifacts
+
+*Miraak’s Robes /(Dragonborn DLC)/:* XX039D1E
+
+  * Absorb 15% magicka from dragon breath and spells. Chance on hit to
+    spawn tentacle explosion.
+
+*Miraak’s Gloves /(Dragonborn DLC)/:*XX02B0F9
+
+  * Add 5% to the Magicka absorbtion of Miraak’s Robes.
+
+*Miraak’s Boots /(Dragonborn DLC)/:* XX03D2AF
+
+  * Add 5% to the Magicka absorbtion of Miraak’s Robes.
+
+*Locket of Saint Jiub /(Dawnguard DLC)/:* XX018B91 = +50 Carry Weight,
++50 Stamina
+*Gloves of the Pugilist:* 10A06A = Unarmed Strikes do +10 damage
+*Movarth’s Boots:* 96D9B = +15 Fortify Sneak
+*Diadem of the Savant:* F9904 = Reduce Magicka Cost for all Schools by 5%
+*Amulet of Articulation:* F6911 = Speechcraft is 35% better
+*Savior’s Hide: *2AC61 = +15 Resist Magic, +50 Resist Poison
+*Scaled Horn Armor:* 1B3A4
+
+
+    *Clothing & Robe Item Codes*
+
+_*player.additem (code) (amount)*_
+
+_*Children’s Clothes (Hearthfire DLC)*_
+
+Cheapest to High Value
+*Boy’s Green Tunic:* XX00C743
+*Boy’s Red Tunic:* XX00C742
+*Boy’s Blue Tunic:* XX00C744
+*Boy’s Grey Tunic:* XX00C745
+*Boy’s Yellow Tunic:* XX00C746
+
+*Girl’s Green Dress:* XX00D81F
+*Girl’s Red Dress:* XX00D821
+*Girl’s Blue Dress:* XX00D81E
+*Girl’s Grey Dress:* XX00D820
+*Girl’s Yellow Dress:* XX00D822
+
+_*General Robes*_
+
+*Black Robes:* 106661
+*Hooded Black Robes:* 107108
+*Blue Robes:* A199B
+*Green Robes (Hearthfire DLC):* 10CFF0
+*Red Robes (Hearthfire DLC):* 10CFF2
+*Grey Robes:* 10CFF1
+*Monk Robes:* BACF3
+*Hooded Monk Robes:*107106
+
+_*General Clothing*_
+
+*Belted Tunic: *1BE1A
+*Blacksmith’s Apron:*
+
+  * 5B69F
+  * 6FF37
+
+*Chef’s Tunic:* 1BC82
+*Clothes:*
+
+  * 17695
+  * 209A6
+  * 261C0
+  * 3452E
+  * 4223C
+  * 5B6A1
+  * 6C1D8
+  * 6C1D9
+  * 6C1DA
+  * 6FF38
+  * 6FF45
+  * F1229
+
+*Embellished Robes:* E84C4 (Jarl Outfit)
+*Embroidered Garments:* EAD49
+*Fine Raiment:* CEE76
+*Fur-Trimmed Cloak:* 8698C (Jarl Outfit)
+*Hammerfell Garb:* 7BC19
+*Miner’s Clothes:* 80697
+*Noble Clothes:* 5DB7B (Jarl Outfit)
+*Ragged Robes:* 13105
+*Ragged Trousers:* 8F19A
+*Roughspun Tunic:* 3C9FE
+*Tavern Clothes:* D191F
+
+_*General Footwear*_
+
+*Boots*:
+
+  * 1BE1B
+  * 209A5
+  * 261BD
+  * 3452F
+  * 4223D
+  * 6B46C
+  * 80699
+  * BACD7
+  * C36E8
+  * C5D12
+  * CF8B0
+  * D1921
+  * E0DD4
+
+*Boots (Dawnguard DLC)* XX01570B
+*Boots (Dragonborn DLC)* XX0376D9
+*Cuffed Boots:* CEE78
+*Footwraps:* 3CA00
+*Fur-Lined Boots:* 5DB7E
+*Pleated Shoes:* 8698E
+*Ragged Boots:* 13106
+*Shoes:*
+
+  * 18801
+  * 5B6A0
+  * 5B69E
+  * E80A8
+
+_*General Headwear*_
+
+*Chef’s Hat:* 1BCA7
+*Cowl:* 17696
+*Hat*
+
+  * 209AA
+  * 330B3
+  * 330BC
+  * 4223B
+
+*Ragged Cap:* 13104
+
+_*Clothing Sets/Outfits*_
+
+Dunmer Outfit (Dragonborn DLC)
+
+*Dunmer Shoes:* XX03705A
+*Dunmer Outfit* (All +75% Magicka Regen)
+
+  * *Blue Hooded:* XX037065
+  * *Blue Hoodless:* XX03706B
+  * *Red Hooded:* XX037066
+  * *Red Hoodless:* XX3706C
+  * *Yellow Hooded:* XX01CDAA
+  * *Yellow Hoodless:* XX03706A
+
+Fine Clothes
+
+*Radiant Raiment Fine Clothes:* E9EB5
+*Fine Clothes*
+
+  * *Blue Fur:* F8713
+  * *Green Fur:* 86991
+  * *Blue Quilted: *F8715
+  * *Red Quilted:* CEE80
+
+*Fine Hat:* CEE84
+*Fine Boots*
+
+  * *Black:* 86993
+  * *Brown:* CEE82
+
+*Gloves:* 261C1
+
+Jester Outfit
+
+*Sheogorath’s Outfit:* C7CBB
+*Jester Clothes:* CEE6E (Prices 12% better, damage with One-Hand weapons
+is 12% better)
+*Jester Boots:* CEE70 (Wearer is muffled and moves silently)
+*Jester Gloves:* CEE74 (Double sneak attack damage with one-handed weapons)
+*Jester Hat:* CEE72 (Sneaking is 30% better)
+*Cicero’s Clothes:* 6492C (Prices are 20% better, 20% better damage One-
+Handed attacks
+*Cicero’s Boots:* 6492A (Wearer is muffled and moves silently)
+*Cicero’s Gloves:* 6492D (Double sneak attack damage with one-handed)
+*Cicero’s Hat:* 6492E (Sneaking is 35% better)
+
+Mage
+
+*College Robes:* D3DEA
+*College Boots: *10E2CE or 10E2DC
+*Mage Robes*:
+
+  * *Common:* 7E010
+  * *Apprentice: *6B46B
+
+*Mage Hood*:
+
+  * *Novice*: 10DD3A (+30 Magicka)
+  * *Apprentice*: 10DD3B (+40 Magicka)
+  * *Adept*: 10DD3C (+50 Magicka)
+
+*Master Robes:* 10D680 (+150% Magicka Regen)
+*Master Robes of Alteration:* 10D66F (+150% Magicka Regen, Alt spells
+cost 20% less)
+*Master Robes of Conjuration:* 10D675 (+150% Magicka Regen, Conj spells
+cost 22% less)
+*Master Robes of Destruction:* 10D678 (+150% Magicka Regen, Des. spells
+cost 22% less)
+*Master Robes of Illusion:* 10D67C (+150% Magicka Regen, Illusion cost
+22% less)
+*Master Robes of Restoration:* 10D684 (+150% Magicka Regen, Restor. cost
+22% less)
+
+Moth Priest (Dawnguard DLC)
+
+*Moth Priest Robes:* XX0047D7
+*Moth Priest Blindfold:* XX0047DA
+*Moth Priest Sandals:* XX0047D9
+
+Mourner
+
+*Mourner’s Clothes:* 646A7
+*Mourner’s Hat:* 646AB
+
+Mythic Dawn
+
+*Mythic Dawn Boots: *B1460
+*Mythic Dawn Robes (Hooded): *B144D (+75% Magicka regen)
+*Mythic Dawn Robes (Unhood):* 109C11 (+75% Magicka regen)
+*Mythic Dawn Gloves: *B145B
+
+Psijic Order
+
+*Psijic Robe:* 65B94
+*Psijic Hood:* 65B99
+*Psijic Boots:* 65B9B
+*Psiijic Gloves:* 65B9D
+
+Redguard or Alik’r
+
+*Redguard Clothes:* E0DD0
+*Redguard Hood: *E0DD2
+*Alik’r Hood:* 7BC1A
+*Redguard Boots:* 7BC15
+
+Temple Priest (Dragonborn DLC)
+
+*Temple Priest Robes:* XX01CDAB (+75% Magicka Regen)
+*Temple Priest Hood:* XX03B04E
+*Temple Priest Boots:* XX03B04B
+
+Thalmor
+
+*Thalmor Robes:* 65BBF
+*Hooded Thalmor Robes:* 10C698
+*Thalmor Boots:* 65BAC
+*Thalmor Gloves:* 65BB3
+
+Vampire (Dawnguard DLC)
+
+*Vampire Robes:* XX019ADF
+*Vampire Hood:* XX019ADE
+*Vampire Boots:* XX019AE1
+*Vampire Gloves:* XX019AE3
+
+Wedding
+
+*Wedding Dress:* 88956
+*Wedding Wreath:* 8895A
+*Wedding Sandals:* 88958
+*Wedding Ring:*
+
+
+    *Ring, Circlet, & Necklace Item Codes*
+
+_*player.additem (code) (amount)*_
+
+_*Rings*_
+
+*Silver Ring:* 3B97C
+*Silver Amethyst Ring:* 877A7
+*Silver Garnet Ring:* 877AB
+*Silver Ruby Ring:* 877B1
+*Gold Ring:* 1CF2B
+*Gold Emerald Ring:* 877CA
+*Gold Sapphire Ring:* 877CB
+*Gold Diamond Ring:* 877C9
+
+_*Specialty Rings*_
+
+*Ring of Minor Health:* FCEFD
+*Ring of Health:* FCEFE
+*Ring of Major Health:* FCEFF
+*Ring of Eminent Health:* FCF00
+*Ring of Extreme Health:* FCF01
+*Ring of Peerless Health:* FCF02
+
+*Ring of Minor Magicka:* FF7D2
+*Ring of Magicka:* FF7D3
+*Ring of Major Magicka:* FF7D4
+*Ring of Eminent Magicka:* FF7D5
+*Ring of Extreme Magicka:* FF7D6
+*Ring of Peerless Magicka:* FF7D7
+
+*Ring of Peerless Stamina:* FCEFC
+
+*Ring of Remedy:* 100E51
+*Ring of Mending:* 100E52
+*Ring of Regeneration:* 100E53
+*Ring of Revival:* 100E54
+
+*Ring of the Minor Knight:* 100E0B
+*Ring of the Knight:* 100E0C
+*Ring of the Major Knight:* 100E0D
+*Ring of the Eminent Knight:* 100E0E
+*Ring of the Extreme Knight:* 100E0F
+*Ring of the Peerless Knight:* 100E10
+
+*Ring of Minor Squire: *100E18
+*Ring of Squire:* 100E18
+*Ring of Major Squire:* 100E1A
+*Ring of Eminent Squire:* 100E1B
+*Ring of Extreme Squire:* 100E1C
+*Ring of Peerless Squire:* 100E1D
+
+*Ring of Sneaking:* 100E41
+
+*Ring of Minor Lockpicking:* 100E17
+*Ring of Lockpicking:* 100E1E
+*Ring of Major Lockpicking:* 100E1F
+*Ring of Eminent Lockpicking:* 100E20
+*Ring of Extreme Lockpicking:* 100E21
+*Ring of Peerless Lockpicking:* 100E22
+
+*Ring of Minor Archery:* 100E23
+*Ring of Archery:* 100E24
+*Ring of Major Archery:* 100E25
+*Ring of Eminent Archery:* 100E26
+*Ring of Extreme Archery:* 100E27
+*Ring of Peerless Archery:* 100E28
+
+*Ring of Minor Blocking:* 100DF3
+*Ring of Blocking:* 100DF4
+*Ring of Major Blocking:* 100DF5
+*Ring of Eminent Blocking:* 100DF6
+*Ring of Extreme Blocking:* 100DF7
+*Ring of Peerless Blocking:* 100DF8
+
+*Ring of Minor Alteration:* FF7DE
+*Ring of Alteration:* 100DEE
+*Ring of Major Alteration:* 100DEF
+*Ring of Eminent Alteration:* 100DF0
+*Ring of Extreme Alteration:* 100DF1
+*Ring of Peerless Alteration:* 100DF2
+
+*Ring of Minor Conjuration:* 100DF9
+*Ring of Conjuration:* 100DFA
+*Ring of Major Conjuration:* 100DFB
+*Ring of Eminent Conjuration:* 100DFC
+*Ring of Extreme Conjuration:* 100DFD
+*Ring of Peerless Conjuration:* 100DFE
+
+*Ring of Minor Destruction:* 100DFF
+*Ring of Destruction:* 100E00
+*Ring of Major Destruction:* 100E01
+*Ring of Eminent Destruction:* 100E02
+*Ring of Extreme Destruction:* 100E03
+*Ring of Peerless Destruction:* 100E04
+
+*Ring of Minor Illusion:* 100E11
+*Ring of Illusion:* 100E12
+*Ring of Major Illusion:* 100E13
+*Ring of Eminent Illusion:* 100E14
+*Ring of Extreme Illusion:* 100E15
+*Ring of Peerless Illusion:* 100E16
+
+*Ring of Magic Abatement:* 10DFCC
+*Ring of Nullification:* 10DFCD
+
+*Ring of Pure Mixtures:* 90E32
+
+*Ring of the Beast (Dawnguard DLC):* XX00E7FD
+*Ring of the Erudite(Dawnguard DLC):* XX00E7FE
+
+_*Circlets*_
+
+*Copper and Moonstone Circlet:* 16730
+*Copper and Ruby Circlet:* 16731
+*Copper and Sapphire Circlet: *166FE
+*Copper and Onyx Circlet: *166FF
+*Jade and Emerald Circlet:* 166D6
+*Jade and Sapphire Circlet: *1671A
+*Silver and Moonstone Circlet:* 166E0
+*Silver and Sapphire Circlet:* 16719
+*Gold and Ruby Circlet:* 166FD
+*Gold and Emerald Circlet:* 1672F
+
+_*Specialty Circlets*_
+
+*Circlet of Minor Alchemy:* FC000
+*Circlet of Alchemy: *FC001
+*Circlet of Major Alchemy:* FC002
+*Circlet of Eminent Alchemy:* FC003
+*Circlet of Extreme Alchemy:* FC004
+*Circlet of Peerless Alchemy:* FC005
+
+*Circlet of Minor Archery:* FC02A
+*Circlet of Archery:* FC02B
+*Circlet of Major Archery:* FC02C
+*Circlet of Eminent Archery:* FC02D
+*Circlet of Extreme Archery:* FC02E
+*Circlet of Peerless Archery:* FC02F
+
+*Circlet of Minor Magicka:* FC024
+*Circlet of Magicka:* FC025
+*Circlet of Major Magicka:* FC026
+*Circlet of Eminent Magicka:* FC027
+*Circlet of Extreme Magicka:* FC028
+*Circlet of Peerless Magicka:* FC029
+
+*Circlet of Minor Alteration:* FC006
+*Circlet of Alteration:* FC007
+*Circlet of Major Alteration:* FC008
+*Circlet of Eminent Alteration:* FC009
+*Circlet of Extreme Alteration:* FC00A
+*Circlet of Peerless Alteration:* FC00B
+
+*Circlet of Minor Conjuration:* FC00C
+*Circlet of Conjuration:* FC00D
+*Circlet of Major Conjuration:* FC00E
+*Circlet of Eminent Conjuration:* FC00F
+*Circlet of Extreme Conjuration:* FC010
+*Circlet of Peerless Conjuration:* FC011
+
+*Circlet of Minor Destruction:* FC012
+*Circlet of Destruction:* FC013
+*Circlet of Major Destruction:* FC014
+*Circlet of Eminent Destruction:* FC015
+*Circlet of Extreme Destruction:* FC016
+*Circlet of Peerless Destruction:* FC017
+
+*Circlet of Minor Illusion: *FC01E
+*Circlet of Illusion:* FC01F
+*Circlet of Major Illusion:* FC01F
+*Circlet of Eminent Illusion:* FC021
+*Circlet of Extreme Illusion:* FC022
+*Circlet of Peerless Illusion: *FC023
+
+*Circlet of Minor Restoration:* FC030
+*Circlet of Restoration:* FC031
+*Circlet of Major Restoration:* FC032
+*Circlet of Eminent Restoration:* FC033
+*Circlet of Extreme Restoration:* FC034
+*Circlet of Peerless Restoration:*
+
+_*Necklaces*_
+
+*Silver Necklace:* 9171B
+*Silver Sapphire Necklace:* 87832
+*Silver Emerald Necklace:* 87833
+*Silver Jeweled Necklace:* 87834
+*Gold Necklace:* 877D5
+*Gold Ruby Necklace:* 877DC
+*Gold Jeweled Necklace:* 87835
+*Gold Diamond Necklace:* 877F1
+
+_*Specialty Necklaces*_
+
+*Necklace of Minor Alchemy:* 10DF45
+*Necklace of Alchemy:* 10DF46
+*Necklace of Major Alchemy:* 10DF47
+*Necklace of Eminent Alchemy:* 10DF48
+*Necklace of Extreme Alchemy: *10DF49
+*Necklace of Peerless Alchemy:* 10DF4A
+
+*Necklace of Minor Blocking:* 10DF1B
+*Necklace of Blocking:* 10DF1C
+*Necklace of Major Blocking:* 10DF1D
+*Necklace of Eminent Blocking:* 10DF1E
+*Necklace of Extreme Blocking:* 10DF1F
+*Necklace of Peerless Blocking:* 10DF20
+
+*Necklace of Minor Haggling:* 10DF4B
+*Necklace of Haggling:* 10DF4C
+*Necklace of Major Haggling:* 10DF4D
+*Necklace of Eminent Haggling:* 10DF4E
+*Necklace of Extreme Haggling:* 10DF4F
+*Necklace of Peerless Haggling:* 10DF50
+
+*Necklace of Minor Health:* FC037
+*Necklace of Health:* FC038
+*Necklace of Major Health:* FC039
+*Necklace of Eminent Health:* FC03A
+*Necklace of Extreme Health:* FC03B
+*Necklace of Peerless Health:* FC03C
+
+*Necklace of Remedy:* 10DF57
+*Necklace of Mending:* 10DF58
+*Necklace of Regeneration:* 10DF59
+*Necklace of Revival:* 10DF5A
+
+*Necklace of Disease Immunity:* 100E65
+*Necklace of Poison Immunity:* 100E5F
+
+*Necklace of Fire Suppression:* FC046
+*Necklace of Fire Abatement:* FC047
+*Necklace of the Firewalker:* FC048
+
+*Necklace of Frost Suppression:* FC04C
+*Necklace of Frost Abatement:* FC04D
+*Necklace of Warmth:* FC04E
+
+*Necklace of Shock Abatement:* FC053
+*Necklace of Grounding:* FC054
+
+*Necklace of Peerless Deft Hands:* 10DF38
+
+*Necklace of the Peerless Squire:* 10DF32
+
+*Necromancer Amulet:* C891D
+
+
+    *Soul Gem, Amulet & Paragon Item Codes*
+
+_*player.additem (code) (amount)*_
+
+Empty Soul Gems
+
+*Petty Soul Gem (Empty):* 2E4E2
+*Lesser Soul Gem (Empty):* 2E4E4
+*Common Soul Gem (Empty):* 2E4E6
+*Greater Soul Gem (Empty):* 2E4F4
+*Grand Soul Gem (Empty):* 2E4FC
+*Black Soul Gem (Empty):* 2E500
+*Wylandriah’s Soul Gem (Empty):* 43E26
+*Azura’s Star (Empty):* 63B27
+*The Black Star (Empty):* 63B29
+*Treated Soul Gem (Empty):* 94E40
+
+Filled Soul Gems
+
+*Petty Soul Gem (Full):* 2E4E3
+*Lesser Soul Gem (Full):* 2E4E5
+*Common Soul Gem (Full):* 2E4F3
+*Greater Soul Gem (Full):* 2E4FB
+*Grand Soul Gem (Full):* 2E4FF
+*Black Soul Gem (Full):* 2E504
+
+_*Amulets*_
+
+*Amulet of Akatosh: *C8911 /(25% faster Magicka Regen)/
+*Amulet of Arkay:* CC848 (+10 Health Points)
+*Amulet of Bats /(Dawnguard DLC)/:* XX0068AE /(Bats drain life from
+nearby enemies/
+*Amulet of Dibella:* C8915 /(+15 Speechcraft)/
+*Amulet of Julianos:* C8917 /(+10 Magicka) /
+*Amulet of Kynareth:* C8919 /(+10 Stamina)/
+*Amulet of Mara:* C891B /(Restoration cost 10% less Magicka)/
+*Amulet of Stendarr:* CC844 /(Block 10% more damage with your shield)/
+*Amulet of Talos:* CC846 /(Time between shouts reduced 20%)/
+*Amulet of Zenithar:* 878BB /(10% better prices)/
+*Amulet of the Elder Council:* C8913
+*Amulet of the Gargoyle /(Dawnguard DLC)/:* XX00F4D5
+
+  * Summon Gargoyle will summon a additional Gargoyle for 30 seconds.
+
+*Ancient Nord Amulet:* CC842
+*Bone Hawk Amulet /(Dawnguard DLC)/:* XX01AA0B
+
+_*Quest Items*_
+
+*Andur’s Amulet of Arkay:* 94E3E
+*Fjotli’s Silver Locket:* 7D678
+*Jeweled Amulet:* 6B217
+*Moon Amulet:* D9394
+*Ogmund’s Amulet of Talos:* 64796
+*Raerek’s Inscribed Amulet of Talos:* E0EA2
+*Reyda’s Necklace:* 663DA
+*Saarthal Amulet:* 233D0
+*Savos Aren’s Amulet:* F1B33 = +50 Fortify Magicka
+*Shahvee’s Amulet of Zenithar:* BFA0A
+*Strange Amulet:* D2328
+*The Gauldur Amulet:* 2D773 = +30 Health, Magicka and Stamina
+
+_*Paragons /(Dawnguard DLC)/*_
+
+*Amethyst Paragon:* XX012F97
+*Diamond Paragon:* XX012FC3
+*Emerald Paragon:* XX019ABC
+*Ruby Paragon:* XX019ABD
+*Sapphire Paragon:* XX019ABB
+
+
+    *Enchantment Codes*
+
+_*playerenchantobject (ObjectID) (EnchantmentID) (EnchantmentID)*_
+The effectiveness of the enchantment iis determined by your enchanting
+skill level.
+
+Staff Enchantments (Spells)
+
+*Frenzy:* 10FDD4
+*Frostbite:* 10FDD3
+*Sparks:* 10FDD2
+*Flames:* 10FDD1
+*Icy Spear:* 10F7F0
+*Incinerate:* 10F7F1
+*Thunderbolt:* 10F7EF
+*Conjure Storm Atronach:* 10EE49
+*Conjure Frost Atronach:* 10EE48
+
+Weapon Enchantments
+
+*Ebony Blade Absorb Health:* 10FAF1
+*Absorb Health:* AA155
+*Absorb Magicka:* AA156
+*Absorb Stamina:* AA157
+*Hag’s End Drain Health:* FB409
+*Drain Health:* 91F7A
+*Drain Magicka:* 91F7E
+*Drain Stamina:* 91F7D
+
+*Banish: ACBB5*
+*Banish-Damage Health:* 173DC
+*Damage Health Bleeding: *10582C
+*Magicka Damage:* 5B44F
+*Stamina Damage:* 5B450
+
+*Animal Damage:* 101BDC
+*Dragon Damage:* FF9F7
+*Dragon Damage II:* F1AC2
+*Elf Slayer:* F23F9
+*Extra Damage Nord:* 10582E
+*Moonlight Damage:* 3B0B1
+
+*Chaurus Poison:* 6F6FC
+*Falmer Poison:* 109D7C
+*Venomfang Poison:* 10FC23
+*Spider Bite:* 53473
+*Spriggan Poison Damage:* F23D3
+
+*Fear (Low):* 5B451
+*Fear (Med):* BEE93
+*Fear (High):* BEE94
+
+*Red Eagle: Turn Undead:* FB408
+*Turn Undead:* 5B46B
+
+*Paralysis:* ACBB6
+*Paralyze:* 106616
+*Paralyze II:* 6F702
+*Paralyze III:* 9AA3F
+
+*Hag’s End Soul Trap:* FB407
+*Soul Trap:* 5B452
+
+*Instant Kill:* 91AE5
+
+*Transmogrify:* 1092A0
+
+*Fire Hazard (High):* 2ACD4
+*Ice Hazard (High):* 3E07B
+*Shock Hazard (High):* 45D5A
+
+*Fire Damage:* 4605A
+*Fire Damage (High):* 50CF6
+*Red Eagle Fire Damage:* FB405
+*Fire Damage + Undead Explosion:* FEFBC
+*Fire Damage/Trolls Bane:* F5D15
+
+*Frost Damage:* 4605B
+*Frost Damage (High):* 78C11
+*Frost Damage II:* 106617
+*Ice Wraith Bite:* A26F5
+
+*Shock Damage:* 4605C
+*Shock Damage (High):* 50CF9
+
+*Dragon Breath (Frost):* 549B4
+*Unrelenting Force:* 16D46
+*Windshear Bash Effect:* 105A01
+
+*Fortify Archery:* 7A0FE
+*Huntsman’s Prowess:* 105831
+
+*Notched Pickaxe:* 1019AF
+*Notched Pickaxe II:* 1019D6
+*Silvered:* 10B116
+
+Armor Enchantments
+
+*Flame Cloak:* 10FC13 /(no damage, pure aesthetic)/
+*Fortify Armor Rating:* 17120
+*Fortify Barter:* 7A104 (Better Prices)
+*Fortify Carry Weight:* 10CED9
+*Fortify Health:* 10F814
+*Fortify Magicka:* 3EAF8
+*Fortify Magicka:* 49504
+
+*Health Regeneration:* 946F3
+*Regenerate Health:* 10F812
+*Regenerate Magicka:* 109630
+*Regenerate Stamina:* 3EB08
+*Regenerate Stamina:* 7A105
+
+*Fortify Conjuration:* 10962F
+*Fortify Restoration:* 3EB28 /(Stronger Effect)/
+*Fortify Restoration:* 109634 /(Less Cost)/
+
+*Backstab:* FF15C /(Shrouded Hand Wraps)/
+*Fortify Lockpicking:* 7A0FC /(Easier Lockpicking)/
+*Fortify Sneak:* 7A103 /(Better Sneaking)/
+*Muffle:* 92A57
+*Shadowcloak of Nocturnal:* 17121 /(Adds Shadowcloak of Nocturnal as
+passive)/
+
+*Resist Poison:* FF15E
+*Waterbreathing:* 92A48
+
+
+    *Ingredients & Food Item Codes*
+
+_*player.additem (code) (amount)*_
+
+_*Ingredients*_
+
+*Abecean Longfin:* 106E1B
+*Ancestor Moth Wing /(Dawnguard DLC)/:* XX0059BA
+*Ash Creep Cluster /(Dragonborn DLC)/:* XX01CD74
+*Ash Hopper Jelly /(Dragonborn DLC)/:* XX01CD71
+*Ashen Grass Pod /(Dragonborn DLC)/:* XX016E26
+*Bear Claws:* 6BC02
+*Bee:* A9195
+*Beehive Husk:* A9191
+*Berit’s Ashes:* 705B7
+*Bleeding Crown:* 4DA20
+*Blisterwort:* 4DA25
+*Blue Butterfly Wing:* 727DE
+*Blue Dartwing:* E4F0C
+*Blue Mountain Flower:* 77E1C
+*Boar Tusk /(Dragonborn DLC)/:* XX01CD6F
+*Bone Meal:* 34CDD
+*Briar Heart:* 3AD61
+*Burnt Spriggan Wood /(Dragonborn DLC)/:* XX01CD6E
+*Butterfly Wing:* 727E0
+*Canis Root:* 6ABCB
+*Charred Skeever Hide:* 52695
+*Chaurus Eggs:* 3AD56
+*Charus Hunter Antennae /(Dawnguard DLC)/:* XX0183B7
+*Chicken’s Egg:* 23D77
+*Creep Cluster:* B2183
+*Crimson Nirnroot:* B701A
+*Cyrodilic Spadetail:* 106E19
+*Daedra Heart:* 3AD5B
+*Deathbell:* 516C8
+*Dragons Tongue:* 889A2
+*Dwarven Oil:* F11C0
+*Ectoplasm:* 3AD63
+*Elves Ear:* 34D31
+*Emperor Parasol Moss /(Dragonborn DLC)/:* XX01FF75
+*Eye of Sabre Cat:* 6BC07
+*Falmer Ear:* 3AD5D
+*Felsaad Tern Feathers /(Dragonborn DLC)/:* XX03CD8E
+*Fire Salts:* 3AD5E
+*Fly Amanita:* 4DA00
+*Frost Mirriam:* 34D32
+*Frost Salts:* 3AD5F
+*Garlic:* 34D22
+*Giant Lichen:* 7E8C1
+*Giant’s Toe:* 3AD64
+*Gleamblossom /(Dawnguard DLC)/:* XX00B097
+*Glow Dust:* 3AD73
+*Glowing Mushroom:* 7EE01
+*Grass Pod:* 83E64
+*Hagraven Claw:* 6B689
+*Hagraven Feathers:* 3AD66
+*Hanging Moss:* 57F91
+*Hawk Beak:* E7EBC
+*Hawk Feathers:* E7ED0
+*Hawk’s Egg /(Hearthfire DLC)/:* XX00F1CC
+*Histcarp:* 106E18
+*Honeycomb:* B08C5
+*Human Flesh:* 1016B3
+*Human Heart:* B18CD
+*Ice Wraith Teeth:* 3AD6A
+*Imp Stool:* 4DA23
+*Jarrin Root:* 1BCBC
+*Jazbay Grapes:* 6AC4A
+*Juniper Berries:* 5076E
+*Large Antlers:* 6BC0A
+*Lavender:* 45C28
+*Luna Moth Wing:* 727DF
+*Moon Sugar:* D8E3F
+*Mora Tapinella:* EC870
+*Mudcrab Chitin:* 6BC00
+*Namira’s Rot:* 4DA24
+*Netch Jelly /(Dragonborn DLC)/:* XX01CD72
+*Nightshade:* 2F44C
+*Nirnroot:* 59B86
+*Nordic Barnacle:* 7EDF5
+*Orange Dartwing:* BB956
+*Pearl:* 854FE
+*Pine Thrush Egg:* 23D6F
+*Poison Bloom /(Dawnguard DLC)/:* XX0185FB
+*Powdered Mammoth Tusk:* 6BC10
+*Purple Mountain Flower:* 77E1E
+*Red Mountain Flower:* 77E1D
+*River Betty:* 106E1A
+*Rock Warbler Egg:* 7E8C8
+*Sabre Cat Tooth:* 6BC04
+*Salmon Roe/(Hearthfire DLC)/:* XX003545
+*Salt Pile /(Black Briar Secret Ingredient)/:* 74A19
+*Salt Pile:* 34CDF
+*Scaly Pholiota:* 6F950
+*Scathecraw (Dragonborn DLC):* XX017E97
+*Silverside Perch:* 106E1C
+*Skeever Tail:* 3AD6F
+*Slaughterfish Egg:* 7E8C5
+*Slaughterfish Scales:* 3AD70
+*Small Antlers:* 6BC0B
+*Small Pearl:* 85500
+*Snowberries:* 1B3BD
+*Spawn Ash /(Dragonborn DLC)/:* XX01CD6D
+*Spider Egg:* 9151B
+*Spriggan Sap:* 63B5F
+*Swamp Fungal Pod:* 7E8B7
+*Taproot:* 3AD71
+*Thistle Branch:* 134AA
+*Torchbug Thorax:* 4DA73
+*Trama Root /(Dragonborn DLC)/:* XX017008
+*Troll Fat:* 3AD72
+*Tundra Cotton:* 3F7F8
+*Vampire Dust:* 3AD76
+*Void Salts:* 3AD60
+*Wheat:* 4B0BA
+*White Cap:* 4DA22
+*Wisp Wrappings:* 6BC0E
+*Yellow Mountain Flower /(Dawnguard DLC)/:* XX002A78
+
+_*Food*_
+
+Raw Cooking Ingredients
+
+*Ash Yam /(Dragonborn DLC)/:* XX0206E7
+*Butter /(Hearthfire DLC)/:* XX00353C
+*Cabbage:* 64B3F
+*Carrot:* 64B40
+*Chicken Breast:* F2011
+*Clam Meat:* EBA03
+*Eidar Cheese Wheel:* 64B34
+*Green Apple:* 64B2F
+*Horker Meat:* 65C9B
+*Horse Meat:* 65C9C
+*Jug of Milk /(Hearthfire DLC)/:* XX003534
+*Leek:* 669A5
+*Leg of Goat:* 65C9A
+*Mammoth Snout:* 669A4
+*Mudcrab Legs /(Hearthfire DLC)/:* XX003540
+*Pheasant Breast:* 65C9D
+*Potato:* 64B41
+*Raw Beef:* 65C99
+*Raw Rabbit Leg:* 65C9E
+*Red Apple:* 64B2E
+*Sack of Flour /(Hearthfire DLC)/:* XX003538
+*Salmon Meat:* 65C9F
+*Tomato:* 64B42
+*Venison:* 669A2
+
+Regular Food
+
+*Ash Hopper Leg /(Dragonborn DLC)/:* XX03D125
+*Ash Hopper Meat /(Dragonborn DLC)/: *XX03BD15
+*Boar Meat /(Dragonborn DLC)/:* XX03BD14
+*Dog Meat:* EDB2E
+*Eidar Cheese Wedge:* 64B32
+*Goat Cheese Wedge:* 64B31
+*Goat Cheese Wheel:* 64B33
+*Gourd:* 10D666
+*Honey:* 10394D
+*Sliced Eidar Cheese:* 64B36
+*Sliced Goat Cheese:* 64B35
+*Soul Husk (Dawnguard DLC):* XX014DC4
+
+Cooked at Cooking Pot
+
+*Apple Cabbage Stew:* EBA01
+*Beef Stew:* F4314
+*Cabbage Potato Soup:* F431B
+*Cabbage Soup:* EBA02
+*Clam Chowder /(Hearthfire DLC)/:* XX00353E
+*Cooked Beef:* 721E8
+*Elsweyr Fondue:* F4320
+*Grilled Chicken Breast:* E8947
+*Horker and Ash Yam Stew /(Dragonborn DLC)/:* XX03CD5B
+*Horker Loaf:* 7224E
+*Horker Stew:* F4315
+*Horse Haunch:* 722B0
+*Leg of Goat Roast:* 7224C
+*Mammoth Steak:* 722BB
+*Pheasant Roast:* 722C7
+*Potato Soup /(Hearthfire DLC)/:* XX00353D
+*Rabbit Haunch:* 722C2
+*Salmon Steak:* 64B3B
+*Steamed Mudcrab Legs /(Hearthfire DLC)/:* XX00353F
+*Tomato Soup:* F431C
+*Vegetable Soup:* F431E
+*Venison Chop:* 722BD
+*Venison Stew:* F431D
+
+Cooked at Oven
+
+*Apple Dumpling /(Hearthfire DLC)/:* XX003533
+*Apple Pie:* 64B43
+*Braided Bread /(Hearthfire DLC)/:* XX0009DB
+*Bread:* 65C97
+*Chicken Dumpling /(Hearthfire DLC)/:* XX0117FF
+*Garlic Bread /(Hearthfire DLC)/:* XX0009DC
+*Jazbay Crostata /(Hearthfire DLC)/:* XX00353A
+*Juniper Berry Crostata /(Hearthfire DLC)/:* XX003539
+*Lavender Dumpling /(Hearthfire DLC)/:* XX011801
+*Potato Bread /(Hearthfire DLC)/:* XX003537
+*Snowberry Crostata /(Hearthfire DLC)/:* XX00353B
+*Sweetroll:* 64B3D
+
+Unique Food Items
+
+*Baked Potatoes*: 64B3A
+*Boiled Creme Treat:* 64B30
+*Charred Skeever Meat:* E8448
+*Cooked Boar Meat /(Dragonborn DLC)/:* XX03CF72
+*Grilled Leeks:* 64B3E
+*Homecooked Meal:* CD614
+*Honey Nut Treat:* 64B38
+*Long Taffy Treat:* 64B39
+*Mammoth Cheese Bowl:* 669A3
+*Seared Slaughterfish:* 64B3C
+*Spiced Beef:* CADFB
+
+
+    *Beverages (Alcohol, Drinks, Narcotics)*
+
+*Empty Wine Bottles:*
+
+  * F2012
+  * F2013
+  * F2014
+  * F2015
+  * FED17
+
+Alcoholic /(Damage Stamina or Slow Movement)/
+
+*Ale:* 34C5E
+*Alto Wine:* 3133B
+*Argonian Ale:* 9380D
+*Argonian Bloodwine /(Hearthfire DLC)/:* XX003535
+*Ashfire Mead /(Dragonborn DLC)/:* XX03572F
+*Balmora Blue:* DC172
+*Black-Briar Mead:* 2C35A
+*Black-Briar Reserve:* F693F
+*Colovian Brandy:* 36D53
+*Cyrodilic Brandy:* B91D7
+*Dragon’s Breath Mead:* 555E8
+*Emberbrand Wine /(Dragonborn DLC)/:* XX0320DF
+*Firebrand Wine:* 1895F
+*Flin /(Dragonborn DLC)/:* XX0207E5
+*Honningbrew Mead:* 508CA
+*Mead with Juniper Berry:* 107A8A
+*Nord Mead:* 34C5D
+*Sadri’s Sujamma /(Dragonborn DLC)/:* XX024E0B
+*Shein /(Dragonborn DLC)/:* XX0248CC
+*Sleeping Tree Sap:* AED90
+*Spiced Wine:* 85368
+*Sujamma /(Dragonborn DLC)/:* XX0207E6
+*Surlie Brothers Wine /(Hearthfire DLC)/:* XX003536
+*Wine:* C5348
+
+Drinks /(_NO_ Negative Effects)/
+
+*Cliff Racer:* 65C39
+*Double Distilled Skooma:* 3F4BD
+*Jessica’s Wine:* F257E
+*Kordir’s Skooma:* 57A7B
+*Redwater Skooma /(Dawnguard DLC)/:* XX01391D
+*Skooma:* 57A7A
+*Stros M’Kai Rum:* D055E
+*Velvet LeChance:* 65C37
+*White-Gold Tower:* 65C38
+
+
+    *Crafting/Smithing Material & Misc. Item Codes*
+
+_*player.additem (code) (amount)*_
+
+Tools
+
+*Lockpick:* A
+*Gold:* F
+*Torch:* 1D4EC
+*Pickaxe:* E3C16 /(Can _NOT_ mine Stahlrim)/
+*Ancient Nordic Pickaxe /(Dragonborn DLC)/:* XX0398E6 /(Can mine Stahlrim)/
+*Woodcutter:* 2F2F4
+*Firewood:* 6F993
+
+Gems
+
+*Amethyst:* 63B46
+*Flawless Amethyst:* 6851E
+*Diamond:* 63B47
+*Flawless Diamond:* 6851F
+*Emerald:* 63B43
+*Flawless Emerald:* 68520
+*Garnet:* 63B45
+*Flawless Garnet:* 68521
+*Ruby:* 63B42
+*Flawless Ruby:* 68522
+*Sapphire:* 63B44
+*Flawless Sapphire:* 68523
+
+Ore
+
+*Iron Ore:* 71CF3 /(Iron + Corundum = Steel)/
+*Dwarven Scrap:*
+
+  * /(Produces Least to Most Ingots)/ *Large Decorative Dwemer Strut:*
+    C8878
+  * *Bent Dwemer Scrap Metal:* C886C
+  * *Large Dwemer Plate Metal:* C8864
+  * *Small Dwemer Plate Metal:* C8866
+  * *Large Dwemer Strut:* C8872
+  * *Solid Dwemer Metal:* C8874
+    _*Note:*_ _Non-bent_ Dwemer Scrap Metal is _NOT_ a ore subsititute
+
+*Corundum Ore:* 5ACDB
+*Orichalum Ore:* 5ACDD
+*Silver Ore:* 5ACDF
+*Quicksilver Ore:* 5ACE2
+*Moonstone Ore:* 5ACE0
+*Malachite Ore:* 5ACE1
+*Gold Ore:* 5ACDE
+*Ebony Ore:* 5ACDC
+*Stahlrim /(Dragonborn DLC)/:* XX02B06B /(Only Mined with _Ancient
+Nordic Pickaxe_; Does _NOT require Smelting_)/
+
+Ingots
+
+*Iron Ingot:* 5ACE4
+*Steel Ingot:* 5ACE5
+*Dwarven Metal Ingot:* DB8A2
+*Corundum:* 5AD93
+*Orichalum:* 5AD99
+*Silver Ingot:* 5ACE3
+*Quicksilver:* 5ADA0
+*Refined Moonstone:* 5AD9F
+*Refined Malachite:* 5ADA1
+*Gold Ingot:* 5AD9E
+*Ebony Ingot:* 5AD9D
+
+Hides & Pelts:
+
+*Bear Pelt:* 3AD52
+*Cave Bear Pelt:* 3AD53
+*Snow Bear Pelt:* 3AD54
+*Cow Hide:* 3AD8F
+*Deer Hide:* 3AD90
+*Vale Deer Hide /(Dawnguard DLC)/:* XX011999
+*Deer Pelt:* CF89E
+*Fox Pelt:* D4B35
+*Snow Fox Pelt:* D4BE7
+*Goat Hide:* 3AD8E
+*Horse Hide:* 3AD93
+*Sabre Cat Pelt:* 3AD6D
+*Sabre Cat Snow Pelt: *3AD6E
+*Wolf Pelt:* 3AD74
+*Ice Wolf Pelt:* 3AD75
+
+Crafting Materials
+
+*Leather:* DB5D2
+*Leather Strips:* 800E4
+*Netch Leather: /(Dragonborn DLC)/:* XX01CD7C
+*Chitin Plate /(Dragonborn DLC)/:* XX02B04E
+*Shellbug Chitin /(Dawnguard DLC)/:* XX0195AA
+*Dragon Scales:* 3ADA3
+*Dragon Bone:* 3ADA4
+
+Misc.
+
+*Child’s Doll /(Hearthfire DLC)/:* XX00C1DE
+*Wooden Sword /(Hearthfire DLC)/:* XX004D91
+*Charcoal:* 33760
+*Chaurus Chitin:* 3AD57
+*Dragon Scales:* 3ADA3
+*Dragon Bone:* 3ADA4
+*Linen Wrap:* 34CD6
+*Mammoth Tusk:* 3AD6C
+*Roll of Paper:* 33761
+*Skull:* AF5FD
+*Troll Skull:* 319E4
+
+
+    *Housebuilding Materials (Hearthstone DLC)*
+
+Housebuilding Materials
+
+*Clay /(Hearthfire DLC)/:* XX003043
+*Glass /(Hearthfire DLC)/:* XX005A69
+*Hinge /(Hearthfire DLC)/:* XX003011
+*Iron Fittings /(Hearthfire DLC)/:* XX003035
+*Iron Ingot:* 5ACE4
+*Steel Ingot:* 5ACE5
+*Lock /(Hearthfire DLC)/:* XX003012
+*Nails /(Hearthfire DLC)/: *XX00300F
+*Quarried Stone /(Hearthfire DLC)/:* XX00306C
+*Sawn Logs /(Hearthfire DLC)/:* XX00300E
+*Straw /(Hearthfire DLC)/:* XX005A68
+
+Mounted Heads – Housebuilding
+
+*Leather Strips:* 800E4
+*Goat Horns /(Hearthfire DLC)/:* XX00303F
+*Large Antlers /(Hearthfire DLC)/:* 6BC0A
+*Small Antlers /(Hearthfire DLC)/:* 6BC0B
+*Bear Pelt:* 3AD52
+*Deer Hide:* 3AD90
+*Goat Hide:* 3AD8E
+*Horker Tusk:* 3AD68
+*Mudcrab Chitin:* 6BC00
+*Sabre Cat Tooth /(Hearthfire DLC)/:* 6BC04
+*Sabre Cat Pelt:* 3AD6D
+*Sabre Cat Snow Pelt: *3AD6E
+*Slaughterfish Scales:* 3AD70
+*Wolf Pelt:* 3AD74
+
+Shrine Building
+
+_*Shrine of Akatosh*_
+/Magicka regenerates 10% faster/
+*Amulet of Akatosh:* C8911
+*Flawless Amethyst:* 6851E
+*Corundum Ingot:* 5AD93
+*Iron Ingot:* 5ACE4
+
+_*Shrine of Arkay*_
+/Increases Health by 25 pts/
+*Amulet of Arkay:* CC848
+*Orichalcum Ingot:* 5AD99
+*Silver Ingot:* 5ACE3
+*Iron Ingot:* 5ACE4
+
+_*Shrine of Dibella*_
+/Adds +10 to Speech/
+*Amulet of Dibella:* C8915
+*Orichalcum Ingot:* 5AD99
+*Quicksilver Ingot:* 5ADA0
+*Iron Ingot:* 5ACE4
+
+_*Shrine of Julianos*_
+/Increases Magicka by 25 pts/
+*Amulet of Julianos:* C8917
+*Ebony Ingot:* 5AD9D
+
+_*Shrine of Kynareth*_
+/Increases Stamina by 25 pts/
+*Amulet of Kynareth:* C8919
+*Flawless Sapphire:* 68523
+*Refined Moonstone:* 5AD9F
+
+_*Shrine of Mara*_
+/Fortify Restoration by 10%/
+*Amulet of Mara:* C891B
+*Silver Ingot:* 5ACE3
+*Refined Malachite:* 5ADA1
+
+_*Shrine of Stendarr*_
+/Block 10% more damage with your shield/
+*Amulet of Stendarr:* CC844
+*Quicksilver Ingot:* 5ADA0
+*Silver Ingot:* 5ACE3
+*Steel Ingot:* 5ACE5
+
+_*Shrine of Talos*_
+/Reduce time between shouts by 20%/
+*Amulet of Talos:* CC846
+*Steel Ingot:* 5ACE5
+*Dragon Bone:* 3ADA4
+*Dragon Scales:* 3ADA3
+
+_*Shrine of Zenithar*_
+/Prices are 10% better/
+*Amulet of Zenithar:* 878BB
+*Steel Ingot:* 5ACE5
+*Gold Ingot:* 5AD9E
+
+Trophy Building /(Trophy Room in Hearthfire DLC)/
+
+*Straw /(Hearthfire DLC)/:* XX005A68
+
+_*Bear & Snow Bear*_
+*Bear Claws:* 6BC02
+*Bear Pelt:* 3AD52
+*Cave Bear Pelt:* 3AD53
+*Snow Bear Pelt:* 3AD54
+
+_*Chaurus*_
+*Chaurus Chitin:* 3AD57
+
+_*Cow*_
+*Cow Hide:* 3AD8F
+
+_*Deer/Elk*_
+*Deer Hide:* 3AD90
+*Large Antlers /(Hearthfire DLC)/:* 6BC0A
+
+_*Dragon Skull*_
+*Dragon Bone:* 3ADA4
+
+_*Draugr & Skeleton*_
+*Bone Meal:* 34CDD
+*Ancient Nord Sword:*
+*Ancient Nord Bow:* 302CA
+*Ancient Nord Arrow:* 34182
+*Skull:* AF5FD
+
+_*Dwarven Sphere & Dwarven Spider*_
+*Dwemer Scrap Metal:* C886A
+*Petty Soul Gem:* 2E4E2
+
+_*Falmer*_
+*Falmer Ear:* 3AD5D
+*Falmer Sword:* 2E6D1
+
+_*Frostbite Spider*_
+*Frostbite Venom:* E41B8
+
+_*Goat*_
+*Goat Hide:* 3AD8E
+*Goat Horns /(Hearthfire DLC)/:* XX00303F
+
+_*Hagraven*_
+*Hagraven Claw:* 6B689
+*Hagraven Feathers:* 3AD66
+
+_*Horker*_
+*Horker Tusk:* 3AD68
+
+_*Mudcrab*_
+*Mudcrab Chitin:* 6BC00
+
+_*Sabre Cat*_
+*Sabre Cat Tooth /(Hearthfire DLC)/:* 6BC04
+*Sabre Cat Pelt:* 3AD6D
+
+_*Skeever*_
+*Skeever Tail:* 3AD6F
+*Charred Skeever Hide:* 52695
+
+_*Slaughterfish*_
+*Slaughterfish Scales:* 3AD70
+
+_*Spriggan*_
+*Sawn Logs /(Hearthfire DLC)/:* XX00300E
+*Taproot:* 3AD71
+
+_*Troll & Frost Troll*_
+*Troll Fat:* 3AD72
+*Troll Skull:* 319E4
+
+_*Wolf & Ice Wolf*_
+*Wolf Pelt:* 3AD74
+*Ice Wolf Pelt:* 3AD75
+
+
+    *Perk Command Codes (Crafting, Armor, Weapons, Thief)*
+
+_*player.addperk (code)
+player.removeperk (code)*_
+
+**Add Skill Usage Points:* advskill (SkillName) (amount)*
+
+  * NOTE: Inconsistent between skills.
+  * “speechcraft” for speech
+  * “marksman” for archery
+
+**Increase Skill by One*: incpcs (SkillName)*
+/As you level up skills, your player eventually levels up and you gain
+perk points./
+
+_*CRAFTING*_
+
+Alchemy
+
+*Alchemist Rank 1:* BE127
+*Alchemist Rank 2:* C07CA
+*Alchemist Rank 3:* C07CB
+*Alchemist Rank 4:* C07CC
+*Alchemist Rank 5:* C07CD
+*Physician:* 58215
+*Benefactor:* 58216
+*Poisoner:* 58217
+*Experimenter Rank 1:* 58218
+*Experimenter Rank 2:* 105F2A
+*Experimenter Rank 3:* 105F2B
+*Concentrated Poison:* 105F2F
+*Green Thumb:* 105F2E
+*Snakeblood:* 105F2C
+*Purity:* 5821D
+
+Enchanting
+
+*Enchanter Rank 1:* BEE97
+*Enchanter Rank 2:* C367C
+*Enchanter Rank 3:* C367D
+*Enchanter Rank 4:* C367E
+*Enchanter Rank 5:* C367F
+*Soul Squeezer:* 58F7C
+*Fire Enchanter:* 58F80
+*Frost Enchanter:* 58F81
+*Soul Siphon:* 108A44
+*Insightful Enchanter:* 58F7E
+*Storm Enchanter:* 58F82
+*Corpus Enchanter:* 58F7D
+*Extra Effect:* 58F7F
+
+Smithing
+
+*Steel Smithing:* CB40D
+*Arcane Blacksmith:* 5218E
+*Elven Smithing:* CB40F
+*Advanced Armor:* CB414
+*Glass Smithing:* CB411
+*Dwarven Smithing:* CB40E
+*Orcish Smithing:* CB410
+*Ebony Smithing:* CB412
+*Daedric Smithing:* CB413
+*Dragon Smithing:* 52190
+
+_*ARMOR*_
+
+Heavy Armor
+
+*Juggernaut Rank 1:* BCD2A
+*Juggernaut Rank 2:* 7935E
+*Juggernaut Rank 3:* 79361
+*Juggernaut Rank 4:* 79362
+*Juggernaut Rank 5:* 79374
+*Well Fitted:* 58F6F
+*Tower of Strength:* 58F6C
+*Matching Set:* 107832
+*Reflect Blows:* 105F33
+*Fists of Steel:* 58F6E
+*Cushioned:* BCD2B
+*Conditioning:* 58F6D
+
+Light Armor
+
+*Agile Defender 1:* BE123
+*Agile Defender 2:* 79376
+*Agile Defender 3:* 79389
+*Agile Defender 4:* 79391
+*Agile Defender 5:* 79392
+*Custom Fit:* 51B1B
+*Unhindered:* 51B1C
+*Wind Walker:* 105F22
+*Matching Set:* 51B17
+*Deft Movement:* 107831
+
+Block
+
+*Shield Wall Rank 1:* BCCAE
+*Shield Wall Rank 2:* 79355
+*Shield Wall Rank 3:* 79356
+*Shield Wall Rank 4:* 79357
+*Shield Wall Rank 5:* 79358
+*Quick Reflexes:* D8C33
+*Deflect Arrows:* 58F68
+*Power Bash:* 58F67
+*Elemental Protection:* 58F69
+*Deadly Bash:* 5F594
+*Disarming Bash:* 58F66
+*Shield Charge:* 58F6A
+*Block Runner:* 106253
+
+_*WEAPONS*_
+
+Archery
+
+*Overdraw Rank 1:* BABED
+*Overdraw Rank 2:* 7934A
+*Overdraw Rank 3:* 7934B
+*Overdraw Rank 4:* 7934D
+*Overdraw Rank 5:* 79354
+*Eagle Eye:* 58F61
+*Critical Shot Rank 1:* 105F1C
+*Critical Shot Rank 2:* 105F1E
+*Critical Shot Rank 3:* 105F1F
+*Steady Hand Rank 1:* 103ADA
+*Steady Hand Rank 2: *103ADB
+*Power Shot:* 58F62
+*Hunter’s Discipline:* 51B12
+*Ranger:* 58F63
+*Quick Shot:* 105F19
+*Bullseye:* 58F64
+
+One-Handed
+
+*Armsman Rank 1:* BABE4
+*Armsman Rank 2:* 79343
+*Armsman Rank 3:* 79342
+*Armsman Rank 4:* 79344
+*Armsman Rank 5:* 79345
+*Fighting Stance:* 52D50
+*Hack and Slash Rank 1:* 3FFFA
+*Hack and Slash Rank 2:* C3678
+*Hack and Slash Rank 3:* C3679
+*Bone Breaker Rank 1:* 5F592
+*Bone Breaker Rank 2:* C1E92
+*Bone Breaker Rank 3:* C1E93
+*Bladesman Rank 1:* 5F56F
+*Bladesman Rank 2:* C1E90
+*Bladesman Rank 3:* C1E91
+*Dual Flurry Rank 1:* 106256
+*Dual Flurry Rank 2:* 106257
+*Savage Strike:* 3AF81
+*Critical Charge:* CB406
+*Dual Savagery:* 106258
+*Paralyzing Strike:* 3AFA6
+
+Two-Handed
+
+*Barbarian Rank 1:* BABE8
+*Barbarian Rank 2:* 79346
+*Barbarian Rank 3:* 79347
+*Barbarian Rank 4:* 79348
+*Barbarian Rank 5:* 79349
+*Champion’s Stance:* 52D51
+*Limbsplitter Rank 1:* C5C05
+*Limbsplitter Rank 2:* C5C06
+*Limbsplitter Rank 3:* C5C07
+*Deep Wounds Rank 1:* 3AF83
+*Deep Wounds Rank 2:* C1E94
+*Deep Wounds Rank 3:* C1E95
+*Skull Crusher Rank 1:* 3AF84
+*Skull Crusher Rank 2:* C1E96
+*Skull Crusher Rank 3:* C1E97
+*Devastating Blow:* 52D52
+*Great Critical Charge:* CB407
+*Sweep:* 3AF9E
+*Warmaster:* 3AFA7
+
+_*BARTER & THIEF SKILLS*_
+
+Speech
+
+*Haggling Rank 1:* BE128
+*Haggling Rank 2:* C07CE
+*Haggling Rank 3:* C07CF
+*Haggling Rank 4:* C07D0
+*Haggling Rank 5:* C07D1
+*Bribery:* 58F72
+*Allure:* 58F75
+*Persuasion:* 1090A2
+*Merchant:* 58F7A
+*Investor:* 58F7B
+*Intimidation:* 105F29
+*Fence:* 58F79
+*Master Trader:* 1090A5
+
+Sneak
+
+*Stealth Rank 1:* BE126
+*Stealth Rank 2:* C07C6
+*Stealth Rank 3:* C07C7
+*Stealth Rank 4:* C07C8
+*Stealth Rank 5:* C07C9
+*Backstab:* 58210
+*Deadly Aim:* 1036F0
+*Assassin’s Blade:* 58211
+*Muffled Movement:* 58213
+*Light Foot:* 5820C
+*Silent Roll:* 105F23
+*Silence:* 105F24
+*Shadow Warrior:* 58214
+
+Pickpocket
+
+*Light Fingers Rank 1:* BE124
+*Light Fingers Rank 2:* 18E6A
+*Light Fingers Rank 3:* 18E6B
+*Light Fingers Rank 4:* 18E6C
+*Light Fingers Rank 5:* 18E6D
+*Night Thief:* 58202
+*Poisoned:* 105F28
+*Cutpurse:* 58204
+*Keymaster:* D79A0
+*Extra Pockets:* 96590
+*Misdirection:* 58201
+*Perfect Touch:* 58205
+
+Lockpicking
+
+*Novice Locks:* F392A
+*Apprentice Locks:* BE125
+*Quick Hands:* 106259
+*Wax Key:* 107830
+*Adept Locks:* C3680
+*Golden Touch:* 5820A
+*Treasure Hunter:* 105F26
+*Expert Locks:* C3681
+*Locksmith:* 58208
+*Unbreakable:* 58209
+*Master Locks:* C3682
+
+
+    *Perk Command Codes (Schools of Magic)*
+
+_*player.addperk (code)
+player.removeperk (code)*_
+
+**Add Skill Usage Points:* advskill (SkillName) (amount)*
+
+  * NOTE: Inconsistent between skills.
+  * “speechcraft” for speech
+  * “marksman” for archery
+
+**Increase Skill by One*: incpcs (SkillName)*
+/As you level up skills, your player eventually levels up and you gain
+perk points./
+
+Alteration
+
+*Novice Alteration:* F2CA6
+*Apprentice Alteration:* C44B7
+*Adept Alteration:* C44B8
+*Expert Alteration:* C44B9
+*Master Alteration:* C44BA
+*Alteration Dual Casting:* 153CD
+*Mage Armor Rank 1:* D7999
+*Mage Armor Rank 2:* D799A
+*Mage Armor Rank 3:* D799B
+*Magic Resistance Rank 1:* 53128
+*Magic Resistance Rank 2:* 53129
+*Magic Resistance Rank 3:* 5312A
+*Stability:* 581FC
+*Atronach:* 581F7
+
+Conjuration
+
+*Novice Conjuration:* F2CA7
+*Apprentice Conjuration:* C44BB
+*Adept Conjuration:* C44BC
+*Expert Conjuration:* C44BD
+*Master Conjuration:* C44BE
+*Conjuration Dual Casting:* 153CE
+*Mystic Binding:* 640B3
+*Summoner Rank 1:* 105F30
+*Summoner Rank 2:* 105F31
+*Soul Stealer:* D799E
+*Oblivion Binding:* D799C
+*Necromancy:* 581DD
+*Atromancy:* CB419
+*Elemental Potency:* CB41A
+*Dark Souls:* 581DE
+*Twin Souls:* D5F1C
+
+Destruction
+
+*Novice Destruction:* F2CA8
+*Apprentice Destruction:* C44BF
+*Adept Destruction:* C44C0
+*Expert Destruction:* C44C1
+*Master Destruction:* C44C2
+*Destruction Dual Casting:* 153CF
+*Impact:* 153D2
+*Rune Master:* 105F32
+*Augmented Frost Rank 1:* 581EA
+*Augmented Frost Rank 2:* 10FCF9
+*Augemented Flames Rank 1:* 581E7
+*Augemented Flames Rank 2: *10FCF8
+*Augemented Shock Rank 1:* 58200
+*Augemented Shock Rank 2:* 10FCFA
+*Deep Freeze:* F3933
+*Disintegrate:* F3F0E
+*Intense Flames:* F392E
+
+Illusion
+
+*Novice Illusion:* F2CA9
+*Illusion Dual Casting:* 153D0
+*Apprentice Illusion:* C44C3
+*Adept Illusion:* C44C4
+*Expert Illusion:* C44C5
+*Master Illusion:* C44C6
+*Animage:* 581E1
+*Kindred Mage:* 581E2
+*Hypnotic Gaze:* 59B77
+*Aspect of Terror:* 59B78
+*Quiet Casting:* 581FD
+*Rage:* C44B5
+*Master of the Mind:* 59B76
+
+Restoration
+
+*Novice Restoration:* F2CAA
+*Apprentice Restoration:* C44C7
+*Adept Restoration:* C44C8
+*Expert Restoration:* C44C9
+*Master Restoration:* C44CA
+*Restoration Dual Casting:* 153D1
+*Regeneration:* 581F8
+*Respite:* 581F9
+*Recovery Rank 1:* 581F4
+*Recovery Rank 2:* 581F5
+*Avoid Death:* A3F64
+*Necromage:* 581E4
+*Ward Absorb:* 68BCC
+
+
+    *Perk Command Codes (Werewolf & Vampire)*
+
+_*player.addperk (code)
+player.removeperk (code)*_
+
+**Add Skill Usage Points:* advskill (SkillName) (amount)*
+
+  * NOTE: Inconsistent between skills.
+  * “speechcraft” for speech
+  * “marksman” for archery
+
+**Increase Skill by One*: incpcs (SkillName)*
+/As you level up skills, your player eventually levels up and you gain
+perk points./
+
+Werewolf
+
+*(Dawnguard DLC)*
+_Use codes when in Beast Form._
+*Bestial Strength 1:* XX0059A4
+*Bestial Strength 2:* XX007A3F
+*Bestial Strength 3:* XX011CFA
+*Bestial Strength 4:* XX011CFB
+*Animal Vigor:* XX0059A7
+*Gorging:* XX0059A5
+*Savage Feeding:* XX0059A6
+*Totem of Terror:* XX0059A8
+*Totem of the Predator:* XX0059A9
+*Totem of Ice Brothers:* XX0059AA
+*Totem of the Moon:* XX0059AB
+
+Vampire Lord
+
+*(Dawnguard DLC)*
+_Use codes when in Vampire Lord form._
+*Power of the Grave:* XX005998
+*Vampiric Grip:* XX00599A
+*Summon Gargoyle:* XX016908
+*Corpse Curse:* XX008A70
+*Detect All Creatures:* XX00599B
+*Mist Form:* XX00599C
+*Supernatural Reflexes:* XX00599E
+*Blood Healing:* XX005994
+*Unearthly Will:* XX005995
+*Poison Talons:* XX005996
+*Night Cloak:* XX005997
+
+
+    *Shout & Dragon Soul Codes*
+
+*Add a Shout:* *_player.teachword_ OR _addshout_ *
+After learning a word *you will need to unlock it* in your skills menu
+using a dragon soul.
+Alternatively, you can use the command:
+
+_*player.unlockword*_
+
+*Dragon Souls: _player.forceav dragonsouls (amount)_*
+
+*Shout Codes Below… *
+(I’m sorry for the large gap between title and table. Can’t seem to move
+the table up closer.)
+((Don’t worry though all the codes are there. *Phantom Clone Shout is on
+bottom of DLC page*))
+
+*Skyrim Shout Codes (No DLC)*
+
+*Animal Allegiance*
+
+RAAN = Animal
+
+60291
+
+*Animal Allegiance*
+
+MIR = Allegiance
+
+60292
+
+*Animal Allegiance*
+
+TAH = Pack
+
+60293
+
+*Aura Whisper*
+
+LAAS = Life
+
+60294
+
+*Aura Whisper*
+
+YAH = Seek
+
+60295
+
+*Aura Whisper*
+
+NIR = Hunt
+
+60296
+
+*Become Ethereal*
+
+FEIM = Fade
+
+32917
+
+*Become Ethereal*
+
+ZI = Spirit
+
+32918
+
+*Become Ethereal*
+
+GRON = Bind
+
+32919
+
+*Call Dragon*
+
+OC = Snow
+
+46B89
+
+*Call Dragon*
+
+AH = Hunter
+
+46B8A
+
+*Call Dragon*
+
+VIING = Wing
+
+46B8B
+
+*Call of Valor*
+
+HUN = Hero
+
+51960
+
+*Call of Valor*
+
+KAAR = Champion
+
+51961
+
+*Call of Valor*
+
+ZOOL = Legend
+
+51962
+
+*Clear Skies*
+
+LOK = Sky
+
+3CD31
+
+*Clear Skies*
+
+VAH = Spring
+
+3CD32
+
+*Clear Skies*
+
+KOOR = Summer
+
+3CD33
+
+*Disarm*
+
+ZUN = Weapon
+
+5FB95
+
+*Disarm*
+
+VIIK = Defeat
+
+5FB97
+
+*Dismay*
+
+MAAR = Terror
+
+3291C
+
+*Dragonrend*
+
+JOOR = Mortal
+
+44251
+
+*Dragonrend*
+
+ZAH = Finite
+
+44252
+
+*Dragonrend*
+
+FRUL = Temporary
+
+44253
+
+*Elemental Fury*
+
+SU = Air
+
+3291D
+
+*Elemental Fury*
+
+GRAH = Battle
+
+3291E
+
+*Elemental Fury*
+
+DUN = Fury
+
+3291F
+
+*Fire Breath*
+
+YOL = Fire
+
+20E17
+
+*Fire Breath*
+
+TOOR = Inferno
+
+20E18
+
+*Fire Breath*
+
+KREIN (SHUL) = Sun
+
+20E19
+
+*Frost Breath*
+
+FO = Frost
+
+5D16C
+
+*Frost Breath*
+
+KRAH = Cold
+
+5D16D
+
+*Frost Breath*
+
+DIIN = Freeze
+
+5D16E
+
+*Ice Form*
+
+SLEN = Flesh
+
+602A4
+
+*Ice Form*
+
+NUS = Statue
+
+602A5
+
+*Kyne’s Peace*
+
+KAAN = Kyne
+
+6029D
+
+*Kyne’s Peace*
+
+DREM = Peace
+
+6029E
+
+*Kyne’s Peace*
+
+OV = Trust
+
+6029F
+
+*Marked for Death*
+
+KRII = Kill
+
+60297
+
+*Marked for Death*
+
+LUN = Leech
+
+60298
+
+*Marked for Death*
+
+AUS = Suffer
+
+60299
+
+*Slow Time*
+
+TIID = Time
+
+48ACA
+
+*Slow Time*
+
+KLO = Sand
+
+48ACB
+
+*Slow Time*
+
+UL= Eternity
+
+48ACC
+
+*Storm Call*
+
+STRUN = Storm
+
+6029A
+
+*Storm Call*
+
+BAH = Wrath
+
+6029B
+
+*Storm Call*
+
+QO = Lightning
+
+6029C
+
+*Throw Voice*
+
+ZUL = Voice
+
+602A0
+
+*Throw Voice*
+
+MEY = Fool
+
+602A1
+
+*Throw Voice*
+
+GUT = Far
+
+602A2
+
+*Unrelenting Force*
+
+FUS = Force
+
+13E22
+
+*Unrelenting Force*
+
+RO = Balance
+
+13E23
+
+*Unrelenting Force*
+
+DAH = Push
+
+13E24
+
+*Whirlwind Sprint*
+
+WULD = Whirwind
+
+2F7BB
+
+*Whirlwind Sprint*
+
+NAH = Fury
+
+2F7BC
+
+*Whirlwind Sprint*
+
+KEST = Tempest
+
+2F7BD
+
+_*In Alphabetical Order*_
+…
+
+
+    *Shout Codes (Dawnguard & Dragonborn DLC)*
+
+*Add a Shout:* *_player.teachword_ OR _addshout_ *
+After learning a word *you will need to unlock it* in your skills menu
+using a dragon soul.
+Alternatively, you can use the command:
+
+_*player.unlockword*_
+
+*Dragon Souls: _player.forceav dragonsouls (amount)_*
+
+*Shout Codes Below… *
+
+*Dawnguard DLC Shout Codes*
+
+*Drain Vitality*
+
+GAAN = Stamina
+
+XX008A65
+
+*Drain Vitality*
+
+LAH = Magicka
+
+XX008A64
+
+*Drain Vitality*
+
+HAAS = Health
+
+XX008A63
+
+*Soul Cairn Summon*
+
+DIII = Undead
+
+XX01A162
+
+*Soul Cairn Summon*
+
+QOTH = Tomb
+
+XX01A163
+
+*Soul Cairn Summon*
+
+ZAAM = Slave
+
+XX01A164
+
+*Soul Tear*
+
+RII= Essence
+
+XX007CB7
+
+*Soul Tear*
+
+VAAZ = Tear
+
+XX007CB8
+
+*Soul Tear*
+
+ZOL = Zombie
+
+XX007CB9
+
+*Summon Durnehviir*
+
+DUR = Curse
+
+XX0030D4
+
+*Summon Durnehviir*
+
+NEH = Never
+
+XX0030D6
+
+*Summon Durnehviir*
+
+VIIR = Dying
+
+XX0030D7
+
+_*In Alphabetical Order*_
+
+*XX* represents the Load Order of your Dawnguard or Dragonborn DLCs. For
+instance, if Skyrim.esm is 00, Update.esm is 01, and your Dawnguard.esm
+was loaded next then it would be 02. So you would replace XX with 02. IF
+02 DOES NOT WORK, TRY 03 OR 04.
+
+*Dragonborn DLC Shout Codes*
+
+*Battle Fury*
+
+MID = Loyal
+
+XX0200E4
+
+*Battle Fury*
+
+VUR = Valor
+
+XX0200E5
+
+*Battle Fury*
+
+SHAAN = Inspire
+
+XX0200E6
+
+*Bend Will*
+
+GOL = Earth
+
+XX0179D9
+
+*Bend Will*
+
+HA = Mind
+
+XX0179DA
+
+*Bend Will*
+
+DOV = Dragon
+
+XX0179DB
+
+*Cyclone*
+
+VEN = Wind
+
+XX0200C2
+
+*Cyclone*
+
+GAR = Unleash
+
+XX0200C3
+
+*Cyclone*
+
+NOS = Strike
+
+XX0200C4
+
+*Dragon Aspect*
+
+MUL = Strength
+
+XX01DF93
+
+*Dragon Aspect*
+
+QAH = Armor
+
+XX01DF94
+
+*Dragon Aspect*
+
+DIIV = Wyrm
+
+XX01DF95
+
+XX represents the Load Order of your DLC. So you may for instance
+replace XX with 04 if you have Dawnguard, Hearthfire, and Dragonborn
+DLC’s with Dragonborn loading last.
+
+*Summon Spectral Clone Shout Codes (NO DLC)*
+
+*Summon Spectral Clone*
+
+FIIK = Mirror
+
+2F2CC
+
+*Summon Spectral Clone*
+
+LO = Deceive
+
+2F2CD
+
+*Summon Spectral Clone*
+
+SAH = Phantom
+
+2F2CE
+
+The Dragonborn can use this shout and even has his own voice file.
+
+*Note:* This Shout is not very useful. Take care_not to harm the
+Spectral Clone in view_ of any guards or citizens, as this will cause a
+bounty to be imposed as if you had assaulted a normal NPC.
+
+
+    *Spell Codes*
+
+_*player.addspell (code)
+player.removespell (code)*_
+
+Alteration (Tolfdir)
+
+*Candlelight:* 43324
+*Oakflesh:* 5AD5C
+*Magelight:* 43323
+*Stoneflesh:* 5AD5D
+*Ash Shell:* XX017731 /(Dragonborn DLC)/
+*Detect Life:* 211EE
+*Ironflesh:* 51B16
+*Telekinesis:* 1A4CC
+*Transmute:* 109111
+*Waterbreathing:* 5D175
+*Ash Rune:* XX0177AF /(Dragonborn DLC)/
+*Detect Dead:* 211EF
+*Ebonyflesh:* 5AD5E
+*Paralyze:* 5AD5F
+*Dragonhide:* CDB70
+*Mass Paralysis:* B62E6
+*Equilibrium:* DA746
+
+Conjuration (Phinis Gestor)
+
+*Bound Dagger:* XX01CE06 /(Dragonborn DLC)/
+*Bound Sword:* 211EB
+*Conjure Familiar:* 640B6
+*Raise Zombie:* 7E8E1
+*Bound Battleaxe:* 211EC
+*Conjure Boneman:* XX0045BA /(Dawnguard DLC)/
+*Conjure Flame Atronach:* 204C3
+*Flaming Familiar:* 9CE26
+*Reanimate Corpse:* 65BD7
+*Soul Trap:* 4DBA4
+*Summon Arvak:* XX00C600 /(Dawnguard DLC)/
+*Banish Daedra:* 6D22C
+*Bound Bow:* 211ED
+*Conjure Ash Spawn:* XX01CDF6 /(Dragonborn DLC)/
+*Conjure Frost Atronach:* 204C4
+*Conjure Mistman:* XX0045B8 /(Dawnguard DLC)/
+*Conjure Seeker:* XX033C66 /(Dragonborn DLC)/
+*Revenant:* 96D94
+*Conjure Ash Guardian:* XX017782 /(Dragonborn DLC)/
+*Command Daedra:* 6F953
+*Conjure Dragon Priest:* 10FC16
+*Conjure Dremora Lord:* 10DDEC
+*Conjure Storm Atronach:* 204C5
+*Conjure Wrathman:* XX0045B3
+*Dread Zombie:* 96D95
+*Expel Daedra:* 6F952
+*Flame Thrall:* 7E5D5
+*Frost Thrall:* 7E5D6
+*Storm Thrall:* 7E5D7
+*Dead Thrall:* 7E8DF
+*Spectral Arrow:* AB23D
+*Summon Arniel’s Shade:* 6A153
+*Summon Unbound Dremora:* 99F39
+
+Destruction Spells (Faralda)
+
+*Flames:* 12FCD
+*Frostbite:* 2B96B
+*Spark:* 2DD2A
+*Fire Rune:* 5DB90
+*Fire Bolt:* 12FD0
+*Freeze:* XX02732D /(Dragonborn DLC)/
+*Frost Rune:* 6796F
+*Ice Spike:* 2B96C
+*Ignite:* XX02732B /(Dragonborn DLC)/
+*Lightning Bolt:* 2DD29
+*Lightning Rune:* 67970
+*Chain Lightning:* 45F9D
+*Fireball:* 1C789
+*Flame Cloak:* 3AE9F
+*Frost Cloak:* 3AEA2
+*Ice Storm:* 45F9C
+*Lightning Cloak:* 3AEA3
+*Whirlwind Cloak:* XX01772D /(Dragonborn DLC)/
+*Icy Spear: *10F7EC
+*Incinerate:* 10F7ED
+*Thunderbolt:* 10F7EE
+*Wall of Flames:* 35D7F
+*Wall of Frost:* 35D80
+*Wall of Storms:* 35D81
+*Blizzard:* 7E8E4
+*Fire Storm:* 7A82B
+*Lightning Storm:* 7E8E5
+*Arniels Convection:* 6A104
+*Vampiric Drain*
+
+  * *Level 1:* 8D5BF
+  * *Level 2:* 8D5C0
+  * *Level 3:* 8D5C1
+  * *Level 4:* 8D5C2
+
+Illusion (Drevis Neloren)
+
+*Clairvoyance:* 21143
+*Courage:* 4DEE8
+*Fury:* 4DEEB
+*Calm:* 4DEE9
+*Fear:* 4DEEA
+*Muffle:* 8F3EB
+*Frenzy:* 4DEEE
+*Frenzy Rune:* XX0177B7 /(Dragonborn DLC)/
+*Rally:* 4DEEC
+*Invisibility:* 27EB6
+*Pacify:* 4DEED
+*Rout:* 4DEEF
+*Call to Arms:* 7E8DD
+*Harmony:* 7E8DB
+*Hysteria:* 7E8DE
+*Mayhem:* 7E8DA
+*Vision of the Tenth Eye:* B323E
+
+Restoration (Colette Marence)
+
+*Healing:* 12FCC
+*Lesser Ward:* 13018
+*Fast Healing:* 2F3B8
+*Healing Hands:* 4D3F2
+*Necromantic Healing:* XX00E8D2 /(Dawnguard DLC)/
+*Steadfast Ward:* 211F1
+*Sun Fire:* XX003F52 /(Dawnguard DLC)/
+*Turn Lesser Undead:* 4B146
+*Close Wounds:* B62EF
+*Greater Ward:* 211F0
+*Heal Other:* 12FD2
+*Heal Undead:* XX00EAD4 /(Dawnguard DLC)/
+*Poison Rune:* XX01D74B /(Dragonborn DLC)/
+*Repel Lesser Undead:* 4D3F8
+*Stendarr’s Aura:* XX0038B5 /(Dawnguard DLC)/
+*Turn Undead:* 5DD5D
+*Vampire’s Bane:* XX0038B6 /(Dawnguard DLC)/
+*Circle of Protection:* 5312D
+*Grand Healing:* B62EE
+*Repel Undead:* 5DD60
+*Turn Greater Undead:* 5DD5E
+*Bane of the Undead:* 8C1AB
+*Guardian Circle:* E0CCF
+
+Magical Effects
+
+*The Gift of Charity:* EEF58
+*Ancient Knowledge:* 10EB60
+*Prowler’s Profit:* F20BE
+
+
+    *Spell Tomes*
+
+Alteration (Tolfdir)
+
+/Novice / *Candlelight:* 9E2A7
+/Novice / *Oakflesh:* 9E2A8
+/Novice / *Equilibrium:* F4997
+/Lvl 50/ *Transmute:* 109112
+/Lvl 25/ *Magelight:* A26E2
+/Lvl 25/ *Stoneflesh:* A26E3
+/Lvl 50/ *Ironflesh:* A26E4
+/Lvl 50/ *Telekinesis:* A26E5
+/Lvl 50/ *Waterbreathing:* A26E6
+/Lvl 50/ *Detect Life:* A26E7
+/Lvl 50/ *Ash Shell:* /(Dragonborn DLC)/ XX0177AC
+/Lvl 75/ *Ash Rune:* /(Dragonborn DLC)/ XX0177B5
+/Lvl 75/ *Paralyze:* A26E8
+/Lvl 75/ *Ebonyflesh:* A26E9
+/Lvl 75/ *Detect Dead:* A26EA
+/Lvl 100/ *Dragonhide:* D2B4E
+/Lvl 100/ *Mass Paralysis:* DD646
+
+Conjuration (Phinis Gestor)
+
+/Novice / *Bound Dagger:* XX01CE07 /(Dragonborn DLC)/
+/Novice / *Bound Sword:* 9E2A9
+/Novice / *Raise Zombie:* 9E2AA
+/Novice / *Conjure Familiar:* 9E2AB
+/Lvl 25/ *Soul Trap:* 9CD54
+/Lvl 25/ *Reanimate Corpse:* A26EB
+/Lvl 25/ *Conjure Flame Atronach:* A26EC
+/Lvl 25/ *Bound Battleaxe:* A26ED
+/Lvl 25/ *Flaming Familiar:* B45F7
+/Lvl 25/ *Conjure Boneman:* XX04580 /(Dawnguard DLC)/
+/Lvl 50/ *Banish Daedra:* A26EE
+/Lvl 50/ *Conjure Frost Atronach:* A26EF
+/Lvl 50/ *Bound Bow:* A26F1
+/Lvl 50/ *Revenant:* A26F2
+/Lvl 50/ *Conjure Mistman:* XX0045B1 /(Dawnguard DLC)/
+/Lvl 50/ *Conjure Ash Spawn:* XX01E2B1 /(Dragonborn DLC)/
+/Lvl 50/ *Conjure Seeker:* XX033C67 /(Dragonborn DLC)/
+/Lvl 75/ *Conjure Ash Guardian:* XX01AABA /(Dragonborn DLC)/
+/Lvl 75/ *Conjure Wrathman:* XX0045B2 /(Dawnguard DLC)/
+/Lvl 75/ *Command Daedra:* A26F6
+/Lvl 75/ *Expel Daedra:* A26F8
+/Lvl 75/ *Dread Zombie:* A26F7
+/Lvl 75/ *Conjure Storm Atronach:* A26F0
+/Lvl 75/ *Conjure Dremora Lord:* 10FD60
+/Lvl 100/ *Dead Thrall:* A26F9
+/Lvl 100/ *Flame Thrall:* A26FA
+/Lvl 100/ *Frost Thrall:* A26FB
+/Lvl 100/ *Storm Thrall:* A26FC
+
+Destruction Spells (Faralda)
+
+/Novice / *Flames:* 9CD51
+/Novice / *Frostbite:* 9CD52
+/Novice / *Spark:* 9CD53
+/Lvl 25/ *Firebolt:* A26FD
+/Lvl 25/ *Ice Spike:* A26FE
+/Lvl 25/ *Lightning Bolt:* A26FF
+/Lvl 25/ *Fire Rune:* A2700
+/Lvl 25/ *Frost Rune:* A2701
+/Lvl 25/ *Lightning Rune:* A2702
+/Lvl 25/ *Freeze:* XX02732D /(Dragonborn DLC)/
+/Lvl 25/ *Ignite:* XX02732B /(Dragonborn DLC)/
+/Lvl 50/ *Fireball:* A2706
+/Lvl 50/ *Ice Storm:* A3707
+/Lvl 50/ *Chain Lightning:* A2708
+/Lvl 50/ *Flame Cloak:* A2703
+/Lvl 50/ *Frost Cloak:* A2704
+/Lvl 50/ *Lightning Cloak:* A2705
+/Lvl 50/ *Whirlwind Cloak:* XX0177AD /(Dragonborn DLC)/
+/Lvl 75/ *Icy Spear: * 10F7F3
+/Lvl 75/ *Incinerate:* 10F7F4
+/Lvl 75/ *Thunderbolt:* 10F7F5
+/Lvl 75/ *Wall of Flames:* A2709
+/Lvl 75/ *Wall of Frost:* A270A
+/Lvl 75/ *Wall of Storms:* A270B
+/Lvl 100/ *Fire Storm:* A270C
+/Lvl 100/ *Blizzard:* A270D
+/Lvl 100/ *Lightning Storm:* A270E
+
+Illusion (Drevis Neloren)
+
+/Novice / *Clairvoyance:* FF7D1
+/Novice / *Fury:* 9E2AC
+/Novice / *Courage:* 9E2AD
+/Lvl 25/ *Muffle:* A270F
+/Lvl 25/ *Calm:* A2711
+/Lvl 25/ *Fear:* A2712
+/Lvl 50/ *Rally:* A2713
+/Lvl 50/ *Frenzy:* A2714
+/Lvl 50/ *Frenzy Rune:* XX0177BD /(Dragonborn DLC)/
+/Lvl 75/ *Invisibility:* A2715
+/Lvl 75/ *Pacify:* A2717
+/Lvl 75/ *Rout:* A2718
+/Lvl 100/ *Mayhem:* A2719
+/Lvl 100/ *Harmony:* A271A
+/Lvl 100/ *Call to Arms:* A271B
+/Lvl 100/ *Hysteria:* A271C
+
+Restoration (Colette Marence)
+
+/Novice / *Lesser Ward:* 9E2AE
+/Novice / *Healing:* 9E2AF
+/Lvl 25/ *Fast Healing:* A271D
+/Lvl 25/ *Healing Hands:* A271E
+/Lvl 25/ *Turn Lesser Undead:* A271F
+/Lvl 25/ *Steadfast Ward:* A2720
+/Lvl 25/ *Necromantic Healing:* XX00E8D5 /(Dawnguard DLC)/
+/Lvl 25/ *Sun Fire:* XX003F51 /(Dawnguard DLC)/
+/Lvl 50/ *Close Wounds:* 10F64D
+/Lvl 50/ *Turn Undead:* A2721
+/Lvl 50/ *Greater Ward:* A2722
+/Lvl 50/ *Repel Lesser Undead:* A2725
+/Lvl 50/ *Heal Other:* A2727
+/Lvl 50/ *Heal Undead:* XX00E8D6 /(Dawnguard DLC)/
+/Lvl 50/ *Vampire’s Bane:* XX003F4D /(Dawnguard DLC)/
+/Lvl 50/ *Stendarr’s Aura:* XX003F4E /(Dawnguard DLC)/
+/Lvl 50/ *Poison Rune:* XX020685 /(Dragonborn DLC)/
+/Lvl 75/ *Repel Undead:* A2726
+/Lvl 75/ *Circle of Protection:* A2728
+/Lvl 75/ *Turn Greater Undead:* A2729
+/Lvl 75/ *Grand Healing:* DD643
+/Lvl 90/ *Bane of the Undead:* DD647
+/Lvl 90/ *Guardian Circle:* FDE7B
+
+
+    *Skill Books (Crafting, Armor & Weapons, Thief, Magic)*
+
+_*Crafting Skills*_
+
+Alchemy
+
+*A Game at Dinner:* 1AFC4
+*De Rerum Dirennis:* 1AFC7
+*Herbalist’s Guide to Skyrim:* 1AFC8
+*Mannimarco, King of Worms:* 1AFC5
+*Song of the Alchemists:* 1AFC6
+
+Enchanting
+
+*A Tragedy in Black:* 2F838
+*Catalogue of Armor Enchantments:* 2F83B
+*Catalogue of Weapon Enchantments:* 2F83A
+*Enchanter’s Primer:* 2F837
+*Twin Secrets:* 2F839
+
+Smithing
+
+*Cherim’s Heart of Anequina:* 1AFD1
+*Heavy Armor Forging:* 1AFD2
+*Light Armor Forging:* 1AFD0
+*The Armorer’s Challenge:* 1AFCE
+*The Last Scabbard of Akrash:* 1AFCF
+
+_*Armor and Weapon Skills*_
+
+Archery
+
+*Father of the Niben:* 1B008
+*The Black Arrow, v2:* 1B009
+*The Gold Ribbon of Merit: *1B005
+*The Marksmanship Lesson:* 1B26D
+*Vernaccus and Bourlour:* 1B27A
+
+Block
+
+*A Dance in Fire, v2:* 1AFC0
+*Battle of Red Mountain:* 2F83C
+*Death Blow of Abernanit:* 1AFDD
+*The Mirror:* 1AFDE
+*Warrior:* 1AFE0
+
+Heavy Armor
+
+*2920, Midyear, v6:* 1AFF7
+*Chimarvamidium:* 1B22E
+*Hallgerd’s Tale:* 1AFF6
+*Orsinium and the Orcs:* 1AFF9
+*The Knights of the Nine:* 1AFFA
+
+Light Armor
+
+*Ice and Chitin:* 1B001
+*Jornibret’s Last Dance:* 1B002
+*Rislav the Righteous:* 1B004
+*The Rear Guard:* 1B000
+*The Refugees:* 1B003
+
+One-Handed
+
+*2920, Morning Star, v1:* 1AFD9
+*Fire and Darkness:* 1AFDA
+*Mace Etiquette:* 1AFE6
+*Night Falls on Sentinel:* 1AFE4
+*The Importance of Where: *1AFE3
+
+*Two-Handed*
+*Battle of Sancre Tor:* 1AFDC
+*King:* 1AFE5
+*Song of Hrormir:* 1AFDB
+*The Legendary City of Sancre Tor:* 1AFE2
+*Words and Philosophy:* 1AFD8
+
+_*Barter & Thievery*_
+
+Speech
+
+*2920, Second Seed, v5:* 1B025
+*A Dance in Fire, v6: *1B00D
+*A Dance in Fire, v7:* 1B00E
+*Biography of the Wolf Queen:* 1B023
+*The Buying Game:* 1B00A
+
+Sneak
+
+*2920, Last Seed, v8:* 1B01F
+*Legend of Krately House: *1B021
+*Sacred Witness:* 1B020
+*The Red Kitchen Reader:* 1AFD5
+*Three Thieves:* 1B276
+
+Lockpicking
+
+*Advances in Lockpicking:* 1B01C
+*Proper Lock Design:* 1B01B
+*Surfeit of Thieves:* 1B01D
+*The Locked Room:* 1B019
+*The Wold Queen, v1:* 1B01A
+
+Pickpocket
+
+*Aevar Stone-Singer: *1ACE6
+*Beggar:* 1AFD6
+*Guide to Better Thieving:* 2F836
+*Purloined Shadows:* 1B022
+*Thief:* 1AFBF
+
+_*Schools of Magic*_
+
+Alteration
+
+*Breathing Water:* 1B236
+*Daughter of the Niben:* 1AFC9
+*Reality and Other Falsehoods:* 1AFCC
+*Sithis:* 1AFCB
+*The Lunar Lorkhan:* 1AFCD
+
+Conjuration
+
+*2920, Hearth Fire, v9:* 1AFE9
+*2920, Frostfall, v10:* 1AFEA
+*Liminal Bridges:* 1AFE8
+*The Doors of Oblivion:* 1AFE7
+*The Warrior’s Charge:* 1AFEB
+
+Destruction
+
+*A Hypothetical Treachery: *1AFEE
+*Horror of Castle Xyr:* 1AFEC
+*Mystery of Talara, v3:* 1AFF0
+*Response to Bero’s Speech:* 1AFED
+*The Art of War Magic:* 1AFEF
+
+Illusion
+
+*2920, Sun’s Dawn, v2:* 1B010
+*Before the Ages of Man:* 1B012
+*Incident in Necrom: *1B00F
+*Mystery of Talara, Part 4:* 1B013
+*The Black Arts on Trial:* 1B011
+
+Restoration
+
+*2920, Rain’s Hand, v4:* 1B017
+*Mystery of Talara, v2: *1B018
+*Racial Phylogeny: *1B015
+*The Exodus:* 1B016
+*Withershins:* 1B014
+
+_*Miscellaneous*_
+
+*Oghma Infinium:* 1A332
+
+Grants
+
+_5 point increase to 6 skills_
+
+. Does
+
+_NOT_
+
+count toward Reader Achievement.
+
+
+    *Books*
+
+*Helpful Guides and Lists*
+
+*Atlas of Dragons:* FF227
+A historical record of known Dragons, both living and dead.
+
+*Catalogue of Armor Enchantments:* 2F83B
+A guide to various enchantments that can be bound to apparel.
+
+*Catalogue of Weapon Enchantments:* 2F83A
+A guide to various enchantments that can be bound to weapons.
+
+*Herbalist’s Guide to Skyrim:* 1AFC8
+An illustrated guide of various alchemy ingredients found in Skyrim.
+
+*Holds of Skyrim:* ED030
+A brief overview of the nine Holds in Skyrim, intended for use by
+Imperial Officers.
+
+*Songs of Skyrim: Revised:* F11D5
+A revised collection of songs from Skyrin, including Tale of the Tongues.
+
+*Shadowmarks:* F84A1
+A glossary of Thieves Guild Shadowmarks.
+
+*Watcher of Stones:* ED63F
+A guide to the standing stones.
+
+*Souls, Black and White:* 1AD0C
+Basics on black and white soul gems.
+
+*Dragonborn, Thu’um, & Nords*
+
+*Children of the Sky:* 1AD03
+Aspects of Nordic culture with a primary focus on Thu’um and Tongues.
+
+*The Book of the Dragonborn:* F86FE
+A book describing the Dragonborn in history as well as the Prophecy of
+the Dragonborn.
+
+*There Be Dragons:* ED5F8
+Insert witty joke about book’s title here.
+
+*Helpful Guides to Daedra and Daedric Princes*
+
+*Aedra and Daedra:* 1B22C
+Brief summary of the differences between Aedra and Daedra.
+
+*The Book of Daedra:* 1ACC8
+Description of the different Daedra that rule the planes of Oblivion.
+
+*Darkest Darkness:* 1ACC9
+Discusses the different Varieties of Daedra and whom they serve.
+
+*Varieties of Daedra:* 1ACFC
+Analysis of the different varieties of Daedra and Daedric beings.
+
+*The House of Troubles (Dragonborn DLC):* XX028268
+An overview of the Daedric Princes who rebelled against the Tribunal Temple.
+
+*The Anticipations (Dragonborn DLC):* XX02826C
+A brief overview of the “good” Daedric Princes venerated by the Dunmer.
+
+*The Reclamations (Dragonborn DLC):* XX03B052
+The fall of the Tribunal Temple and reinstatement of Daedric Princes in
+Dunmer culture.
+
+*On Oblivion:* 1ACF3
+A guide to Oblivion and its inhabitants.
+
+*The Totems of Hircine:* F6840 or F683F
+A book about the four totems of Hircine.
+
+*Sheogorath, the Wabbajack, and Madness*
+
+*Wabbajack:* 1AFBA
+Utterings of a madman that describes his summoning of Sheogorath.
+
+*Myths of Sheogorath:* 1ACB8
+Various obscure tales surrounding Sheogorath.
+
+*16 Accords of Madness, VI:* 1AFB2
+A tale of a duel between Shegorath and Hircine.
+
+*16 Accords of Madness, IX:* 1AFB3
+Sheogorath and Vaermina strike a bet.
+
+*16 Accords of Madness, XII:* 1AFB1
+Malacath’s dealings with Sheogorath.
+
+*The Madness of Pelagius:* 1ACF0
+A biography of Pelagius Septim III and the story of his madness.
+
+*Vampires & Werewolves*
+
+*Opusculus Lamae Bal:* 1AF40
+A tale surrounding origins of vampirism.
+
+*Immortal Blood: *1AFF1
+Tale of Movarth Piquine and his encounters with a vampire.
+
+The Locked Room: 1B019
+Tale about a girl, an angry mentory, windowless room, and a vampire
+stored in the crate.
+
+*Physicalities of Werewolves:* ED041
+A scientific study of the anatomy of werewolves and transformations.
+
+*Lycanthropic Legends of Skyrim:* ED042
+Traveler’s search for info regarding the legends of werewolves and
+werebears.
+
+*Creatures of Skyrim*
+
+*Herbane’s Bestiary: Automatons:* ED60C
+Herbane’s account of his interactions with Dwemer automatons.
+
+*Herbane’s Bestiary: Hagravens:* ED60B
+Herbane’s account of his interactions with Hagravens.
+
+*Herbane’s Bestiary: Ice Wraiths:* D6F0B
+Herbane’s account of his interactions with Ice Wraiths.
+
+*Harvesting Frostbite Spider Venom:* ED603
+Guide about Frostbite Spiders and how to harvest their venom.
+
+*Horker Attacks:* ED604
+An account of how a hunter survived a Horker attack.
+
+*The Wispmother:* 83B3B
+A summary of accounts and legends regarding Wispmothers and Wisps.
+
+*Troll Slaying:* ED606
+A guidebook describing how to deal with Trolls.
+
+*Riften’s Thieves Guild & Nightingales*
+
+*Of Crossed Daggers:* ED035
+A brief history of the city of Riften.
+
+*Fall From Glory:* ED033
+The fall of Riften’s Thieves Guild in the Fourth Era
+
+*Shadowmarks:* F84A1
+A glossary of Thieves Guild Shadowmarks.
+
+*Nightingales: Fact or Fiction?:* ED039
+Debating whether or not Nightingales exist.
+
+*The Nightingales Vol.1:* F68AC
+Description of the Nightingales and their role.
+
+*The Nightingales Vol.2:* F68AD
+Description of Nightingales’ history.
+
+*Purloined Shadows:* 1B022
+The tale of how a young thief helped Emer Dareloth steal Nocturnal’s Cowl.
+
+*Song of Hrormir:* 1AFDB
+A man’s quest to save his brother and dealings with Nocturnal.
+
+*Dark Brotherhood*
+
+*A Kiss, Sweet Mother:* A0322
+Guide to performing the Black Sacrament to summon the Dark Brotherhood.
+
+*Brothers of Darkness:* 1ACFF
+The founding and rise of the Dark Brotherhood.
+
+*Fire and Darkness:* 1AFDA
+The history of the Morag Tong and its evolution into the Dark Brotherhood.
+
+*Sacred Witness:* 1B020
+Chronicle of various aspects of the Dark Brotherhood’s origins and beliefs.
+
+*The Night Mother’s Truth:* E0D67
+A book about the Night Mother’s true identity
+
+*Other Factions*
+
+*Great Harbringers: *ED047
+Brief synopsis of notable Harbringers who led the Companions.
+
+*The Rise and Fall of the Blades:* F4530
+Detailed historical account of the Blades.
+
+*The “Madmen” of the Reach:* 7EB03
+Brief Imperial account of the Reachmen and Forsworn’s history and
+motivations.
+
+*Mythic Dawn Commentaries 1:* 86EF8
+First in four part guide for new members of the Mythic Dawn.
+
+*Mythic Dawn Commentaries 2:* 86EF9
+Second in four part guide for new members of the Mythic Dawn.
+
+*Mythic Dawn Commentaries 3:* 86EFA
+Third in a four part guide for new members of the Mythic Dawn
+
+*Mythic Dawn Commentaries 4:* 86EFB
+Last book in a four part guide for new members of the Mythic Dawn.
+
+*Pension of the Ancestor Moth:* 3010A
+Summary of the Order of the Ancestor Moth and the duties of its novitiates.
+
+*The Old Ways:* 1AD0F
+A text detailing the ways, culture, and philosophy of the Psijic Order.
+
+*For Fun*
+
+*The Red Book of Riddles:* 1AD13
+
+*Yellow Book of Riddles:* 1B274
+
+*Kolb and the Dragon:* EF53E
+A “choose your own adventure” style book about a quest to slay a dragon.
+
+*Home Decorating and Homesteading*
+
+*The Beginner’s Guide to Homesteading /(Hearthfire DLC)/:* XX015D59
+Step-by-step instruction book explaining the process of constructing a
+house.
+
+*Markarth Home Decorating Guide:* F1445
+A guide to decorating Vlindrel Hall in Markarth
+
+*Riften Home Decorating Guide:* F11B7
+A guide to decorating Honeyside in Riften.
+
+*Solitude Home Decorating Guide:* F1447
+The decorating guide to Proudspire Manor in Solitude
+
+*Whiterun Home Decorating Guide:* F11B6
+A guide for decorating one’s home in Whiterun.
+
+*Windhelm Home Decorating Guide: *F1446
+A guide for decorating one’s home in Windhelm.
+
+*Potema, the Wolf Queen of Solitude*
+
+*Biography of the Wolf Queen:* 1B023
+The history of Potema, the Wolf Queen of Solitude.
+
+*The Wolf Queen, Book I:* 1B01A
+An epic series concerning the tale of the infamous Queen Potema of Solitude
+*The Wolf Queen, Book II: *1AFF2
+*The Wolf Queen, Book III:* 1AFFB
+*The Wolf Queen, Book IV:* 1B00B
+*The Wolf Queen, Book V:* 1B024
+*The Wolf Queen, Book VI:* 1B01E
+*The Wolf Queen, Book VII:* 1B026
+*The Wolf Queen, Book VIII:* 1ACFD
+
+
+    *Black Books & Elder Scrolls*
+
+*Black Books /(Dragonborn DLC)/*
+
+Opening a Black Book transports the reader into a region in the realm of
+Apocrypha.
+Black Books can *only* be read while in _*Solstheim*_.
+*Reading a black book before the quest might result in the player being
+stuck in that realm.*
+
+IF READ BEFORE QUEST:
+
+_*To exit the realm*, read the black book while in Apocrypha._
+
+*Black Book: /Epistolary Acumen/*
+_*Quest:*_ The Path of Knowledge
+_*Obtained:*_ Nchardak
+
+*Black Book: /Filament and Filigree/*
+_*Quest:*_ Unearthed
+_*Obtained:*_ Kolbjorn Barrow
+
+*Black Book: /The Hidden Twilight/*
+_*Quest:*_ Black Book: The Hidden Twilight
+_*Obtained:*_ Tel Mthryn, next to Staff Enchanter
+
+*Black Book: /The Sallow Regent/*
+_*Quest:*_ Black Book: The Salllow Regent
+_*Obtained:*_ White Ridge Barrow
+
+*Black Book: /The Winds of Change/*
+_*Quest:*_ The Final Descent
+_*Obtained:*_ Bloodskal Barrow
+
+*Black Book: /Untold Legends/*
+_*Quest:*_ Black Book: Untold Legends
+_*Obtained:*_ Benkongerike, after Word Wall
+
+*Black Book: /Waking Dreams/*
+_*Quest:*_ Main Questline
+_*Obtained:*_ Temple of Miraak
+
+*Elder Scrolls*
+
+Elder Scrolls are quest items and only one is without the Dawnguard DLC.
+
+*Elder Scroll /(Dragon)/*: 2D513
+_*Quests:*_ /Discerning the Transmundane/, /Elder Knowledge/
+
+*Elder Scroll /(Dragon)/ /_Dawnguard DLC_/*: XX0126DC
+_*Quests:*_ /Seeking Disclosure/
+
+*Elder Scroll /(Blood)/ /_Dawnguard DLC_:/* XX0118F9
+_*Quests:*_ /Beyond Death/
+
+*Elder Scroll /(Sun)/ /_Dawnguard DLC_/:* XX011A13
+_*Quests:*_ /Prophet (Dawnguard)/, /Prophet (Vampire)/
+
+
+    *Dragon Claws*
+
+*Dragon Claws*
+
+*Coral Dragon Claw:* B634C
+_*Quests:*_ Yngol’s Barrow
+_*Obtained*_ from Birna or Yngol Barrow
+_*Combo:*_ Snake-Wolf-Moth
+
+*Diamond Claw:* AB375
+_*Quests:*_ The World Eater’s Eyrie
+_*Obtained:*_ in Skuldafn
+_*Combo:*_ Fox-Moth-Dragon
+
+*Ebony Claw:* 5AF48
+_*Quests:*_ The Jagged Crown
+_*Obtained:*_ Korvajund Halls (The Pale)
+_*Combo:*_ Fox-Moth-Dragon
+
+*Emerald Dragon Claw:* ED417
+_*Quests:*_ Forbidden Legend
+_*Obtained:*_ Reachwater Rock (The Reach)
+_*Combo:*_ Bear-Whale-Snake
+
+*Glass Claw:* 7C260
+_*Quests:*_ Siege on the Dragon Cult
+_*Obtained:*_ Forelhost Refractory (The Rift)
+_*Combo:*_ Fox-Owl-Snake
+
+*Golden Claw:* 39647
+_*Quests:*_ The Golden Claw
+_*Obtained:*_ Arvel the Swift
+_*Combo:*_ Bear-Moth-Owl
+
+*Iron Claw:* 8CDFA
+_*Quests:*_ Evil in Waiting
+_*Obtained:*_ Valthume Catacombs (The Reach)
+_*Combo:*_ Dragon-Hawk-Wolf
+
+*Ivory Dragon Claw:* AB7BB
+_*Quests:*_ Forbidden Legend
+_*Obtained:*_ Folgunthur (Hjaalmarch)
+_*Combo:*_ Hawk-Hawk-Dragon
+
+*Ruby Dragon Claw:* 4B56C
+_*Quests:*_ Tending the Flames
+_*Obtained:*_ Dead Man’s Respite (Hjaalmarch)
+_*Combo:*_ Wolf-Hawk-Wolf
+
+*Sapphire Dragon Claw:* 663D7
+_*Quests:*_ Lifting the Shroud
+_*Obtained:*_ Wilhelm
+_*Combo:*_ Moth-Owl-Wolf
+
+
+    *Factions*
+
+*_WARNING!_*
+/These commands may cause *bugged* and *unwanted AI behavior*!/
+
+*Basic Commands*
+
+*Add to Faction:* AddFac (ID) (1-4)
+
+*Remove from Faction:* RemoveFac (ID)
+
+*Faction IDs with Bounties*
+
+*Dawnstar:* 2816E
+
+*Falkreath:* 28170
+
+*Markarth:* 2816C
+
+*Morthal:* 2816D
+
+*Riften:* 2816B
+
+*Solitude:* 29DB0
+
+*Whiterun:* 267EA
+
+*Windhelm:* 267E3
+
+*Winterhold:* 2816F
+
+*Other Factions*
+
+*Blades:* 72834
+
+*College of Winterhold:* 1F259
+
+*Companions:* 48362
+
+*Forsworn:* 43599
+
+*Imperial Legion:* 2BF9A
+
+*Stormcloaks:* 28849
+
+*Thieves Guild:* 10A794
+
+*Dawnguard /(Dawnguard DLC)/:* XX014217
+
+*Volkihar Clan /(Dawnguard DLC)/:* XX003376
+
+
+    *How to Run Batches and Batch Scripts*
+
+On PC, place a *text file (.txt)* in /SteamSteamappsCommonSkyrim Special
+Edition/ with any and all of the below commands *ending with a semicolon
+(;)* and a *new command per line*.
+It is suggested that *after pasting* the codes, to *rename the file and
+erase the (.txt)* from the name.
+It is suggested to *keep file names simple and short*, such as ALLCRAFT.
+
+To *run the script while in-game*, open the console and type: *bat
+(filename)*
+For example, if the file name is “test.txt”, simply type: bat test
+and all of the commands will be applied instantly.
+
+
+    *All Shouts Batch List*
+
+Teaches and unlocks all shouts.
+
+player.teachword 13E22 ; FUS = Force / Unrelenting Force
+player.teachword 13E23 ; RO = Balance / Unrelenting Force
+player.teachword 13E24 ; DAH (D4) = Push / Unrelenting Force
+player.teachword 60294 ; LAAS = Life / Aura Whisper player.teachword
+60295 ; YAH = Seek / Aura Whisper player.teachword 60296 ; NIR = Hunt /
+Aura Whisper player.teachword 602A3 ; IIZ (3Z) = Ice / Ice Form
+player.teachword 602A4 ; SLEN = Flesh / Ice Form player.teachword
+602A5 ; NUS = Statue / Ice Form player.teachword 6029A ; STRUN = Storm /
+Storm Call player.teachword 6029B ; BAH (B4) = Wrath / Storm Call
+player.teachword 6029C ; QO = Lightning / Storm Call player.teachword
+20E17 ; YOL = Fire / Fire Breath player.teachword 20E18 ; TOOR (T8R) =
+Inferno / Fire Breath player.teachword 20E19 ; KREIN (SHUL) = Sun / Fire
+Breath player.teachword 48ACA ; TIID = Time / Slow Time player.teachword
+48ACB ; KLO = Sand / Slow Time player.teachword 48ACC ; UL = Eternity /
+Slow Time player.teachword 2F7BB ; WULD = Whirlwind / Whirlwind Sprint
+player.teachword 2F7BC ; NAH = Fury / Whirlwind Sprint player.teachword
+2F7BD ; KEST = Tempest / Whirlwind Sprint player.teachword 60291 ; RAAN
+= Animal / Animal Allegiance player.teachword 60292 ; MIR = Allegiance /
+Animal Allegiance player.teachword 60293 ; TAH = Pack / Animal
+Allegiance player.teachword 3291D ; SU = Air / Elemental Fury
+player.teachword 3291E ; GRAH = Battle / Elemental Fury player.teachword
+3291F ; DUN = Fury / Elemental Fury player.teachword 32917 ; FEIM =
+Fade / Become Ethereal player.teachword 32918 ; ZI = Spirit / Become
+Ethereal player.teachword 32919 ; GRON = Bind / Become Ethereal
+player.teachword 5D16C ; FO = Frost / Frost Breath player.teachword
+5D16D ; KRAH = Cold / Frost Breath player.teachword 5D16E ; DIIN =
+Freeze / Frost Breath player.teachword 602A0 ; ZUL = Voice / Throw Voice
+player.teachword 602A1 ; MEY = Fool / Throw Voice player.teachword
+602A2 ; GUT = Far / Throw Voice player.teachword 5FB95 ; ZUN = Weapon /
+Disarm player.teachword 5FB96 ; HAAL = Hand / Disarm player.teachword
+5FB97 ; VIIK = Defeat / Disarm player.teachword 3CD31 ; LOK = Sky /
+Clear Skies player.teachword 3CD32 ; VAH = Spring / Clear Skies
+player.teachword 3CD33 ; KOOR = Summer / Clear Skies player.teachword
+51960 ; HUN = Hero / Call of Valor player.teachword 51961 ; KAAR =
+Champion / Call of Valor player.teachword 51962 ; ZOOL = Legend / Call
+of Valor player.teachword 44251 ; JOOR = Mortal / Dragonrend
+player.teachword 44252 ; ZAH = Finite / Dragonrend player.teachword
+44253 ; FRUL = Temporary / Dragonrend player.teachword 60297 ; KRII =
+Kill / Marked for Death player.teachword 60298 ; LUN = Leech / Marked
+for Death player.teachword 60299 ; AUS = Suffer / Marked for Death
+player.teachword 60294 ; LAAS = Life / Aura Whisper player.teachword
+60295 ; YA = Seek / Aura Whisper player.teachword 60296 ; NIR = Hunt /
+Aura Whisper player.teachword 46B89 ; OD = Snow / Call Dragon
+player.teachword 46B8A ; AH = Hunter / Call Dragon player.teachword
+46B8B ; VIING = Wing / Call Dragon player.teachword 6029D ; KAAN =
+Kyne / Kyne’s Peace player.teachword 6029E ; DREM = Peace / Kyne’s Peace
+player.teachword 6029F ; OV = Trust / Kyne’s Peace player.teachword
+3291A ; FAAS = Fear / Dismaying Shout player.teachword 3291B ; RU =
+Run / Dismaying Shout player.teachword 3291C ; MAAR = Terror / Dismaying
+Shout
+
+
+    *All Skills Batch List*
+
+Pushes all skills to 100.
+
+player.setav destruction 100 player.setav restoration 100 player.setav
+conjuration 100 player.setav alteration 100 player.setav illusion 100
+player.setav heavyarmor 100 player.setav lightarmor 100 player.setav
+block 100 player.setav onehanded 100 player.setav twohanded 100
+player.setav marksman 100 player.setav enchanting 100 player.setav
+smithing 100 player.setav alchemy 100 player.setav lockpicking 100
+player.setav pickpocket 100 player.setav sneak 100 player.setav
+speechcraft 100
+
+*NOTE:*
+
+*Using the “setav” switch will bypass normal leveling gains NOT allowing
+anymore character leveling at all.* For Example, if you use the “setav”
+switch, you will see a level 100 in all of your skills. But, you will
+still be at a character level 1 (if that is where you start) and *you
+will not be able to increase your attributes* because you will have
+bypassed gaining points for those.
+
+*To avoid this, along with using the perk codes below, you will need to
+increase your attributes using the console command…*
+
+Example: player.setav health 400
+
+OR…
+*Type the command /player.incpcs skillname/100 times for each skill to
+level up your skills and character without causing any damage.*
+
+Example: player.incpcs alchemy
+
+
+    *All Perks Batch List*
+
+Grants all perks, in the correct orders.
+
+player.addperk 000BE127; Alchemy player.addperk 000C07CA player.addperk
+000C07CB player.addperk 000C07CC player.addperk 000C07CD player.addperk
+00058215 player.addperk 00058216 player.addperk 00058217 player.addperk
+00058218 player.addperk 00105F2A player.addperk 00105F2B player.addperk
+00105F2F player.addperk 00105F2E player.addperk 00105F2C player.addperk
+0005821D player.addperk 000C44BA; Alteration player.addperk 000F2CA6
+player.addperk 000C44B7 player.addperk 000C44B8 player.addperk 000C44B9
+player.addperk 000153CD player.addperk 000D7999 player.addperk 000D799A
+player.addperk 000D799B player.addperk 00053128 player.addperk 00053129
+player.addperk 0005312A player.addperk 000581FC player.addperk 000581F7
+player.addperk 000BABED; Archery (Marksman) player.addperk 0007934A
+player.addperk 0007934B player.addperk 0007934D player.addperk 00079354
+player.addperk 00058F61 player.addperk 00105F1C player.addperk 00105F1E
+player.addperk 00105F1F player.addperk 00103ADA player.addperk 00103ADB
+player.addperk 00058F62 player.addperk 00051B12 player.addperk 00058F63
+player.addperk 00105F19 player.addperk 00058F64 player.addperk 000BCCAE;
+Block player.addperk 00079355 player.addperk 00079356 player.addperk
+00079357 player.addperk 00079358 player.addperk 000D8C33 player.addperk
+00058F68 player.addperk 00058F67 player.addperk 00058F69 player.addperk
+0005F594 player.addperk 00058F66 player.addperk 00058F6A player.addperk
+00106253 player.addperk 000F2CA7; Conjuration player.addperk 000153CE
+player.addperk 000C44BD player.addperk 000C44BC player.addperk 000C44BB
+player.addperk 000C44BE player.addperk 000640B3 player.addperk 00105F30
+player.addperk 00105F31 player.addperk 000D799E player.addperk 000D799C
+player.addperk 000581DD player.addperk 000CB419 player.addperk 000CB41A
+player.addperk 000581DE player.addperk 000D5F1C player.addperk 000C44C2;
+Destruction player.addperk 000F2CA8 player.addperk 000C44BF
+player.addperk 000C44C0 player.addperk 000C44C1 player.addperk 000153CF
+player.addperk 000153D2 player.addperk 00105F32 player.addperk 000581EA
+player.addperk 0010FCF9 player.addperk 000581E7 player.addperk 0010FCF8
+player.addperk 00058200 player.addperk 0010FCFA player.addperk 000F3933
+player.addperk 000F3F0E player.addperk 000F392E player.addperk 000BEE97;
+Enchanting player.addperk 000C367C player.addperk 000C367D
+player.addperk 000C367E player.addperk 000C367F player.addperk 00058F7C
+player.addperk 00058F80 player.addperk 00058F81 player.addperk 00108A44
+player.addperk 00058F7E player.addperk 00058F82 player.addperk 00058F7D
+player.addperk 00058F7F player.addperk 000BCD2A; Heavy Armor
+player.addperk 0007935E player.addperk 00079361 player.addperk 00079362
+player.addperk 00079374 player.addperk 00058F6F player.addperk 00058F6C
+player.addperk 00107832 player.addperk 00058F6D player.addperk 00058F6E
+player.addperk 000BCD2B player.addperk 00105F33 player.addperk 000153D0;
+Illusion player.addperk 000C44C3 player.addperk 000C44C4 player.addperk
+000C44C5 player.addperk 000C44C6 player.addperk 000F2CA9 player.addperk
+000581E1 player.addperk 000581E2 player.addperk 00059B77 player.addperk
+00059B78 player.addperk 000581FD player.addperk 000C44B5 player.addperk
+00059B76 player.addperk 000BE123; Light Armor player.addperk 00079376
+player.addperk 00079389 player.addperk 00079391 player.addperk 00079392
+player.addperk 00051B1B player.addperk 00051B1C player.addperk 00105F22
+player.addperk 00051B17 player.addperk 00107831 player.addperk 000F392A;
+Lockpicking player.addperk 000BE125 player.addperk 00106259
+player.addperk 00107830 player.addperk 000C3680 player.addperk 0005820A
+player.addperk 00105F26 player.addperk 000C3681 player.addperk 00058208
+player.addperk 00058209 player.addperk 000C3682 player.addperk 000BABE4;
+One-Handed player.addperk 00079343 player.addperk 00079342
+player.addperk 00079344 player.addperk 00079345 player.addperk 00052D50
+player.addperk 0003FFFA player.addperk 000C3678 player.addperk 000C3679
+player.addperk 0005F592 player.addperk 000C1E92 player.addperk 000C1E93
+player.addperk 0005F56F player.addperk 000C1E90 player.addperk 000C1E91
+player.addperk 00106256 player.addperk 00106257 player.addperk 0003AF81
+player.addperk 000CB406 player.addperk 00106258 player.addperk 0003AFA6
+player.addperk 000BE124; Pickpocket player.addperk 00018E6A
+player.addperk 00018E6B player.addperk 00018E6C player.addperk 00018E6D
+player.addperk 00058202 player.addperk 00105F28 player.addperk 00058204
+player.addperk 000D79A0 player.addperk 00096590 player.addperk 00058201
+player.addperk 00058205 player.addperk 000C44CA; Restoration
+player.addperk 000F2CAA player.addperk 000C44C7 player.addperk 000C44C8
+player.addperk 000C44C9 player.addperk 000153D1 player.addperk 000581F8
+player.addperk 000581F9 player.addperk 000581F4 player.addperk 000581F5
+player.addperk 000A3F64 player.addperk 000581E4 player.addperk 00068BCC
+player.addperk 000CB40D; Smithing player.addperk 0005218E player.addperk
+000CB40F player.addperk 000CB414 player.addperk 000CB411 player.addperk
+000CB40E player.addperk 000CB410 player.addperk 000CB412 player.addperk
+000CB413 player.addperk 00052190 player.addperk 000BE128; Speechcraft
+player.addperk 000C07CE player.addperk 000C07CF player.addperk 000C07D0
+player.addperk 000C07D1 player.addperk 00058F72 player.addperk 00058F75
+player.addperk 001090A2 player.addperk 00058F7A player.addperk 00058F7B
+player.addperk 00105F29 player.addperk 00058F79 player.addperk 001090A5
+player.addperk 000BE126; Sneak player.addperk 000C07C6 player.addperk
+000C07C7 player.addperk 000C07C8 player.addperk 000C07C9 player.addperk
+00058210 player.addperk 00058213 player.addperk 001036F0 player.addperk
+00058211 player.addperk 0005820C player.addperk 00105F23 player.addperk
+00105F24 player.addperk 00058214 player.addperk 000BABE8; Two-handed
+player.addperk 00079346 player.addperk 00079347 player.addperk 00079348
+player.addperk 00079349 player.addperk 00052D51 player.addperk 000C5C05
+player.addperk 000C5C06 player.addperk 000C5C07 player.addperk 0003AF83
+player.addperk 000C1E94 player.addperk 000C1E95 player.addperk 0003AF84
+player.addperk 000C1E96 player.addperk 000C1E97 player.addperk 00052D52
+player.addperk 000CB407 player.addperk 0003AF9E player.addperk 0003AFA7
+
+
+    *Just Crafting Skills & Perks Batch List*
+
+This will add only crafting skills and perks in the correct orders.
+(Enchanting, Smithing, Alchemy)
+
+player.setav enchanting 100 player.setav smithing 100 player.setav
+alchemy 100 player.addperk 000BEE97 player.addperk 000C367C
+player.addperk 000C367D player.addperk 000C367E player.addperk 000C367F
+player.addperk 00058F7C player.addperk 00058F80 player.addperk 00058F81
+player.addperk 00108A44 player.addperk 00058F7E player.addperk 00058F82
+player.addperk 00058F7D player.addperk 00058F7F player.addperk 000BE127
+player.addperk 000C07CA player.addperk 000C07CB player.addperk 000C07CC
+player.addperk 000C07CD player.addperk 00058215 player.addperk 00058216
+player.addperk 00058217 player.addperk 00058218 player.addperk 00105F2A
+player.addperk 00105F2B player.addperk 00105F2F player.addperk 00105F2E
+player.addperk 00105F2C player.addperk 0005821D player.addperk 000CB40D
+player.addperk 0005218E player.addperk 000CB40F player.addperk 000CB414
+player.addperk 000CB411 player.addperk 000CB40E player.addperk 000CB410
+player.addperk 000CB412 player.addperk 000CB413 player.addperk 00052190
+
+
+    *All Enchantments Batch List*
+
+Here is the alphabetically organized list of all disenchantable items.
+
+; Standard Weapon Enchantments player.additem 0001DFFF 1; Absorb Health
+player.additem 0001E002 1; Absorb Magicka player.additem 0001E005 1;
+Absorb Stamina player.additem 0001E008 1; Banish player.additem 0001E022
+1; Fear player.additem 0001E033 1; Fire Damage player.additem 0001E05D
+1; Frost Damage player.additem 0001E082 1; Magicka Damage player.additem
+0001E085 1; Paralyze player.additem 0001E088 1; Shock Damage
+player.additem 0001E0D6 1; Soul Trap player.additem 0001E0D9 1; Stamina
+Damage player.additem 0001E0E7 1; Turn Undead ; Unique Weapon
+Enchantments player.additem 000F82FC 1; Absorb Magicka player.additem
+000F71DD 1; Absorb Stamina player.additem 000AE087 1; Briarheart Geis
+player.additem 00040002 1; Fiery Soul Trap player.additem 000AE086 1;
+Huntsman’s Prowess player.additem 001019D4 1; Notched Pickaxe
+player.additem 0003B0BE 1; Silent Moons Enchant ; Standard Apparel
+Enchantments player.additem 000D7AB0 1; Fortify Alchemy player.additem
+000D7A65 1; Fortify Alteration player.additem 0010D66F 1; Fortify
+Alteration & Magicka Regen player.additem 000D7AC5 1; Fortify Archery
+player.additem 0010DF50 1; Fortify Barter player.additem 0010DF20 1;
+Fortify Block player.additem 000D7A8A 1; Fortify Carryweight
+player.additem 0010CF35 1; Fortify Conjuration player.additem 0010D675
+1; Fortify Conjuration & Magicka Regen player.additem 0010CF38 1;
+Fortify Destruction player.additem 0010D678 1; Fortify Destruction &
+Magicka Regen player.additem 000FE300 1; Fortify Healing rate
+player.additem 000D7A9A 1; Fortify Health player.additem 000D7A9D 1;
+Fortify Heavy Armor player.additem 0010CF3B 1; Fortify Illusion
+player.additem 0010D67C 1; Fortify Illusion & Magicka Regen
+player.additem 00100E1D 1; Fortify Light Armor player.additem 0010DF3E
+1; Fortify Lockpicking player.additem 000D7A08 1; Fortify Magicka
+player.additem 000FE303 1; Fortify Magicka Regen player.additem 000D7AC8
+1; Fortify One-Handed player.additem 0010DF70 1; Fortify Pickpocket
+player.additem 0010CF3E 1; Fortify Restoration player.additem 0010D684
+1; Fortify Restoration & Magicka Regen player.additem 000D7ACE 1;
+Fortify Smithing player.additem 000FDA06 1; Fortify Sneak player.additem
+0010DF79 1; Fortify Stamina player.additem 000FE2FD 1; Fortify Stamina
+Regen player.additem 000D7AD1 1; Fortify Two-Handed player.additem
+0010A06A 1; Fortify Unarmed player.additem 000D7A8B 1; Muffle
+player.additem 00100E65 1; Resist Disease player.additem 000D7A8E 1;
+Resist Fire player.additem 000D7A91 1; Resist Frost player.additem
+0010DFA3 1; Resist Magic player.additem 00100E5F 1; Resist Poison
+player.additem 000D7A94 1; Resist Shock player.additem 000D7AED 1;
+Waterbreathing ; Unique Apparel Enchantments player.additem 000C5809 1;
+Blessing of Mara player.additem 0010EB65 1; Resist Magic (Stronger)
+player.additem 00108546 1; Shadowsight player.additem 00108543 1;
+Shadowstrength player.additem 00108545 1; Shadowstrike player.additem
+00108544 1; Shadowthrive
+
+
+    *All Skill Books Batch List*
+
+Adds All Skill Books
+
+player.additem 1AFC7 1 player.additem 1AFC8 1 player.additem 1AFC5 1
+player.additem 1AFC6 1 player.additem 1B236 1 player.additem 1AFC9 1
+player.additem 1AFCC 1 player.additem 1AFCB 1 player.additem 1AFCD 1
+player.additem 1B008 1 player.additem 1B009 1 player.additem 1B005 1
+player.additem 1B26D 1 player.additem 1B007 1 player.additem 1AFDF 1
+player.additem 2F83C 1 player.additem 1AFDD 1 player.additem 1AFDE 1
+player.additem 1AFE0 1 player.additem 1AFEA 1 player.additem 1AFE9 1
+player.additem 1AFE8 1 player.additem 1AFE7 1 player.additem 1AFEB 1
+player.additem 1AFEE 1 player.additem 1AFEC 1 player.additem 1AFF0 1
+player.additem 1AFED 1 player.additem 1AFEF 1 player.additem 2F838 1
+player.additem 2F83B 1 player.additem 2F83A 1 player.additem 2F837 1
+player.additem 2F839 1 player.additem 1AFF7 1 player.additem 1AFF8 1
+player.additem 1AFF6 1 player.additem 1AFF9 1 player.additem 1AFFA 1
+player.additem 1B010 1 player.additem 1B012 1 player.additem 1B00F 1
+player.additem 1B013 1 player.additem 1B011 1 player.additem 1B001 1
+player.additem 1B002 1 player.additem 1B004 1 player.additem 1B000 1
+player.additem 1B003 1 player.additem 1B01C 1 player.additem 1B01B 1
+player.additem 1B01D 1 player.additem 1B019 1 player.additem 1B01A 1
+player.additem 1AFD9 1 player.additem 1AFDA 1 player.additem 1AFE6 1
+player.additem 1AFE4 1 player.additem 1AFE3 1 player.additem 1ACE6 1
+player.additem 1AFD6 1 player.additem 2F836 1 player.additem 1B022 1
+player.additem 1AFBF 1 player.additem 1B017 1 player.additem 1B018 1
+player.additem 1B015 1 player.additem 1B016 1 player.additem 1B014 1
+player.additem 1AFD1 1 player.additem 1AFD2 1 player.additem 1AFCF 1
+player.additem 1AFD0 1 player.additem 1AFCE 1 player.additem 1B01F 1
+player.additem 1B021 1 player.additem 1B020 1 player.additem 1AFD5 1
+player.additem 1B276 1 player.additem 1B025 1 player.additem 1B00D 1
+player.additem 1B00E 1 player.additem 1B023 1 player.additem 1B00A 1
+player.additem 1AFDC 1 player.additem 1AFE5 1 player.additem 1AFDB 1
+player.additem 1AFE2 1 player.additem 1AFD8 1
+
+
+    *All Spell Books Batch List*
+
+Adds All Spell Books except DLCs
+
+player.additem DD6471 player.additem A26EE1 player.additem A270D1
+player.additem A26ED1 player.additem A26F1 1 player.additem 9E2A9 1
+player.additem A271B 1 player.additem A2711 1 player.additem 9E2A7 1
+player.additem A2708 1 player.additem A2728 1 player.additem FF7D1 1
+player.additem 10F64D 1 player.additem A26F6 1 player.additem 10FD60 1
+player.additem 9E2AB 1 player.additem A26EC 1 player.additem B45F7 1
+player.additem A26EF 1 player.additem A26F0 1 player.additem 9E2AD 1
+player.additem A26F9 1 player.additem A26E7 1 player.additem A26EA 1
+player.additem D2B4E 1 player.additem A26F7 1 player.additem A26E9 1
+player.additem F4997 1 player.additem A26F8 1 player.additem A271D 1
+player.additem A2712 1 player.additem A2700 1 player.additem A270C 1
+player.additem A2706 1 player.additem A26FD 1 player.additem A2703 1
+player.additem A26FA 1 player.additem 9CD51 1 player.additem A2714 1
+player.additem A2704 1 player.additem A2701 1 player.additem A26FB 1
+player.additem 9CD52 1 player.additem 9E2AC 1 player.additem DD643 1
+player.additem A2722 1 player.additem FDE7B 1 player.additem A271A 1
+player.additem A2727 1 player.additem 9E2AF 1 player.additem A271E 1
+player.additem A271C 1 player.additem A26FE 1 player.additem A2707 1
+player.additem 10F7F3 1 player.additem 10F7F4 1 player.additem A2715 1
+player.additem A26E4 1 player.additem 9E2AE 1 player.additem A26FF 1
+player.additem A2705 1 player.additem A2702 1 player.additem A270E 1
+player.additem A26E2 1 player.additem DD646 1 player.additem A2719 1
+player.additem A270F 1 player.additem 9E2A8 1 player.additem A2717 1
+player.additem A26E8 1 player.additem 9E2AA 1 player.additem A2713 1
+player.additem A26EB 1 player.additem 9E2AA 1 player.additem A2713 1
+player.additem A26EB 1 player.additem A2725 1 player.additem A2726 1
+player.additem A26F2 1 player.additem A2718 1 player.additem 9CD54 1
+player.additem 9CD53 1 player.additem B3165 1 player.additem A2720 1
+player.additem A26E3 1 player.additem A26FC 1 player.additem A26E5 1
+player.additem 10F7F5 1 player.additem 109112 1 player.additem A2729 1
+player.additem A271F 1 player.additem A2721 1 player.additem A2709 1
+player.additem A270A 1 player.additem A270B 1 player.additem A26E6 1
+

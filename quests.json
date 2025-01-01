@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "encoding": "UTF-8",
+        "version": "1.0.0",
+        "lastUpdated": "2024-12-21"
+    },
+    "quests": {
+        "data": {
+            "diplomatic_immunity": {
+                "id": "MQ201",
+                "name": "Diplomatic Immunity",
+                "type": "main",
+                "prereqs": [
+                    "MQ106"
+                ],
+                "npcs": {
+                    "delphine": "00013485",
+                    "malborn": "000D8948",
+                    "elenwen": "000D8948"
+                },
+                "items": {
+                    "party_clothes": "00106336",
+                    "party_boots": "00106337",
+                    "party_hat": "00106338"
+                },
+                "stages": {
+                    "0": "Start quest",
+                    "10": "Meet Malborn in Winking Skeever",
+                    "20": "Give Malborn smuggled gear",
+                    "30": "Meet Delphine at stables",
+                    "40": "Give gear to Delphine",
+                    "50": "Change into party clothes",
+                    "60": "Enter Embassy",
+                    "100": "Inside Embassy",
+                    "150": "Found evidence",
+                    "200": "Complete quest"
+                }
+            },
+            "college_entry": {
+                "id": "MG01",
+                "name": "First Lessons",
+                "type": "guild",
+                "npcs": {
+                    "faralda": "0001C1A1",
+                    "mirabelle": "0001C1A3"
+                },
+                "stages": {
+                    "0": "Speak to Faralda",
+                    "10": "Pass entry test",
+                    "20": "Follow Mirabelle",
+                    "30": "Get room assignment",
+                    "200": "Complete orientation"
+                }
+            }
+        },
+        "aliases": {
+            "diplomatic_immunity": [
+                "diplomatic",
+                "embassy",
+                "party",
+                "thalmor"
+            ],
+            "college_entry": [
+                "college",
+                "winterhold",
+                "entry",
+                "join college"
+            ]
+        }
+    }
+}
