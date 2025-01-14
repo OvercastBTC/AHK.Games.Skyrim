@@ -28,7 +28,10 @@ Joy6::{
 	}
 }
 
-#/::buyorsell()
++/::
+!/::
+#/::
+^/::buyorsell()
 buyorsell(){
 	Key.SendSC('{Enter}')
 	Sleep(100)
@@ -57,6 +60,7 @@ buyorsell(){
 
 ; Player Homes
 :X*C1B0:goto breezehome::SendCommand("coc WhiterunBreezehome")
+:X*C1B0:goto tundra::Send("coc EEJSSE001House")
 :X*C1B0:goto proudspire::SendCommand("coc SolitudeProudspireManor")
 :X*C1B0:goto vlindrel::SendCommand("coc MarkarthVlindrelHall")
 :X*C1B0:goto hjerim::SendCommand("coc WindhelmHjerim")
@@ -91,7 +95,7 @@ buyorsell(){
 :X*C1B0:add silver::addMats("5ACE3")
 :X*C1B0:add dwarven::addMats("DB8A2")
 :X*C1B0:add ebony::addMats("5AD9D")
-
+:X*C1B0:add firewood::addMats('6F993', 100)
 :X*C1B0:add glass::addMats('03005a69')
 :X*C1B0:add orichalcum::addMats("5AD99")
 :X*C1B0:add moonstone::addMats("5AD9E")
@@ -106,7 +110,8 @@ buyorsell(){
 :X*C1B0:add leather::addMats("DB5D2")
 :X*C1B0:add strips::addMats("800E4")
 :X*C1B0:add ingots::AddAllIngots()
-:X*C1B0:add forge::AddAllForge()
+:X*C1B0:add forge.n::AddAllForge()
+:X*C1B0:add forge.a::AddAllForgeAltCombined()
 
 ; House Building Materials
 :X*C1B0:add clay::addMats("03003043")
@@ -117,44 +122,113 @@ buyorsell(){
 :X*C1B0:add hinges::addMats("03003011")
 :X*C1B0:add locks::addMats("03003012")
 :X*C1B0:add slaughterfish s::addMats("3ad80", 50) ; Slaughterfish scales
-:X*C1B0:add amulets::{
-	addMats("c8911", 1) ; Amulet of Akatosh
-	Send('{Enter}')
-	Sleep(100)
-	addMats("cc848", 1) ; Amulet of Arkay
-	Send('{Enter}')
-	Sleep(100)
-	addMats("c8915", 1) ; Amulet of Dibella
-	Send('{Enter}')
-	Sleep(100)
-	addMats("c8917", 1) ; Amulet of Julianos
-	Send('{Enter}')
-	Sleep(100)
-	; ---------------------------------------------------------------------------
-	addMats("c8919", 1) ; Amulet of Kynareth
-	Send('{Enter}')
-	Sleep(100)
-	addMats("68523", 1) ; Flawless Sapphire
-	Send('{Enter}')
-	Sleep(100)
-	; ---------------------------------------------------------------------------
-	addMats("c891b", 1) ; Amulet of Mara
-	Send('{Enter}')
-	Sleep(100)
-	addMats("cc844", 1) ; Amulet of Stendarr
-	Send('{Enter}')
-	Sleep(100)
-	addMats("878bb", 1) ; Amulet of Zenithar
-	Send('{Enter}')
+:X*C1B0:add fish.a::addMats([
+							"6000890",		; Angler
+							"60008A4",		; Arctic Char
+							"60008A3",		; Arctic Grayling
+							"600089C",		; Brook Bass
+							"6000898",		; Carp
+							"6000897",		; Catfish
+							"60008A2",		; Cod
+							"6000896",		; Direfish
+							"60008A0",		; Glass Catfish
+							"6000891",		; Pogfish
+							"600089B",		; Salmon
+							"60008A1",		; Scorpion Fish
+							"6000F25",		; Slaughterfish
+							"600089E",		; Tripod Spiderfish
+							"600088B",		; Vampire Fish
+							"60008EB",		; Angelfish
+							"60008F0",		; Angler Larva
+							"60008EE",		; Glassfish
+							"60008EF",		; Goldfish
+							"60008ED",		; Pygmy Sunfish
+							"60008F1",		; Lyretail Anthias
+							"60008F3",		; Spadefish
+							"60008EC"		; Pearlfish
+					], 50)
+
+; ---------------------------------------------------------------------------
+addMats("c891b", 1) ; Amulet of Mara
+Send('{Enter}')
+Sleep(100)
+addMats("cc844", 1) ; Amulet of Stendarr
+Send('{Enter}')
+Sleep(100)
+addMats("878bb", 1) ; Amulet of Zenithar
+Send('{Enter}')
+
+:X*C1B0:add.a::{
+	cBak := ClipboardAll()
+	A_Clipboard := commands := amulet := ''
+	q := 5
+	code := 'player.additem '
+	arrAmulets := [	
+		"c8911", 		; Amulet of Akatosh 	| Amulet of Akatosh: C8911 (25% faster Magicka Regen)
+		"cc848",		; Amulet of Arkay 		| Amulet of Arkay: CC848 (+10 Health Points)
+		'30068AE', 		; 						| Amulet of Bats (Dawnguard DLC): XX0068AE (Bats drain life from nearby enemies)
+		"c8915",		; Amulet of Dibella 	| Amulet of Dibella: C8915 (+15 Speechcraft)
+		"c8917",		; Amulet of Julianos 	| Amulet of Julianos: C8917 (+10 Magicka)
+		"c8919", 		; Amulet of Kynareth 	| Amulet of Kynareth: C8919 (+10 Stamina)
+		"68523",		; Flawless Sapphire
+		"c891b",		; Amulet of Mara 		| Amulet of Mara: C891B (Restoration cost 10% less Magicka)
+		"cc844",		; Amulet of Stendarr 	| Amulet of Stendarr: CC844 (Block 10% more damage with your shield)
+		'CC846', 		; Amulet of Talos 		| Amulet of Talos: CC846 (Time between shouts reduced 20%)
+		"878bb",		; Amulet of Zenithar 	| Amulet of Zenithar: 878BB (10% better prices)
+		'C8913',		; Amulet of the Elder Council: C8913
+		'300F4D5',		; Amulet of the Gargoyle (Dawnguard DLC): XX00F4D5 ; Summon Gargoyle will summon a additional Gargoyle for 30 seconds.
+		'CC842', 		; Ancient Nord Amulet: CC842
+		'301AA0B'		; Bone Hawk Amulet (Dawnguard DLC): XX01AA0B
+			]
+	for amulet in arrAmulets {
+		command := code amulet ' ' q '{Enter}'
+		
+	}
+	; addMats([	
+	; 	"c8911", 		; Amulet of Akatosh 	| Amulet of Akatosh: C8911 (25% faster Magicka Regen)
+	; 	"cc848",		; Amulet of Arkay 		| Amulet of Arkay: CC848 (+10 Health Points)
+	; 	'30068AE', 		; 						| Amulet of Bats (Dawnguard DLC): XX0068AE (Bats drain life from nearby enemies)
+	; 	"c8915",		; Amulet of Dibella 	| Amulet of Dibella: C8915 (+15 Speechcraft)
+	; 	"c8917",		; Amulet of Julianos 	| Amulet of Julianos: C8917 (+10 Magicka)
+	; 	"c8919", 		; Amulet of Kynareth 	| Amulet of Kynareth: C8919 (+10 Stamina)
+	; 	"68523",		; Flawless Sapphire
+	; 	"c891b",		; Amulet of Mara 		| Amulet of Mara: C891B (Restoration cost 10% less Magicka)
+	; 	"cc844",		; Amulet of Stendarr 	| Amulet of Stendarr: CC844 (Block 10% more damage with your shield)
+	; 	'CC846', 		; Amulet of Talos 		| Amulet of Talos: CC846 (Time between shouts reduced 20%)
+	; 	"878bb",		; Amulet of Zenithar 	| Amulet of Zenithar: 878BB (10% better prices)
+	; 	'C8913',		; Amulet of the Elder Council: C8913
+	; 	'300F4D5',		; Amulet of the Gargoyle (Dawnguard DLC): XX00F4D5 ; Summon Gargoyle will summon a additional Gargoyle for 30 seconds.
+	; 	'CC842', 		; Ancient Nord Amulet: CC842
+	; 	'301AA0B'		; Bone Hawk Amulet (Dawnguard DLC): XX01AA0B
+	; 		], 1) 
+	; Send('{Enter}')
+	; Sleep(Clip.delayTime)
+	; A_Clipboard := command
+	; Clip.Sleep(Clip.delayTime)
+	; Send('{shift down}{Home}{shift up}')
+	; Sleep(Clip.delayTime)
+	; Send('^v')
+	Sleep(Clip.delayTime*5)
+	A_Clipboard := cBak
 }
-:X*C1B0:add kynareth::(addMats("c8919", 1),Send('{Enter}'), Sleep(100), addMats('68523', 10), Send('{Enter}')) ; Amulet of Kynareth & Flawless Sapphire
+:X*C1B0:add akatosh::addMats("c8911", 1) 		; Amulet of Akatosh
+:X*C1B0:add arkay::addMats("cc848", 1) 			; Amulet of Arkay
+:X*C1B0:add dibella::addMats("c8915", 1) 		; Amulet of Dibella
+
+:X*C1B0:add julianos::addMats("c8917", 1) 		; Amulet of Julianos
+:X*C1B0:add kynareth::addMats([
+		"c8919", 								; Amulet of Kynareth
+		"68523"									; Flawless Sapphire
+			], 1) 
 :X*C1B0:add flawless sapphire::
 :X*C1B0:add fsapphire::
-:X*C1B0:add sapphire.f::(addMats('68523', 10), Send('{Enter}')) ; Flawless Sapphire
-:X*C1B0:add stendarr::(addMats("c89cc", 1), Send('{Enter}')) ; Amulet of Stendarr
+:X*C1B0:add sapphire.f::addMats('68523', 10) 	; Flawless Sapphire
+:X*C1B0:add stendarr::addMats("c89cc", 1) 		; Amulet of Stendarr
 
 ; Extra
 :X*C1B0:add gold::addMats('f', 1000000)
+:X*C1B0:add slaughter.e::addMats("7e8c5", 50) ; Slaughterfish eggs
+:X*C1B0:add slaughter.s::addMats("7e8c5", 50) ; Slaughterfish
 :X*C1B0:add slaughterfish e::addMats("7e8c5", 50) ; Slaughterfish eggs
 
 ; Ore hotstrings
@@ -185,33 +259,95 @@ buyorsell(){
 ; Quest Helper
 :X*C1B0:show quests::ShowQuestInfo()
 
-SendCommand(cmd:='') {
 
-	Sleep(100)
+SendCommand(cmd:='') {
+	command := ''
+	commands := cmd
+	arrCommands := []
+	; Sleep(300)
+
+	; Send('{sc2a down}{sc147}{sc2a Up}') 	; @hotkey shift & home 	(+home)
+	; Sleep(500)
+
+    if !Type(cmd) = 'Array' {
+        arrCommands := [cmd]
+    }
+    
+    ; Join commands with && for chaining
+    cmdString := ""
+    for index, command in arrCommands {
+        cmdString .= command
+        if index < arrCommands.Length {
+            cmdString .= " && "
+        }
+    }
+	Sleep(Clip.delayTime)
 
 	Send('{sc2a down}{sc147}{sc2a Up}') 	; @hotkey shift & home 	(+home)
-	Sleep(100)
+	Sleep(Clip.delayTime)
 	
-	Clip.Send(cmd)
-	Sleep(100)
+	; Clip.Send(cmd)
+	Clip.Send(cmdString)
+	Sleep(Clip.delayTime)
 	
 	Send('{Enter}')
-	Sleep(100)
+	Sleep(Clip.delayTime)
 	Send('~')
-	Sleep(500)
+}
+AddMats(code, quantity := 500) => AddMaterial(code, quantity := 500)
+
+AddMaterial(code, quantity := 500) {
+	if Type(code) = "Array" {
+		; Build chained command for multiple items
+		commands := []
+		for itemCode in code {
+			if Type(itemCode) = "Array" {
+				; Handle [code, quantity] pair
+				commands.Push("player.additem " itemCode[1] " " itemCode[2])
+			} else {
+				; Use default quantity
+				commands.Push("player.additem " itemCode " " quantity)
+			}
+		}
+		SendCommand(commands)
+	} else if Type(code) = "Map" {
+		; Build chained command for map values
+		commands := []
+		for itemCode, quantity in code.Values {
+			commands.Push("player.additem " itemCode " " quantity)
+		}
+		SendCommand(commands)
+	} else {
+		; Single item
+		SendCommand(["player.additem " code " " quantity])
+	}
 }
 
-addMats(code, defaultQty := 50) {
-
-	qty := defaultQty
-    
-    cmd := "player.additem " code " " qty
-
-    SendCommand(cmd)
+AddAllMaterials(quantity := 500) {
+    BlockInput(true)
+    try {
+        ; Collect all commands first
+        commands := []
+        
+        ; Add ore commands
+        for code in Materials.Ores {
+            commands.Push("player.additem " code " " quantity)
+        }
+        
+        ; Add special material commands
+        for code in Materials.SpecialMaterials {
+            commands.Push("player.additem " code " " quantity)
+        }
+        
+        ; Send all commands at once
+        SendCommand(commands)
+    } finally {
+        BlockInput(false)
+    }
 }
 
 AddAllIngots() {
-    ingots := [
+    AddMats( [
         "5ACE5",  ; Iron
         "5ACE4",  ; Steel
         "5ACE3",  ; Silver
@@ -222,17 +358,24 @@ AddAllIngots() {
         "5AD9F",  ; Malachite
         "5AD93",  ; Corundum
         "5AD9C"   ; Quicksilver
-    ]
-    
-    for code in ingots
-        SendCommand("player.additem " code " 500")
+    ], 500)
 }
 
 AddAllForge() {
-    AddAllIngots()
-    SendCommand("player.additem 3AD5B 50")  ; Daedra Hearts
-    SendCommand("player.additem DB5D2 500") ; Leather
-    SendCommand("player.additem 800E4 500") ; Leather Strips
+	AddAllIngots()
+	AddMats(['3AD5B'],50)			; Daedra Hearts
+	AddMats([
+		'DB5D2', 					; Leather
+		'800E4'						; Leather Strips
+		], 500)
+}
+AddAllForgeAltCombined() {
+	AddAllIngots()
+	AddMats([
+		['3AD5B',50],				; Daedra Hearts
+		'DB5D2', 					; Leather
+		'800E4'						; Leather Strips
+		], 500)			
 }
 
 ShowQuestInfo() {
@@ -456,20 +599,20 @@ class Locations {
 ; :X*C1:coc.::HandleLocationCommand()
 
 ; Functions
-AddMaterial(code, quantity := "500") {
-	BlockInput(true)
-	key.SendSC('+{{Home}')
-	A_Clipboard := "player.additem " code " " quantity
-	Send("^v")
-	BlockInput(false)
-	Send("{Left " StrLen(quantity) "}{Shift Down}{Right " StrLen(quantity) "}{Shift Up}")
-}
+; AddMaterial(code, quantity := "500") {
+; 	BlockInput(true)
+; 	key.SendSC('+{{Home}')
+; 	A_Clipboard := "player.additem " code " " quantity
+; 	Send("^v")
+; 	BlockInput(false)
+; 	Send("{Left " StrLen(quantity) "}{Shift Down}{Right " StrLen(quantity) "}{Shift Up}")
+; }
 
-AddAllMaterials() {
-	BlockInput(true)
-	for code in Materials.Ores
-		AddMaterial(code)
-	for code in Materials.SpecialMaterials
-		AddMaterial(code)
-	BlockInput(false)
-}
+; AddAllMaterials() {
+; 	BlockInput(true)
+; 	for code in Materials.Ores
+; 		AddMaterial(code)
+; 	for code in Materials.SpecialMaterials
+; 		AddMaterial(code)
+; 	BlockInput(false)
+; }
